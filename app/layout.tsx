@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Gabarito } from "next/font/google";
 import "./globals.css";
+import ParticlesComponent from "@/utils/Particles";
 
 const gabarito = Gabarito({ subsets: ["latin"] });
 
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={gabarito.className}>{children}</body>
+      <body className={gabarito.className}>
+        <div className="z-20">{children}</div>
+        <div className="fixed top-0 w-full z-[-1] bg-gray-950">
+          <ParticlesComponent />
+        </div>
+      </body>
     </html>
   );
 }
