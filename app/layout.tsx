@@ -3,6 +3,7 @@ import { Gabarito } from "next/font/google";
 import "./globals.css";
 import ParticlesComponent from "@/utils/Particles";
 import NavBar from "@/components/NavBar";
+import { ThemeProvider } from "next-themes";
 
 const gabarito = Gabarito({ subsets: ["latin"] });
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={gabarito.className}>
-        <NavBar />
-        <div className="z-20">{children}</div>
-        {/* <div className="fixed top-0 w-full z-[-1] bg-gray-950">
-          <ParticlesComponent />
-        </div> */}
+        <ThemeProvider attribute="class">
+          <NavBar />
+          <div className="z-20">{children}</div>
+          <div className="fixed top-0 w-full z-[-1]">
+            <ParticlesComponent />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

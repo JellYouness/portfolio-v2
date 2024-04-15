@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "@/assets/Logo.png";
 import { GitHub, LinkedIn, Instagram } from "@mui/icons-material";
+import ThemeButton from "./ThemeButton";
 
 const navElements = [
   "Home",
@@ -13,7 +14,7 @@ const navElements = [
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center py-4 px-32 bg-gray-800">
+    <div className="flex justify-between items-center py-4 px-32 dark:bg-gray-800">
       <div className="flex items-center gap-3">
         <Image
           src={Logo}
@@ -23,18 +24,19 @@ const NavBar = () => {
           width={50}
           height={50}
         />
-        <p className="text-white font-semibold text-xl">Youness JELLOULI</p>
+        <p className="text-black dark:text-white font-semibold text-xl">Youness JELLOULI</p>
       </div>
       <div className="flex justify-between items-center gap-8">
         {navElements.map((element, index) => (
           <a
             href={`#${element}`}
             key={index}
-            className="text-white font-semibold text-lg mr-4 hover:text-primary-main transition-200"
+            className="text-black dark:text-white font-semibold text-lg mr-4 hover:text-primary-main transition-200"
           >
             {element}
           </a>
         ))}
+        <ThemeButton />
       </div>
       {/* <div className="flex justify-between items-center gap-1">
         <a href="https://github.com/JellYouness">
