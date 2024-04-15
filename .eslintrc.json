@@ -6,12 +6,13 @@
       2,
       {
         "bracketSpacing": true,
-        "printWidth": 140,
+        "printWidth": 840,
         "singleQuote": true,
         "trailingComma": "none",
         "tabWidth": 4,
         "useTabs": false,
-        "endOfLine": "auto"
+        "endOfLine": "auto",
+        "noWrap": "(selector \\.| .[a-z]+)"
       }
     ]
   }
