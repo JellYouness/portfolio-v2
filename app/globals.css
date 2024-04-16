@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-  @apply bg-primary-main text-white px-4 py-2 rounded-full hover:bg-primary-dark dark:hover:bg-transparent dark:hover:border-primary-main dark:hover:border-2;
+  @apply bg-primary-main text-white px-4 py-2 rounded-full hover:bg-primary-dark dark:hover:bg-transparent dark:border-primary-main dark:hover:border-primary-main dark:hover:border-2;
 }
 
 .btn-bordered {

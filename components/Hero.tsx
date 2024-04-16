@@ -6,6 +6,7 @@ import {
   LinkedIn,
   OpenInNew,
 } from "@mui/icons-material";
+import Link from "next/link";
 
 const socials = [
   {
@@ -33,26 +34,26 @@ const Hero = () => {
         into engaging online realities.
       </p>
       <div className="flex items-center gap-3 z-40">
-        <a href="#Projects">
-          <button className="btn">
+        <Link href="#Projects">
+          <button className="btn hover:transition delay-100">
             View Projects <ArrowDownward />
           </button>
-        </a>
-        <a href="#Projects">
-          <button className="btn-bordered">
+        </Link>
+        <Link href="#Projects">
+          <button className="btn-bordered hover:transition delay-100">
             Open PDF Resume <OpenInNew />
           </button>
-        </a>
+        </Link>
       </div>
       <div className="flex justify-between items-center gap-1 dark:bg-white bg-gray-900 dark:text-gray-900 text-white rounded-full px-4 py-2">
         {socials.map((social, index) => (
-          <a
+          <Link
             key={index}
             href={social.link}
-            className="hover:scale-110 hover:transition-200"
+            className="hover:scale-125 hover:transition delay-100"
           >
             {social.icon}
-          </a>
+          </Link>
         ))}
       </div>
       {/* <BackgroundBeams /> */}
