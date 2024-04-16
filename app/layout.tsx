@@ -23,9 +23,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class">
           <NavBar />
           <div className="z-20">{children}</div>
-          <div className="fixed top-0 w-full z-[-1]">
+          {/* <div className="fixed top-0 w-full z-[-1]">
             <ParticlesComponent />
-          </div>
+          </div> */}
         </ThemeProvider>
       </body>
     </html>
