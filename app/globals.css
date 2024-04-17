@@ -4,7 +4,10 @@
 
 *::selection {
   @apply bg-primary-main bg-opacity-80 text-white;
-  
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,4 +20,10 @@ body {
 
 .btn-bordered {
   @apply bg-transparent border-primary-main border-2 text-primary-main px-4 py-2 rounded-full dark:text-white hover:bg-primary-main hover:text-white dark:hover:bg-primary-main;
+}
+
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(181deg, #16a34a, #a4d0b4);
 }
