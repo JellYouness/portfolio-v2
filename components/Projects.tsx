@@ -4,8 +4,9 @@ import projects from "@/utils/projectsList";
 import { GitHub, Language } from "@mui/icons-material";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import SlideUp from "@/utils/SlideUp";
+import ProjectGallery from "./ProjectGallery";
 
 const Projects = () => {
   const ref = useRef(null);
@@ -13,6 +14,15 @@ const Projects = () => {
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
+  };
+
+  const [isOpen, setOpen] = useState(false);
+  const onOpen = () => {
+    setOpen(true);
+  };
+
+  const onClose = () => {
+    setOpen(false);
   };
 
   return (
@@ -32,7 +42,8 @@ const Projects = () => {
               animate={isInView ? "animate" : "initial"}
               transition={{ duration: 0.1, delay: index * 0.4 }}
               key={index}
-              className="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all delay-100"
+              className="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all delay-100 cursor-pointer"
+              onClick={onOpen}
             >
               <Image
                 src={project.image}
@@ -56,7 +67,14 @@ const Projects = () => {
                   />
                 ))}
               </div>
-              <div className="flex gap-1 absolute top-6 right-6 text-white">
+
+              <div
+                className={
+                  project.images
+                    ? "flex gap-1 absolute top-6 right-12 text-white"
+                    : "flex gap-1 absolute top-6 right-6 text-white"
+                }
+              >
                 <Link
                   href={project.github}
                   target="_blank"
@@ -72,6 +90,12 @@ const Projects = () => {
                   >
                     <Language className="text-2xl" />
                   </Link>
+                )}
+                {project.images && (
+                  <ProjectGallery
+                    title={project.title}
+                    images={project.images}
+                  />
                 )}
               </div>
             </motion.div>

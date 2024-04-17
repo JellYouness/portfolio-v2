@@ -22,6 +22,8 @@ import nextjs from "@/public/images/nextjs-icon.svg";
 import mongodb from "@/public/images/mongodb.svg";
 import prisma from "@/public/images/prisma.svg";
 import supabase from "@/public/images/supabase.png";
+import tabibiGallery from "./projectsGallery/tabibiGallery";
+import stockGallery from "./projectsGallery/stockGallery";
 
 const projects = [
   {
@@ -42,6 +44,7 @@ const projects = [
         img: mysql,
       },
     ],
+    images: tabibiGallery,
     github: "https://github.com/JellYouness/Tabibi",
   },
   {
@@ -89,6 +92,7 @@ const projects = [
         img: mysql,
       },
     ],
+    images: stockGallery,
     github: "https://github.com/JellYouness/Stock-Management",
   },
   {
@@ -109,6 +113,7 @@ const projects = [
         img: mysql,
       },
     ],
+    images: [],
     github: "https://github.com/JellYouness/Club-Manager",
   },
   {

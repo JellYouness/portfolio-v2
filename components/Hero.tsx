@@ -36,7 +36,7 @@ const Hero = () => {
       >
         {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" /> */}
         <h1 className="text-xl font-bold">Hi, I am</h1>
-        <p className="text-5xl font-bold text-primary-main">Youness JELLOULI</p>
+        <p className="text-5xl font-bold text-gradient">Youness JELLOULI</p>
         <TypeAnimation
           sequence={[
             "Web Developer",
@@ -60,7 +60,7 @@ const Hero = () => {
               View Projects <ArrowDownward />
             </button>
           </Link>
-          <Link href="#Projects">
+          <Link href="#Projects" target="_blank">
             <button className="btn-bordered hover:transition delay-100">
               Open PDF Resume <OpenInNew />
             </button>
@@ -71,6 +71,7 @@ const Hero = () => {
             <Link
               key={index}
               href={social.link}
+              target="_blank"
               className="hover:scale-125 hover:transition delay-100"
             >
               {social.icon}
