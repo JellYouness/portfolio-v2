@@ -46,7 +46,7 @@ const Contact = () => {
       <div className="text-5xl py-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">Contact</span>
       </div>
-      <div className="mt-6 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 justify-evenly items-center md:items-start flex-wrap">
+      <div className="mt-6 flex flex-col md:flex-row gap-y-8 space-y-6 md:space-y-0 md:space-x-6 justify-evenly items-center md:items-start flex-wrap">
         <div className="space-y-2 w-4/5 md:w-1/4 lg:w-1/4">
           <p className="text-3xl font-semibold border-b-4 border-primary-main pb-1">
             Let's Get in Touch

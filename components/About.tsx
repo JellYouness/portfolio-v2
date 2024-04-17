@@ -53,9 +53,9 @@ const About = () => {
       <h3 className="text-5xl pt-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">About Me</span>
       </h3>
-      <div className="flex items-center justify-between py-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center py-20 gap-y-10 xl:gap-0">
         {AboutMe.map((item, index) => (
-          <div key={index} className="flex flex-col items-center gap-2">
+          <div key={index} className="flex flex-col items-center gap-2 ">
             <div className="flex items-center justify-center w-24 h-24 rounded-full bg-primary-main text-white">
               {item.icon}
             </div>
@@ -67,16 +67,16 @@ const About = () => {
         ))}
       </div>
       <div className="flex items-center justify-between mt-4">
-        <div className="flex flex-col items-center gap-2 mx-auto">
+        <div className="flex flex-col items-center gap-6 md:gap-4 mx-auto">
           <Image
             src={Photo}
             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
             alt="Youness Jellouli"
           />
-          <p className="text-xl font-bold border-b-2 border-primary-main ">
+          <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">
             Who's this guy?
           </p>
-          <p className="text-base w-8/12 text-center ">
+          <p className="text-base md:text-lg w-full md:w-8/12 text-center">
             I'm an avid Front-End Developer deeply passionate about web
             technologies. I have serious passion for UI effects, animations and
             creating intuitive, dynamic user experiences.
@@ -95,10 +95,13 @@ const About = () => {
           <p className="text-xl">Years of Experience</p>
         </div> */}
       </div>
-      <div className="flex items-center justify-between py-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center justify-between py-20 gap-y-6 md:gap-y-10  xl:gap-0">
         {Info.map((item, index) => (
-          <div key={index} className="flex flex-col items-start gap-2">
-            <p className="text-base text-gray-400 dark:text-gray-700 ">
+          <div
+            key={index}
+            className="flex flex-col items-center md:items-start gap-2"
+          >
+            <p className="text-base text-gray-400 dark:text-gray-400 ">
               {item.title}
             </p>
             <p className="text-lg">{item.description}</p>

@@ -43,7 +43,7 @@ const Projects = () => {
               {project.title}
             </h4>
             <p className="text-gray-500 min-h-[120px] mb-4">{project.body}</p>
-            <div className="flex gap-4 items-center">
+            <div className="flex gap-3 md:gap-4 items-center flex-wrap">
               {project.chips.map((chip, index) => (
                 <Image
                   key={index}

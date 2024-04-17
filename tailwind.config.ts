@@ -16,6 +16,15 @@ const config: Config = {
           dark: "#166534",
         },
       },
+      animation: {
+        "slide-top": "slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both",
+      },
+      keyframes: {
+        "slide-top": {
+          "0%": { transform: "translateY(30%)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
     },
   },
   plugins: [],
