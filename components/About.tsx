@@ -1,6 +1,7 @@
 import { Speed, WbIncandescent, RocketLaunch } from "@mui/icons-material";
 import Image from "next/image";
 import Photo from "@/assets/mypic.png";
+import Link from "next/link";
 
 const AboutMe = [
   {
@@ -48,7 +49,7 @@ const Info = [
 
 const About = () => {
   return (
-    <div className="section w-9/12 mx-auto py-10">
+    <section id="About" className="section w-9/12 mx-auto py-10">
       <h3 className="text-5xl pt-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">About Me</span>
       </h3>
@@ -66,7 +67,7 @@ const About = () => {
         ))}
       </div>
       <div className="flex items-center justify-between mt-4">
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 mx-auto">
           <Image
             src={Photo}
             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
@@ -80,11 +81,11 @@ const About = () => {
             technologies. I have serious passion for UI effects, animations and
             creating intuitive, dynamic user experiences.
           </p>
-          <a>
+          <Link href="#Contact">
             <p className="border-b-2 border-dashed border-primary-main hover:text-primary-main cursor-pointer">
               Let's make something special.
             </p>
-          </a>
+          </Link>
         </div>
 
         {/* <div className="flex flex-col gap-8 items-center">
@@ -104,7 +105,7 @@ const About = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

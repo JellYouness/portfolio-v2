@@ -1,19 +1,34 @@
-// import { FaReact, FaNodeJs, FaHtml5, FaCss3 } from "react-icons/fa";
-
+"use client";
+import { motion, useInView } from "framer-motion";
 import projects from "@/utils/projectsList";
 import { GitHub, Language } from "@mui/icons-material";
 import Image from "next/image";
 import Link from "next/link";
+import { useRef } from "react";
 
-export const Projects = () => {
+const Projects = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const cardVariants = {
+    initial: { y: 50, opacity: 0 },
+    animate: { y: 0, opacity: 1 },
+  };
+
   return (
-    <div className="w-9/12 mx-auto py-10">
+    <section id="Projects" className="w-9/12 mx-auto py-10">
       <h3 className="text-5xl py-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">My Work</span>
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div
+        ref={ref}
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8"
+      >
         {projects.map((project, index) => (
-          <div
+          <motion.div
+            variants={cardVariants}
+            initial="initial"
+            animate={isInView ? "animate" : "initial"}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
             key={index}
             className="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all delay-100"
           >
@@ -57,9 +72,11 @@ export const Projects = () => {
                 </Link>
               )}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
+
+export default Projects;

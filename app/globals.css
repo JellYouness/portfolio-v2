@@ -2,26 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-  scrollbar-color: var(--primary-main);
+*::selection {
+  @apply bg-primary-main bg-opacity-80 text-white;
+  
 }
-
-*::-webkit-scrollbar {
-  width: 15px;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--primary);
-  border-radius: 5px;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--secondary);
-  border-radius: 14px;
-  border: 3px solid var(--primary);
-} */
 
 body {
   @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white relative;
