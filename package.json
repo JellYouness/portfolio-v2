@@ -6,8 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
-        "format": "npx prettier --write ."
+        "lint": "next lint"
     },
     "dependencies": {
         "@emailjs/browser": "^4.3.3",
@@ -44,6 +43,5 @@
         "typescript": "^5"
     },
     "lint": "eslint .",
-    "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "lint:fix": "eslint --fix"
 }
