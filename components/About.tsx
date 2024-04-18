@@ -56,7 +56,7 @@ const About = () => {
       </h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center py-20 gap-y-10 xl:gap-0">
         {AboutMe.map((item, index) => (
-          <SlideUp index={index}>
+          <SlideUp index={index} key={index}>
             <div className="flex flex-col items-center gap-2 ">
               <div className="flex items-center justify-center w-24 h-24 rounded-full bg-primary-main text-white">
                 {item.icon}
