@@ -116,7 +116,7 @@ const projects = [
         images: [],
         github: 'https://github.com/JellYouness/Club-Manager'
     },
-    {
+    /*{
         image: pcc,
         title: 'PCC Membership management',
         body: "Conception et réalisation d'une application web pour la gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
@@ -141,7 +141,7 @@ const projects = [
             }
         ],
         github: 'https://github.com/JellYouness/Gestion-des-membres'
-    }
+    }*/
 ];
 
 export default projects;
