@@ -30,7 +30,7 @@ const Hero = () => {
         >
           {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" /> */}
           <h1 className="text-xl font-bold">Hi, I am</h1>
-          <p className="text-5xl font-bold text-gradient">Youness JELLOULI</p>
+          <p className="text-5xl font-bold text-gradient text-center">Youness JELLOULI</p>
           <TypeAnimation
             sequence={[
               "Web Developer",
