@@ -1,19 +1,19 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint-config-prettier"],
-  "plugins": ["eslint-plugin-prettier"],
-  "rules": {
-    "prettier/prettier": [
-      2,
-      {
-        "bracketSpacing": true,
-        "printWidth": 840,
-        "singleQuote": true,
-        "trailingComma": "none",
-        "tabWidth": 4,
-        "useTabs": false,
-        "endOfLine": "auto",
-        "noWrap": "(selector \\.| .[a-z]+)"
-      }
-    ]
-  }
+    "extends": ["next", "next/core-web-vitals", "eslint-config-prettier"],
+    "plugins": ["eslint-plugin-prettier"],
+    "rules": {
+        "prettier/prettier": [
+            2,
+            {
+                "bracketSpacing": true,
+                "printWidth": 840,
+                "singleQuote": true,
+                "trailingComma": "none",
+                "tabWidth": 4,
+                "useTabs": false,
+                "endOfLine": "auto",
+                "noWrap": "(selector \\.| .[a-z]+)"
+            }
+        ]
+    }
 }
