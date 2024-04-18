@@ -73,7 +73,7 @@ const About = () => {
                             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
                             alt="Youness Jellouli"
                         />
-                        <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">Who's this guy?</p>
+                        <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">Who's s this guy?</p>
                         <p className="text-base md:text-lg w-full md:w-8/12 text-center">
                             I'm an avid Front-End Developer deeply passionate about web technologies. I have serious passion for UI effects,
                             animations and creating intuitive, dynamic user experiences.
@@ -95,7 +95,7 @@ const About = () => {
             </SlideUp>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center justify-between justify-items-center py-20 gap-y-6 md:gap-y-10  xl:gap-0">
                 {Info.map((item, index) => (
-                    <SlideUp index={index} reverse>
+                    <SlideUp index={index} key={index} reverse>
                         <div className="flex flex-col items-center md:items-start gap-2">
                             <p className="text-base text-gray-400 dark:text-gray-400 ">{item.title}</p>
                             <p className="text-lg">{item.description}</p>
