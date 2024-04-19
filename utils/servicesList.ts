@@ -16,6 +16,8 @@ import mongodb from '@/public/images/mongodb.svg';
 import prisma from '@/public/images/prisma.svg';
 import supabase from '@/public/images/supabase.png';
 import ts from '@/public/images/Typescript.svg';
+import redux from '@/public/images/redux.svg';
+import framerMotion from '@/public/images/framer-motion.svg';
 
 export const services = [
   {
@@ -37,6 +39,14 @@ export const services = [
   {
     icon: mui,
     title: "Material UI",
+  },
+  {
+    icon: framerMotion,
+    title: "Framer Motion",
+  },
+  {
+    icon: redux,
+    title: "Redux",
   },
   {
     icon: laravel,
