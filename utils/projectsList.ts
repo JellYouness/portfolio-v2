@@ -23,7 +23,7 @@ import react from "@/public/images/react.svg";
 import mui from "@/public/images/mui.svg";
 import nextjs from "@/public/images/nextjs-icon.svg";
 import mongodb from "@/public/images/mongodb.svg";
-import typescript from "@/public/images/typescript.svg";
+import typescript from "@/public/images/Typescript.svg";
 import prisma from "@/public/images/prisma.svg";
 import supabase from "@/public/images/supabase.png";
 import redux from "@/public/images/redux.svg";
