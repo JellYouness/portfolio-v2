@@ -13,7 +13,10 @@ const page = () => {
             <Techs />
             <Projects />
             <Contact />
-            <Footer />
+        <Footer />
+        {
+          // TODO: Add a poppup for the github star
+        }
         </main>
     );
 };
