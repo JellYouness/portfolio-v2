@@ -15,6 +15,7 @@ import nextjs from '@/public/images/nextjs-icon.svg';
 import mongodb from '@/public/images/mongodb.svg';
 import prisma from '@/public/images/prisma.svg';
 import supabase from '@/public/images/supabase.png';
+import ts from '@/public/images/Typescript.svg';
 
 export const services = [
     {
@@ -76,6 +77,10 @@ export const services = [
 ];
 
 export const servicesSoon = [
+    {
+        icon: ts,
+        title: 'TypeScript'
+    },
     {
         icon: mongodb,
         title: 'MongoDB'
