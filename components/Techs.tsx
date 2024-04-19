@@ -37,7 +37,7 @@ const Techs = () => {
                         </motion.div>
                     ))}
                 </div>
-                <h6 className="text-3xl pt-10 font-semibold text-center my-10">
+                {/* <h6 className="text-3xl pt-10 font-semibold text-center my-10">
                     Soon... <HourglassBottom className="text-3xl" />
                 </h6>
                 <div className="flex flex-wrap gap-20 items-center justify-center ">
@@ -49,7 +49,7 @@ const Techs = () => {
                             <p className="text-xl font-semibold">{item.title}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
             </SlideUp>
         </section>
     );

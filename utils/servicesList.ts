@@ -18,69 +18,70 @@ import supabase from '@/public/images/supabase.png';
 import ts from '@/public/images/Typescript.svg';
 
 export const services = [
-    {
-        icon: nextjs,
-        title: 'Next Js'
-    },
-    {
-        icon: react,
-        title: 'React Js'
-    },
-    {
-        icon: tailwind,
-        title: `TailwindCss`
-    },
-    {
-        icon: mui,
-        title: 'Material UI'
-    },
-    {
-        icon: laravel,
-        title: 'Laravel'
-    },
-    {
-        icon: php,
-        title: 'PHP'
-    },
-    {
-        icon: mysql,
-        title: 'MySQL'
-    },
-    {
-        icon: js,
-        title: 'Javascript'
-    },
-    {
-        icon: html,
-        title: 'HTML 5'
-    },
-    {
-        icon: css,
-        title: 'CSS 3'
-    },
-    {
-        icon: bootstrap,
-        title: 'Bootstrap'
-    },
-    {
-        icon: github,
-        title: 'Github'
-    },
-    {
-        icon: figma,
-        title: 'Figma'
-    },
-    {
-        icon: vscode,
-        title: 'VS Code'
-    }
+  {
+    icon: nextjs,
+    title: "Next Js",
+  },
+  {
+    icon: ts,
+    title: "TypeScript",
+  },
+  {
+    icon: react,
+    title: "React Js",
+  },
+  {
+    icon: tailwind,
+    title: `TailwindCss`,
+  },
+  {
+    icon: mui,
+    title: "Material UI",
+  },
+  {
+    icon: laravel,
+    title: "Laravel",
+  },
+  {
+    icon: php,
+    title: "PHP",
+  },
+  {
+    icon: mysql,
+    title: "MySQL",
+  },
+  {
+    icon: js,
+    title: "Javascript",
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+  },
+  {
+    icon: css,
+    title: "CSS 3",
+  },
+  {
+    icon: bootstrap,
+    title: "Bootstrap",
+  },
+  {
+    icon: github,
+    title: "Github",
+  },
+  {
+    icon: figma,
+    title: "Figma",
+  },
+  {
+    icon: vscode,
+    title: "VS Code",
+  },
 ];
 
 export const servicesSoon = [
-    {
-        icon: ts,
-        title: 'TypeScript'
-    },
+    
     {
         icon: mongodb,
         title: 'MongoDB'
