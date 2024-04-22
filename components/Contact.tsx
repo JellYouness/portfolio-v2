@@ -1,7 +1,12 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
+import {
+  CheckCircleOutline,
+  GitHub,
+  Instagram,
+  LinkedIn,
+} from "@mui/icons-material";
 import Link from "next/link";
 import SlideUp from "@/utils/SlideUp";
 
@@ -24,6 +29,14 @@ const Contact = () => {
   const [isSent, setIsSent] = useState(false);
   const form = useRef<HTMLFormElement | null>(null);
 
+  const emailSent = () => {
+    setIsSent((current) => !current);
+    form.current && form.current.reset();
+    setTimeout(() => {
+      setIsSent((current) => !current);
+    }, 3000);
+  };
+
   const sendEmail = (e: any) => {
     e.preventDefault();
     form.current &&
@@ -33,13 +46,12 @@ const Contact = () => {
         })
         .then(
           () => {
-            setIsSent((current) => !current);
+            emailSent();
           },
           (error) => {
             console.log("FAILED...", error.text);
           }
         );
-    form.current && form.current.reset();
   };
   return (
     <section id="Contact" className="overflow-hidden py-16">
@@ -107,7 +119,11 @@ const Contact = () => {
                   className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
                   rows={5}
                 />
-                {isSent && <div>Your Message has been sent.</div>}
+                {isSent && (
+                  <div className="bg-[#D4EDDA] text-[#558B7A] rounded-lg py-3 px-3">
+                    <CheckCircleOutline /> Your Message has been sent.
+                  </div>
+                )}
                 <div className="text-left lg:text-start">
                   <button id="submit-btn" type="submit" className="btn">
                     Send
