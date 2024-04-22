@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img alt="Logo" src="https://github.com/JellYouness/portfolio-v2/blob/master/assets/Logo.png" width="100" />
+</div>
+<h1 align="center">
+  jellyouness.me - v2
+</h1>
+<p align="center">
+  Previous versions:
+  <a href="https://jellyouness.vercel.app" target="_blank">v1</a>
+</p>
 
-## Getting Started
+![demo](https://github.com/JellYouness/portfolio-v2/blob/master/public/images/projects/portfolio-v2.png)
 
-First, run the development server:
+Yes, you can fork this repo. Please give me proper credit by linking back to [jellyouness.me](https://jellyouness.me). Thanks!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Installation & Set Up
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```sh
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Start the development server
 
-## Learn More
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Building and Running for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Generate a full static production build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```sh
+   npm run build
+   ```
 
-## Deploy on Vercel
+1. Preview the site as it will appear once deployed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   npm run serve
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🎨 Color Reference
+
+| Color           | Hex                                                                |
+| --------------  | ------------------------------------------------------------------ |
+| Green           | ![#16a34a](https://via.placeholder.com/10/16a34a?text=+) `#16a34a` |
+| Light Green     | ![#4ade80](https://via.placeholder.com/10/4ade80?text=+) `#4ade80` |
+| Dark Green      | ![#166534](https://via.placeholder.com/10/166534?text=+) `#166534` |
+| Gray (Dark)     | ![#111827](https://via.placeholder.com/10/111827?text=+) `#111827` |
+| White (Light)   | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
