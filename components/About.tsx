@@ -73,7 +73,7 @@ const About = () => {
                             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
                             alt="Youness Jellouli"
                         />
-                        <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">Who's s this guy?</p>
+                        <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">Who's this guy?</p>
                         <p className="text-base md:text-lg w-full md:w-8/12 text-center">
                             I'm an avid Front-End Developer deeply passionate about web technologies. I have serious passion for UI effects,
                             animations and creating intuitive, dynamic user experiences.
