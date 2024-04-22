@@ -1,6 +1,9 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import {
   CheckCircleOutline,
   GitHub,
@@ -25,20 +28,38 @@ const socials = [
   },
 ];
 
+const formSchema = z.object({
+  name: z.string().min(2).max(50),
+  email: z.string().email(),
+  message: z.string().optional(),
+});
+
 const Contact = () => {
   const [isSent, setIsSent] = useState(false);
   const form = useRef<HTMLFormElement | null>(null);
 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+    reset,
+  } = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
+  });
+
   const emailSent = () => {
     setIsSent((current) => !current);
-    form.current && form.current.reset();
     setTimeout(() => {
       setIsSent((current) => !current);
     }, 3000);
   };
 
   const sendEmail = (e: any) => {
-    e.preventDefault();
     form.current &&
       emailjs
         .sendForm("service_0uvn7ai", "template_e0dowwb", form.current, {
@@ -47,6 +68,7 @@ const Contact = () => {
         .then(
           () => {
             emailSent();
+            reset();
           },
           (error) => {
             console.log("FAILED...", error.text);
@@ -92,46 +114,61 @@ const Contact = () => {
             <h3 className="text-3xl font-semibold border-b-4 border-primary-main pb-1">
               Send Me an Email
             </h3>
-            <form ref={form} onSubmit={sendEmail} className="mt-4 mb-16">
+            <form
+              ref={form}
+              onSubmit={handleSubmit(sendEmail)}
+              className="mt-4 mb-16"
+            >
               <div className="space-y-3">
                 <label htmlFor="name" className="text-gray-500">
                   Your Name:
                 </label>
                 <input
-                  id="name"
+                  {...register("name")}
                   name="name"
                   className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
                 />
+                {errors.name && (
+                  <p className="text-red-500">{`${errors.name.message}`}</p>
+                )}
                 <label htmlFor="email" className="text-gray-500">
                   Your Email:
                 </label>
                 <input
-                  id="email"
+                  {...register("email")}
                   name="email"
                   className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
                 />
+                {errors.email && (
+                  <p className="text-red-500">{`${errors.email.message}`}</p>
+                )}
                 <label htmlFor="message" className="text-gray-500">
                   Your Message:
                 </label>
                 <textarea
-                  id="message"
+                  {...register("message")}
                   name="message"
                   className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
                   rows={5}
                 />
+                {errors.message && (
+                  <p className="text-red-500">{`${errors.message.message}`}</p>
+                )}
                 {isSent && (
                   <div className="bg-[#D4EDDA] text-[#558B7A] rounded-lg py-3 px-3">
                     <CheckCircleOutline /> Your Message has been sent.
                   </div>
                 )}
                 <div className="text-left lg:text-start">
-                  <button id="submit-btn" type="submit" className="btn">
+                  <button
+                    id="submit-btn"
+                    disabled={isSubmitting}
+                    type="submit"
+                    className="btn"
+                  >
                     Send
                   </button>
                 </div>
-                {
-                  // TODO: Add an alert when the mail is sent successfully
-                }
               </div>
             </form>
           </div>
