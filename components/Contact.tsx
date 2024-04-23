@@ -119,14 +119,14 @@ const Contact = () => {
               onSubmit={handleSubmit(sendEmail)}
               className="mt-4 mb-16"
             >
-              <div className="space-y-3">
+              <div className="">
                 <label htmlFor="name" className="text-gray-500">
                   Your Name:
                 </label>
                 <input
                   {...register("name")}
                   name="name"
-                  className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
+                  className="input"
                 />
                 {errors.name && (
                   <p className="text-red-500">{`${errors.name.message}`}</p>
@@ -137,7 +137,7 @@ const Contact = () => {
                 <input
                   {...register("email")}
                   name="email"
-                  className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
+                  className="input"
                 />
                 {errors.email && (
                   <p className="text-red-500">{`${errors.email.message}`}</p>
@@ -148,7 +148,7 @@ const Contact = () => {
                 <textarea
                   {...register("message")}
                   name="message"
-                  className="w-full bg-transparent border-b-2 border-gray-300 mb-3 focus:outline-0 focus:border-gray-800"
+                  className="input"
                   rows={5}
                 />
                 {errors.message && (
