@@ -5,6 +5,9 @@
   jellyouness.me - v2
 </h1>
 <p align="center">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/JellYouness/portfolio-v2">
+</p>
+<p align="center">
   Previous versions:
   <a href="https://jellyouness.vercel.app" target="_blank">v1</a>
 </p>
