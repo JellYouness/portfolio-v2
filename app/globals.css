@@ -81,11 +81,11 @@
   }
 
   .btn {
-    @apply bg-primary-main text-white border-2 px-4 py-2 rounded-full hover:bg-primary-dark dark:hover:bg-transparent dark:border-primary-main dark:hover:border-primary-main dark:hover:border-2;
+    @apply bg-primary-main text-white border-2 px-4 py-2 rounded-full hover:text-primary-main hover:bg-white dark:hover:bg-gray-900 border-primary-main dark:hover:border-primary-main dark:hover:border-2 transition duration-300;
   }
 
   .btn-bordered {
-    @apply bg-white dark:bg-gray-900 border-primary-main border-2 text-primary-main px-4 py-2 rounded-full dark:text-white hover:bg-primary-main hover:text-white dark:hover:bg-primary-main;
+    @apply bg-white dark:bg-gray-900 border-primary-main border-2 text-primary-main px-4 py-2 rounded-full dark:text-white hover:bg-primary-main hover:text-white dark:hover:bg-primary-main transition duration-300;
   }
 
   .text-gradient {

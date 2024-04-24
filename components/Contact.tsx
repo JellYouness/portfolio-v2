@@ -103,7 +103,7 @@ const Contact = () => {
                   key={index}
                   href={social.link}
                   target="_blank"
-                  className="hover:scale-125 hover:transition delay-100"
+                  className="hover:scale-110 transition"
                 >
                   {social.icon}
                 </Link>

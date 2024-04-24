@@ -42,7 +42,7 @@ const Projects = () => {
               animate={isInView ? "animate" : "initial"}
               transition={{ duration: 0.1, delay: index * 0.4 }}
               key={index}
-              className="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all delay-100"
+              className="bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all"
               onClick={onOpen}
             >
               <Image
@@ -63,7 +63,7 @@ const Projects = () => {
                     src={chip.img}
                     alt=""
                     loading="lazy"
-                    className="w-9 hover:scale-110 transition-all delay-100"
+                    className="w-9 hover:scale-110 transition-all"
                   />
                 ))}
               </div>
@@ -79,7 +79,7 @@ const Projects = () => {
                   <Link
                     href={project.github}
                     target="_blank"
-                    className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all delay-100"
+                    className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all"
                   >
                     <GitHub className="text-2xl" />
                   </Link>
@@ -88,7 +88,7 @@ const Projects = () => {
                   <Link
                     href={project.preview}
                     target="_blank"
-                    className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all delay-100"
+                    className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all"
                   >
                     <Language className="text-2xl" />
                   </Link>

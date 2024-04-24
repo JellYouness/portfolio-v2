@@ -20,7 +20,7 @@ const ProjectGallery = ({ title, images }: any) => {
   return (
     <Dialog>
       <DialogTrigger>
-        <Slideshow className="text-3xl p-2 h-full w-auto bg-black rounded-full hover:scale-110 transition-all delay-100" />
+        <Slideshow className="text-3xl p-2 h-full w-auto bg-black rounded-full hover:scale-110 transition-all" />
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
