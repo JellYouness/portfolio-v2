@@ -7,6 +7,7 @@ import stockmanager from "@/public/images/projects/stockmanager.png";
 import portfolio1 from "@/public/images/projects/portfolio-v1.png";
 import portfolio2 from "@/public/images/projects/portfolio-v2.png";
 import sms from "@/public/images/projects/sms.png";
+import educonnect from "@/public/images/projects/educonnect.png";
 ////
 import bootstrap from "@/public/images/bootstrap.svg";
 import css from "@/public/images/css.svg";
@@ -34,7 +35,7 @@ import stockGallery from "./projectsGallery/stockGallery";
 const projects = [
   {
     image: tabibi,
-    title: "Tabibi - Gestion des Urgences",
+    title: "Tabibi - Emergency Management",
     body: "Design and Development of a modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
     chips: [
       {
@@ -57,25 +58,25 @@ const projects = [
     github: "https://github.com/JellYouness/Tabibi",
   },
   {
-    image: digitalmind,
-    title: "Digital Mind Agency",
-    body: ' A Static Website for an agency named "Digital Mind", showing their services and projects also the team members. Made with Html, Css and JavaScript.',
+    image: educonnect,
+    title: "EduConnect - SMS Landing Page",
+    body: "A landing page for a School Management System web app which is Software As a Service(SaaS). showing the features and the pricing plans.",
     chips: [
       {
-        img: html,
+        img: nextjs,
       },
       {
-        img: css,
+        img: tailwind,
       },
       {
-        img: bootstrap,
+        img: typescript,
       },
       {
-        img: js,
+        img: framerMotion,
       },
     ],
-    preview: "https://jellyouness.github.io/Digital-Mind-Agency/",
-    github: "https://github.com/JellYouness/Digital-Mind-Agency",
+    preview: "https://educonnect-blush.vercel.app/",
+    github: "https://github.com/JellYouness/educonnect",
   },
   {
     image: portfolio2,
@@ -145,6 +146,27 @@ const projects = [
     ],
     images: stockGallery,
     github: "https://github.com/JellYouness/Stock-Management",
+  },
+  {
+    image: digitalmind,
+    title: "Digital Mind Agency",
+    body: 'A Static Website for an agency named "Digital Mind", showing their services and projects also the team members. Made with Html, Css and JavaScript.',
+    chips: [
+      {
+        img: html,
+      },
+      {
+        img: css,
+      },
+      {
+        img: bootstrap,
+      },
+      {
+        img: js,
+      },
+    ],
+    preview: "https://jellyouness.github.io/Digital-Mind-Agency/",
+    github: "https://github.com/JellYouness/Digital-Mind-Agency",
   },
   {
     image: sms,
