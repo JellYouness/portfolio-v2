@@ -55,7 +55,7 @@ const Hero = () => {
               </button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1-C3tyIAiNksZvwCB1cqQQC-PnKcUbc-7/view?usp=sharing"
+              href="https://drive.google.com/file/d/13E8JpEmikpFL6ldLTfOWw03_A9b0hXsm/view?usp=sharing"
               target="_blank"
             >
               <button className="btn-bordered">
