@@ -16,7 +16,7 @@
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [jellyouness.me](https://jellyouness.me). Thanks!
 
-## 🛠 Installation & Set Up
+## 🛠 Installation & Set Up.
 
 1. Install dependencies
 
