@@ -14,7 +14,7 @@ const ThemeButton = ({ index }: any | null) => {
             animate={{ y: 0, opacity: 1 }}
             transition={index && { duration: 0.3 * index }}
             onClick={() => (theme == 'dark' ? setTheme('light') : setTheme('dark'))}
-            className="hover:bg-gray-300 dark:hover:bg-gray-700 transition-all rounded flex items-center justify-center h-7 w-7"
+            className="hover:text-primary-main transition-all rounded flex items-center justify-center h-7 w-7"
         >
             {currentTheme === 'dark' ? <DarkMode /> : <LightMode />}
         </motion.button>

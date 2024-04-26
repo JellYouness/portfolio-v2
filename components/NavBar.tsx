@@ -39,14 +39,14 @@ const NavBar = () => {
             transition={{ duration: 0.3 * index }}
             href={`#${element}`}
             key={index}
-            className="font-semibold text-lg mr-4 hover:text-primary-main transition-200"
+            className="font-semibold text-lg mr-4 hover:text-primary-main transition"
           >
             {element}
           </motion.a>
         ))}
         <ThemeButton index={navElements.length} />
       </div>
-      <div className="md:hidden flex items-center gap-2 transition-all delay-200">
+      <div className="md:hidden flex items-center gap-2 transition-all">
         <ThemeButton/>
         {toggle ? (
           <Close

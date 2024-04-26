@@ -50,7 +50,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-3 z-40">
             <Link href="#Projects">
-              <button className="btn hover:transition delay-100">
+              <button className="btn">
                 View Projects <ArrowDownward />
               </button>
             </Link>
@@ -58,7 +58,7 @@ const Hero = () => {
               href="https://drive.google.com/file/d/13E8JpEmikpFL6ldLTfOWw03_A9b0hXsm/view?usp=sharing"
               target="_blank"
             >
-              <button className="btn-bordered hover:transition delay-100">
+              <button className="btn-bordered">
                 Open PDF Resume <OpenInNew />
               </button>
             </Link>
@@ -69,7 +69,7 @@ const Hero = () => {
                 key={index}
                 href={social.link}
                 target="_blank"
-                className="hover:scale-125 hover:transition delay-100"
+                className="hover:scale-110 transition"
               >
                 {social.icon}
               </Link>
