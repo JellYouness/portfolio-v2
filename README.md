@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://github.com/JellYouness/portfolio-v2/blob/master/assets/Logo.png" width="100" />
 </div>
 <h1 align="center">
-  jellyouness.me - v2
+  jellyouness.me - v2 
 </h1>
 <p align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/JellYouness/portfolio-v2">
