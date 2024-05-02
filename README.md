@@ -9,7 +9,7 @@
 </p>
 <p align="center">
   Previous versions:
-  <a href="https://jellyouness.vercel.app" target="_blank">v1</a>
+  <a href="https://jellyouness.vercel.app" target="_blank">V1</a>
 </p>
 
 ![demo](https://github.com/JellYouness/portfolio-v2/blob/master/public/images/projects/portfolio-v2.png)
