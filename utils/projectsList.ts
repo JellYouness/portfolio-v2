@@ -8,6 +8,7 @@ import portfolio1 from "@/public/images/projects/portfolio-v1.png";
 import portfolio2 from "@/public/images/projects/portfolio-v2.png";
 import sms from "@/public/images/projects/sms.png";
 import educonnect from "@/public/images/projects/educonnect.png";
+import creon from "@/public/images/projects/creon.png";
 ////
 import bootstrap from "@/public/images/bootstrap.svg";
 import css from "@/public/images/css.svg";
@@ -77,6 +78,24 @@ const projects = [
     ],
     preview: "https://educonnect-blush.vercel.app/",
     github: "https://github.com/JellYouness/educonnect",
+  },
+  {
+    image: creon,
+    title: "Creon AI - NFT Blockchain Platform",
+    body: "A landing page for a NFT Blockchain Platform. clone of the website[creon.ai].",
+    chips: [
+      {
+        img: nextjs,
+      },
+      {
+        img: tailwind,
+      },
+      {
+        img: typescript,
+      },
+    ],
+    preview: "https://creon-nft-landing-page.vercel.app/",
+    github: "https://github.com/JellYouness/creon-nft-landing-page",
   },
   {
     image: portfolio2,
