@@ -77,7 +77,7 @@ const projects = [
       },
     ],
     preview: "https://educonnect-blush.vercel.app/",
-    github: "https://github.com/JellYouness/educonnect",
+    //github: "https://github.com/JellYouness/educonnect",
   },
   {
     image: creon,
