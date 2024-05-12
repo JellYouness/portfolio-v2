@@ -116,7 +116,7 @@ const projects = [
       },
     ],
     preview: "https://jellyouness.me",
-    github: "https://github.com/JellYouness/portfolio-v2",
+    //github: "https://github.com/JellYouness/portfolio-v2",
   },
   {
     image: portfolio1,
