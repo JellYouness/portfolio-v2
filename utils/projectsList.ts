@@ -95,7 +95,7 @@ const projects = [
       },
     ],
     preview: "https://creon-nft-landing-page.vercel.app/",
-    github: "https://github.com/JellYouness/creon-nft-landing-page",
+    //github: "https://github.com/JellYouness/creon-nft-landing-page",
   },
   {
     image: portfolio2,
