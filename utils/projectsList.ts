@@ -185,7 +185,7 @@ const projects = [
       },
     ],
     preview: "https://jellyouness.github.io/Digital-Mind-Agency/",
-    github: "https://github.com/JellYouness/Digital-Mind-Agency",
+    //github: "https://github.com/JellYouness/Digital-Mind-Agency",
   },
   {
     image: sms,
