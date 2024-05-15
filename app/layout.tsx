@@ -24,7 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./favicon.ico" />
+        {/* <link rel="icon" href="./favicon.ico" /> */}
+        <meta property="og:image" content="" />
       </head>
       <body className={gabarito.className}>
         <ThemeProvider attribute="class">
