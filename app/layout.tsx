@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* <link rel="icon" href="./favicon.ico" /> */}
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="/og-image.webp" />
       </head>
       <body className={gabarito.className}>
         <ThemeProvider attribute="class">
