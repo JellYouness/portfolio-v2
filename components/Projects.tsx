@@ -29,7 +29,7 @@ const Projects = () => {
     <section id="Projects" className="w-9/12 mx-auto pt-12 pb-10">
       <SlideUp>
         <h3 className="text-5xl py-10 font-semibold text-center">
-          <span className="border-b-4 border-primary-main">My Work</span>
+          <span className="border-b-4 border-primary-main">My Personal Work</span>
         </h3>
         <div
           ref={ref}
