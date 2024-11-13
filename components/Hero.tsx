@@ -33,9 +33,9 @@ const Hero = () => {
           <p className="text-5xl font-bold text-gradient text-center">Youness JELLOULI</p>
           <TypeAnimation
             sequence={[
-              "FrontEnd Developer",
+              "FullStack Developer",
               1000,
-              "Freelancer",
+              "UI/UX Designer",
               1000,
               "React/Next Developer",
               1000,
