@@ -29,7 +29,9 @@ const Projects = () => {
     <section id="Projects" className="w-9/12 mx-auto pt-12 pb-10">
       <SlideUp>
         <h3 className="text-5xl py-10 font-semibold text-center">
-          <span className="border-b-4 border-primary-main">My Personal Work</span>
+          <span className="border-b-4 border-primary-main">
+            My Personal Work
+          </span>
         </h3>
         <div
           ref={ref}
@@ -50,13 +52,13 @@ const Projects = () => {
                 alt={project.title}
                 placeholder="blur"
                 loading="lazy"
-                className="w-full h-52 object-cover mb-4 rounded-lg border-2 border-gray-600 border-b-4"
+                className="md:h-[170px] lg:h-[190px] 3xl:h-[245px] object-fill mb-4 rounded-lg border-2 border-gray-600 border-b-4"
               />
               <h4 className="text-xl text-black dark:text-white font-semibold mb-2">
                 {project.title}
               </h4>
               <p className="text-gray-500 min-h-[150px] mb-4">{project.body}</p>
-              <div className="flex gap-3 md:gap-4 items-center flex-wrap">
+              <div className="flex gap-3 md:gap-4 items-center flex-wrap absolute bottom-4 left-4">
                 {project.chips.map((chip, index) => (
                   <Image
                     key={index}
