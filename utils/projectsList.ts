@@ -9,6 +9,8 @@ import portfolio2 from "@/public/images/projects/portfolio-v2.png";
 import sms from "@/public/images/projects/sms.png";
 import educonnect from "@/public/images/projects/educonnect.png";
 import creon from "@/public/images/projects/creon.png";
+import ibc from "@/public/images/projects/ibc.png";
+import wifina from "@/public/images/projects/wifina.png";
 ////
 import bootstrap from "@/public/images/bootstrap.svg";
 import css from "@/public/images/css.svg";
@@ -34,6 +36,42 @@ import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
 
 const projects = [
+  {
+    image: ibc,
+    title: "IBC - Identification des besoins en competences",
+    body: "A tool for employment and training stakeholders to better understand, anticipate and act on skills needs.",
+    chips: [
+      {
+        img: nextjs,
+      },
+      {
+        img: typescript,
+      },
+      {
+        img: mui,
+      },
+    ],
+  },
+  {
+    image: wifina,
+    title: "Wifina",
+    body: "Conception et réalisation d'une application web pour la gestion des besoins en compétences de l'entreprise IBC.",
+    chips: [
+      {
+        img: nextjs,
+      },
+      {
+        img: laravel,
+      },
+      {
+        img: typescript,
+      },
+      {
+        img: mui,
+      },
+    ],
+    preview: "https://wifina.be",
+  },
   {
     image: tabibi,
     title: "Tabibi - Emergency Management",
@@ -100,7 +138,7 @@ const projects = [
   {
     image: portfolio2,
     title: "Personal Portfolio v2",
-    body: "In this version, I spotlight my adeptness in Next.js, TypeScript, and Tailwind CSS, harnessing their features for server-side rendering (SSR) to manage intricate tasks and enhance performance, ensuring dynamic and efficient web interactions.",
+    body: "In this version, I spotlight my adeptness in new technologies, enhancing performance, ensuring dynamic and efficient web interactions.",
     chips: [
       {
         img: nextjs,
@@ -208,32 +246,32 @@ const projects = [
     preview: "https://ihei.vercel.app",
     // github: "https://github.com/JellYouness/Club-Manager",
   },
-  /*{
-        image: pcc,
-        title: 'PCC Membership management',
-        body: "Conception et réalisation d'une application web pour la gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
-        chips: [
-            {
-                img: html
-            },
-            {
-                img: css
-            },
-            {
-                img: bootstrap
-            },
-            {
-                img: js
-            },
-            {
-                img: php
-            },
-            {
-                img: mysql
-            }
-        ],
-        github: 'https://github.com/JellYouness/Gestion-des-membres'
-    }*/
+  {
+    image: pcc,
+    title: "PCC Membership management",
+    body: "Conception et réalisation d'une application web pour la gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
+    chips: [
+      {
+        img: html,
+      },
+      {
+        img: css,
+      },
+      {
+        img: bootstrap,
+      },
+      {
+        img: js,
+      },
+      {
+        img: php,
+      },
+      {
+        img: mysql,
+      },
+    ],
+    github: "https://github.com/JellYouness/Gestion-des-membres",
+  },
 ];
 
 export default projects;
