@@ -10,8 +10,8 @@ const page = () => {
         <main>
             <Hero />
             <About />
-            <Techs />
             <Projects />
+            <Techs />
             <Contact />
         <Footer />
         {

@@ -10,9 +10,9 @@ import Link from "next/link";
 const navElements = [
   "Home",
   "About",
-  "Skills",
-  // "Experiences",
   "Projects",
+  // "Experiences",
+  "Skills",
   "Contact",
 ];
 
