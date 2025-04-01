@@ -93,7 +93,7 @@ const About = () => {
         </div> */}
                 </div>
             </SlideUp>
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center justify-between justify-items-center py-20 gap-y-6 md:gap-y-10  xl:gap-0">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 items-center justify-center justify-items-center py-20 gap-y-6 md:gap-y-10  xl:gap-0">
                 {Info.map((item, index) => (
                     <SlideUp index={index} key={index} reverse>
                         <div className="flex flex-col items-center md:items-start gap-2">
@@ -102,7 +102,7 @@ const About = () => {
                         </div>
                     </SlideUp>
                 ))}
-            </div>
+            </div> */}
         </section>
     );
 };
