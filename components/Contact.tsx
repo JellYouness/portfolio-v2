@@ -91,12 +91,18 @@ const Contact = () => {
               share as much info as possible so we can get the most out of our
               first catch-up.
             </p>
-            <h4 className="text-xl font-medium">Living In:</h4>
-            <p className="text-gray-500">Casablanca, MA.</p>
-            <h4 className="text-xl font-medium">Email:</h4>
-            <p className="text-gray-500">younessjellouli12@gmail.com</p>
-            <h4 className="text-xl font-medium">Call:</h4>
-            <p className="text-gray-500">+212 627 594 239</p>
+            <h4 className="text-xl font-medium border-b-2 border-primary-main w-20">
+              Living In:
+            </h4>
+            <p>Casablanca, MA.</p>
+            <h4 className="text-xl font-medium border-b-2 border-primary-main w-14">
+              Email:
+            </h4>
+            <p>younessjellouli12@gmail.com</p>
+            <h4 className="text-xl font-medium border-b-2 border-primary-main w-10">
+              Call:
+            </h4>
+            <p>+212 627 594 239</p>
             <div className="flex justify-between items-center gap-1 w-4/12 rounded-full  py-2">
               {socials.map((social, index) => (
                 <Link
@@ -120,29 +126,21 @@ const Contact = () => {
               className="mt-4 mb-16"
             >
               <div className="">
-                <label htmlFor="name" className="text-gray-500">
+                <label htmlFor="name">
                   Your Name:
                 </label>
-                <input
-                  {...register("name")}
-                  name="name"
-                  className="input"
-                />
+                <input {...register("name")} name="name" className="input" />
                 {errors.name && (
                   <p className="text-red-500">{`${errors.name.message}`}</p>
                 )}
-                <label htmlFor="email" className="text-gray-500">
+                <label htmlFor="email">
                   Your Email:
                 </label>
-                <input
-                  {...register("email")}
-                  name="email"
-                  className="input"
-                />
+                <input {...register("email")} name="email" className="input" />
                 {errors.email && (
                   <p className="text-red-500">{`${errors.email.message}`}</p>
                 )}
-                <label htmlFor="message" className="text-gray-500">
+                <label htmlFor="message">
                   Your Message:
                 </label>
                 <textarea
