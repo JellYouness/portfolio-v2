@@ -73,30 +73,6 @@ const projects = [
     preview: "https://wifina.be",
   },
   {
-    image: tabibi,
-    title: "Tabibi - Emergency Management",
-    body: "Design and Development of a modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
-    chips: [
-      {
-        img: react,
-      },
-      {
-        img: mui,
-      },
-      {
-        img: redux,
-      },
-      {
-        img: laravel,
-      },
-      {
-        img: mysql,
-      },
-    ],
-    images: tabibiGallery,
-    github: "https://github.com/JellYouness/Tabibi",
-  },
-  {
     image: educonnect,
     title: "EduConnect - SMS Landing Page",
     body: "A landing page for a School Management System web app which is Software As a Service(SaaS). showing the features and the pricing plans.",
@@ -134,6 +110,30 @@ const projects = [
     ],
     preview: "https://creon-nft-landing-page.vercel.app/",
     //github: "https://github.com/JellYouness/creon-nft-landing-page",
+  },
+  {
+    image: tabibi,
+    title: "Tabibi - Emergency Management",
+    body: "Design and Development of a modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
+    chips: [
+      {
+        img: react,
+      },
+      {
+        img: mui,
+      },
+      {
+        img: redux,
+      },
+      {
+        img: laravel,
+      },
+      {
+        img: mysql,
+      },
+    ],
+    images: tabibiGallery,
+    github: "https://github.com/JellYouness/Tabibi",
   },
   {
     image: portfolio2,
