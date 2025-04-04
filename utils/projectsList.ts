@@ -58,7 +58,7 @@ const projects = [
   {
     image: wifina,
     title: "Wifina",
-    body: "Conception et réalisation d'une application web pour la gestion des besoins en compétences de l'entreprise IBC.",
+    body: "fully digital platform that enables quick calculations of loan installments and interest, providing instant pre-approval responses through strategic banking partnerships.",
     chips: [
       {
         img: nextjs,
@@ -141,7 +141,7 @@ const projects = [
   {
     image: tabibi,
     title: "Tabibi - Emergency Management",
-    body: "Design and Development of a modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
+    body: "Modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
     chips: [
       {
         img: react,
@@ -207,7 +207,7 @@ const projects = [
   {
     image: stockmanager,
     title: "OPTIM'STOCK - Stock Manager",
-    body: "Design and development of a company stock management web application.",
+    body: "Company stock management web application.",
     chips: [
       {
         img: html,
@@ -234,7 +234,7 @@ const projects = [
   {
     image: digitalmind,
     title: "Digital Mind Agency",
-    body: 'A Static Website for an agency named "Digital Mind", showing their services and projects also the team members. Made with Html, Css and JavaScript.',
+    body: 'A Static Website for an agency named "Digital Mind", showing their services and projects also the team members.',
     chips: [
       {
         img: html,
@@ -255,7 +255,7 @@ const projects = [
   {
     image: sms,
     title: "SMS - School Management System",
-    body: "**(Not Full still in progress)** \n A School Management System for managing students, teachers, and classes. It's a work in progress.",
+    body: "A School Management System for managing students, teachers, and classes. It's a work in progress.",
     chips: [
       {
         img: react,
@@ -276,7 +276,7 @@ const projects = [
   {
     image: pcc,
     title: "PCC Membership management",
-    body: "Conception et réalisation d'une application web pour la gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
+    body: "Gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
     chips: [
       {
         img: html,
