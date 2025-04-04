@@ -48,6 +48,9 @@ const projects = [
         img: nextjs,
       },
       {
+        img: react,
+      },
+      {
         img: typescript,
       },
       {
@@ -62,6 +65,9 @@ const projects = [
     chips: [
       {
         img: nextjs,
+      },
+      {
+        img: react,
       },
       {
         img: laravel,
@@ -90,6 +96,9 @@ const projects = [
         img: mui,
       },
       {
+        img: typescript,
+      },
+      {
         img: python,
       },
       {
@@ -106,6 +115,9 @@ const projects = [
     chips: [
       {
         img: nextjs,
+      },
+      {
+        img: react,
       },
       {
         img: tailwind,
@@ -127,6 +139,9 @@ const projects = [
     chips: [
       {
         img: nextjs,
+      },
+      {
+        img: react,
       },
       {
         img: tailwind,
@@ -153,6 +168,9 @@ const projects = [
         img: redux,
       },
       {
+        img: js,
+      },
+      {
         img: laravel,
       },
       {
@@ -169,6 +187,9 @@ const projects = [
     chips: [
       {
         img: nextjs,
+      },
+      {
+        img: react,
       },
       {
         img: tailwind,
