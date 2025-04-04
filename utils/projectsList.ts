@@ -11,6 +11,7 @@ import educonnect from "@/public/images/projects/educonnect.png";
 import creon from "@/public/images/projects/creon.png";
 import ibc from "@/public/images/projects/ibc.png";
 import wifina from "@/public/images/projects/wifina.png";
+import travelFlow from "@/public/images/projects/travel-flow.png";
 ////
 import bootstrap from "@/public/images/bootstrap.svg";
 import css from "@/public/images/css.svg";
@@ -32,6 +33,8 @@ import prisma from "@/public/images/prisma.svg";
 import supabase from "@/public/images/supabase.png";
 import redux from "@/public/images/redux.svg";
 import framerMotion from "@/public/images/framer-motion.svg";
+import google from "@/public/images/google.svg";
+import python from "@/public/images/python.svg";
 import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
 
@@ -71,6 +74,30 @@ const projects = [
       },
     ],
     preview: "https://wifina.be",
+  },
+  {
+    image: travelFlow,
+    title: "Travel Flow",
+    body: "Smart and fast management of routes & The Traveling Salesman Problem (TSP).",
+    chips: [
+      {
+        img: nextjs,
+      },
+      {
+        img: react,
+      },
+      {
+        img: mui,
+      },
+      {
+        img: python,
+      },
+      {
+        img: google,
+      },
+    ],
+    preview: "https://travel-flow-tsp.vercel.app/",
+    github: "https://github.com/JellYouness/travel-flow-tsp",
   },
   {
     image: educonnect,
