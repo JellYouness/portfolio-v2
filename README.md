@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://github.com/JellYouness/portfolio-v2/blob/master/assets/Logo.png" width="100" />
 </div>
 <h1 align="center">
-  jellyouness.me - v2 
+  jellyouness.com - v2 
 </h1>
 <p align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/JellYouness/portfolio-v2">
@@ -14,7 +14,7 @@
 
 ![demo](https://github.com/JellYouness/portfolio-v2/blob/master/public/images/projects/portfolio-v2.png)
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [jellyouness.me](https://jellyouness.me). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [jellyouness.com](https://jellyouness.com). Thanks!
 
 ## 🛠 Installation & Set Up.
 
