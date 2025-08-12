@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import SlideUp from "@/utils/SlideUp";
 import ProjectGallery from "./ProjectGallery";
+import { Hourglass } from "lucide-react";
 
 interface Service {
   icon: string;
@@ -85,7 +86,7 @@ const Projects = () => {
         {filteredProjects.length > 0 ? (
           <div
             ref={ref}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8"
+            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-8"
           >
             {filteredProjects.map((project, index) => (
               <motion.div
@@ -106,9 +107,20 @@ const Projects = () => {
                 <h4 className="text-xl text-black dark:text-white font-semibold mb-2">
                   {project.title}
                 </h4>
-                <p className="text-gray-500 min-h-[150px] mb-4">
+                <p className="text-gray-500 min-h-[200px] md:min-h-[170px] mb-4">
                   {project.body}
                 </p>
+                {project.year && (
+                  <p className="text-gray-400 text-sm absolute bottom-14 left-4 flex items-center gap-2">
+                    Created in: {project.year}
+                    {project.inProgress && (
+                      <span className="bg-primary-main text-white px-1.5 py-0.5 rounded-full text-xs flex items-center gap-1 ">
+                        <Hourglass className="size-3" />
+                        In Progress
+                      </span>
+                    )}
+                  </p>
+                )}
                 <div className="flex gap-3 md:gap-4 items-center flex-wrap absolute bottom-4 left-4">
                   {project.chips.map((chip, index) => (
                     <Image
@@ -116,7 +128,7 @@ const Projects = () => {
                       src={chip.img}
                       alt=""
                       loading="lazy"
-                      className="w-9 hover:scale-110 transition-all"
+                      className="w-[30px] hover:scale-110 transition-all"
                     />
                   ))}
                 </div>
