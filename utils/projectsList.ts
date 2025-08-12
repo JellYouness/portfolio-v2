@@ -12,6 +12,7 @@ import creon from "@/public/images/projects/creon.png";
 import ibc from "@/public/images/projects/ibc.png";
 import wifina from "@/public/images/projects/wifina.png";
 import travelFlow from "@/public/images/projects/travel-flow.png";
+import appartAli from "@/public/images/projects/appart-ali.png";
 ////
 import bootstrap from "@/public/images/bootstrap.svg";
 import css from "@/public/images/css.svg";
@@ -41,8 +42,8 @@ import stockGallery from "./projectsGallery/stockGallery";
 const projects = [
   {
     image: ibc,
-    title: "IBC - Identification des besoins en competences",
-    body: "A tool for employment and training stakeholders to better understand, anticipate and act on skills needs.",
+    title: "IBC - Skills Anticipation Tool",
+    body: "An innovative tool for employment and training stakeholders to understand, anticipate and support skills needs in the Centre-Val de Loire region of France.",
     chips: [
       {
         img: nextjs,
@@ -57,10 +58,14 @@ const projects = [
         img: mui,
       },
     ],
+    preview: null,
+    github: null,
+    year: "2024-2025",
+    inProgress: true,
   },
   {
     image: wifina,
-    title: "Wifina",
+    title: "Wifina - Loan Calculator & Pre-Approval Platform",
     body: "fully digital platform that enables quick calculations of loan installments and interest, providing instant pre-approval responses through strategic banking partnerships.",
     chips: [
       {
@@ -80,6 +85,10 @@ const projects = [
       },
     ],
     preview: "https://wifina.be",
+    github: null,
+    year: "2024-2025",
+    inProgress: false,
+  },
   {
     image: appartAli,
     title: "Appart Ali - Real Estate Platform",
@@ -108,7 +117,7 @@ const projects = [
   },
   {
     image: travelFlow,
-    title: "Travel Flow",
+    title: "Travel Flow - TSP Solver",
     body: "Smart and fast management of routes & The Traveling Salesman Problem (TSP).",
     chips: [
       {
@@ -132,6 +141,8 @@ const projects = [
     ],
     preview: "https://travel-flow-tsp.vercel.app/",
     github: "https://github.com/JellYouness/travel-flow-tsp",
+    year: 2024,
+    inProgress: false,
   },
   {
     image: educonnect,
@@ -156,10 +167,12 @@ const projects = [
     ],
     preview: "https://educonnect-blush.vercel.app/",
     //github: "https://github.com/JellYouness/educonnect",
+    year: 2024,
+    inProgress: false,
   },
   {
     image: creon,
-    title: "Creon AI - NFT Blockchain Platform",
+    title: "Creon AI - NFT Platform Landing Page",
     body: "A landing page for a NFT Blockchain Platform. clone of the website[creon.ai].",
     chips: [
       {
@@ -177,10 +190,12 @@ const projects = [
     ],
     preview: "https://creon-nft-landing-page.vercel.app/",
     //github: "https://github.com/JellYouness/creon-nft-landing-page",
+    year: 2024,
+    inProgress: false,
   },
   {
     image: tabibi,
-    title: "Tabibi - Emergency Management",
+    title: "Tabibi - Medical Emergency Management",
     body: "Modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
     chips: [
       {
@@ -204,6 +219,9 @@ const projects = [
     ],
     images: tabibiGallery,
     github: "https://github.com/JellYouness/Tabibi",
+    preview: null,
+    year: 2023,
+    inProgress: false,
   },
   {
     image: portfolio2,
@@ -226,8 +244,10 @@ const projects = [
         img: framerMotion,
       },
     ],
-    preview: "https://jellyouness.me",
+    preview: "https://jellyouness.com",
     //github: "https://github.com/JellYouness/portfolio-v2",
+    year: "2024-2025",
+    inProgress: false,
   },
   {
     image: portfolio1,
@@ -249,6 +269,8 @@ const projects = [
     ],
     preview: "https://jellyouness.vercel.app",
     github: "https://github.com/JellYouness/portfolio",
+    year: 2023,
+    inProgress: false,
   },
   {
     image: stockmanager,
@@ -276,10 +298,13 @@ const projects = [
     ],
     images: stockGallery,
     github: "https://github.com/JellYouness/Stock-Management",
+    preview: null,
+    year: 2022,
+    inProgress: false,
   },
   {
     image: digitalmind,
-    title: "Digital Mind Agency",
+    title: "Digital Mind Agency - Static Website",
     body: 'A Static Website for an agency named "Digital Mind", showing their services and projects also the team members.',
     chips: [
       {
@@ -297,6 +322,8 @@ const projects = [
     ],
     preview: "https://jellyouness.github.io/Digital-Mind-Agency/",
     //github: "https://github.com/JellYouness/Digital-Mind-Agency",
+    year: 2022,
+    inProgress: false,
   },
   {
     image: sms,
@@ -318,6 +345,8 @@ const projects = [
     ],
     preview: "https://ihei.vercel.app",
     // github: "https://github.com/JellYouness/Club-Manager",
+    year: 2024,
+    inProgress: false,
   },
   {
     image: pcc,
@@ -344,6 +373,9 @@ const projects = [
       },
     ],
     github: "https://github.com/JellYouness/Gestion-des-membres",
+    preview: null,
+    year: 2021, 
+    inProgress: false,
   },
 ];
 
