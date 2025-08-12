@@ -80,6 +80,31 @@ const projects = [
       },
     ],
     preview: "https://wifina.be",
+  {
+    image: appartAli,
+    title: "Appart Ali - Real Estate Platform",
+    body: "A platform for managing real estate listings, allowing users to search, filter, and view properties using Guesty API.",
+    chips: [
+      {
+        img: nextjs,
+      },
+      {
+        img: react,
+      },
+      {
+        img: tailwind,
+      },
+      {
+        img: typescript,
+      },
+      {
+        img: prisma,
+      },
+    ],
+    preview: "https://appart-ali.vercel.app/",
+    github: null,
+    year: 2025,
+    inProgress: true,
   },
   {
     image: travelFlow,
