@@ -20,87 +20,122 @@ import redux from "@/public/images/redux.svg";
 import vercel from "@/public/images/vercel.svg";
 import framerMotion from "@/public/images/framer-motion.svg";
 import python from "@/public/images/python.svg";
+import google from "@/public/images/google.svg";
 
 export const services = [
   {
+    id: "nextjs",
     icon: nextjs,
     title: "Next Js",
   },
   {
+    id: "react",
     icon: react,
     title: "React Js",
   },
   {
+    id: "typescript",
     icon: ts,
     title: "TypeScript",
   },
   {
+    id: "javascript",
     icon: js,
     title: "Javascript",
   },
   {
+    id: "materialui",
     icon: mui,
     title: "Material UI",
   },
   {
+    id: "tailwind",
     icon: tailwind,
     title: `TailwindCss`,
   },
   {
+    id: "framerMotion",
     icon: framerMotion,
     title: "Framer Motion",
   },
   {
+    id: "redux",
     icon: redux,
     title: "Redux",
   },
   {
+    id: "laravel",
     icon: laravel,
     title: "Laravel",
   },
   {
+    id: "php",
     icon: php,
     title: "PHP",
   },
   {
+    id: "mysql",
     icon: mysql,
     title: "MySQL",
   },
   {
+    id: "html",
     icon: html,
     title: "HTML 5",
   },
   {
+    id: "css",
     icon: css,
     title: "CSS 3",
   },
   {
+    id: "bootstrap",
     icon: bootstrap,
     title: "Bootstrap",
   },
   {
+    id: "python",
     icon: python,
     title: "Python",
   },
   {
+    id: "github",
     icon: github,
     title: "Github",
   },
   {
+    id: "figma",
     icon: figma,
     title: "Figma",
   },
   {
+    id: "vscode",
     icon: vscode,
     title: "VS Code",
   },
   {
+    id: "vercel",
     icon: vercel,
     title: "Vercel",
   },
+  {
+    id: "supabase",
+    icon: supabase,
+    title: "Supabase",
+  },
+  {
+    id: "prisma",
+    icon: prisma,
+    title: "Prisma",
+  },
+  {
+    id: "google",
+    icon: google,
+    title: "Google API",
+  },
 ];
 
-const unusedServices = ["Github", "Figma", "VS Code", "Vercel"];
+const unusedServices = ["Github", "Figma", "VS Code", "Vercel", "Google"];
 
 export const filterServices = services.filter(
   (service) => !unusedServices.includes(service.title)
@@ -110,13 +145,5 @@ export const servicesSoon = [
   {
     icon: mongodb,
     title: "MongoDB",
-  },
-  {
-    icon: supabase,
-    title: "Supabase",
-  },
-  {
-    icon: prisma,
-    title: "Prisma",
   },
 ];

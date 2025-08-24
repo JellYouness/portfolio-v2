@@ -98,4 +98,22 @@
   .input {
     @apply w-full bg-gray-100 bg-opacity-40 dark:bg-gray-700 dark:bg-opacity-40 border-b-2 border-gray-300 p-1 focus:outline-0 focus:border-gray-800 mb-3;
   }
+
+  .filterSkillHover {
+    .success {
+      display: block;
+    }
+    .error {
+      display: none;
+    }
+  }
+
+  .filterSkillHover:hover {
+    .success {
+      display: none;
+    }
+    .error {
+      display: block;
+    }
+  }
 }
