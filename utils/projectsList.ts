@@ -13,76 +13,44 @@ import ibc from "@/public/images/projects/ibc.png";
 import wifina from "@/public/images/projects/wifina.png";
 import travelFlow from "@/public/images/projects/travel-flow.png";
 import appartAli from "@/public/images/projects/appart-ali.png";
-////
-import bootstrap from "@/public/images/bootstrap.svg";
-import css from "@/public/images/css.svg";
-import figma from "@/public/images/figma.svg";
-import github from "@/public/images/github.svg";
-import html from "@/public/images/html.svg";
-import js from "@/public/images/js.svg";
-import laravel from "@/public/images/laravel.svg";
-import mysql from "@/public/images/mysql.svg";
-import php from "@/public/images/php.svg";
-import tailwind from "@/public/images/tailwind.svg";
-import vscode from "@/public/images/vscode.svg";
-import react from "@/public/images/react.svg";
-import mui from "@/public/images/mui.svg";
-import nextjs from "@/public/images/nextjs-icon.svg";
-import mongodb from "@/public/images/mongodb.svg";
-import typescript from "@/public/images/Typescript.svg";
-import prisma from "@/public/images/prisma.svg";
-import supabase from "@/public/images/supabase.png";
-import redux from "@/public/images/redux.svg";
-import framerMotion from "@/public/images/framer-motion.svg";
-import google from "@/public/images/google.svg";
-import python from "@/public/images/python.svg";
+import invoicr from "@/public/images/projects/invoicr.png";
 import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
+////
+import { services } from "./servicesList";
+
+const tech = (id: string) => {
+  return services.find((service) => service.id === id);
+};
 
 const projects = [
   {
-    image: ibc,
-    title: "IBC - Skills Anticipation Tool",
-    body: "An innovative tool for employment and training stakeholders to understand, anticipate and support skills needs in the Centre-Val de Loire region of France.",
+    image: invoicr,
+    title: "Invoicr SaaS - Invoice Generator & Management System",
+    body: "A platform for generating and managing invoices, allowing users to search, filter, and view invoices.",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: mui,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("supabase"),
     ],
-    preview: null,
+    // preview: "https://invoicr.vercel.app",
     github: null,
-    year: "2024-2025",
+    year: 2025,
     inProgress: true,
+    notPublic: true,
   },
   {
     image: wifina,
     title: "Wifina - Loan Calculator & Pre-Approval Platform",
     body: "fully digital platform that enables quick calculations of loan installments and interest, providing instant pre-approval responses through strategic banking partnerships.",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: laravel,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: mui,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("laravel"),
+      tech("typescript"),
+      tech("materialui"),
     ],
     preview: "https://wifina.be",
     github: null,
@@ -91,24 +59,14 @@ const projects = [
   },
   {
     image: appartAli,
-    title: "Appart Ali - Real Estate Platform",
-    body: "A platform for managing real estate listings, allowing users to search, filter, and view properties using Guesty API.",
+    title: "Appart Ali - Real Estate Platform with AI Assistant",
+    body: "A platform for managing real estate listings, allowing users to search, filter, and view properties using Guesty API. and also have an AI assistant to help users with their queries.",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: tailwind,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: prisma,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("prisma"),
     ],
     preview: "https://appart-ali.vercel.app/",
     github: null,
@@ -116,28 +74,31 @@ const projects = [
     inProgress: true,
   },
   {
+    image: ibc,
+    title: "IBC - Skills Anticipation Tool",
+    body: "An innovative tool for employment and training stakeholders to understand, anticipate and support skills needs in the Centre-Val de Loire region of France.",
+    chips: [
+      tech("nextjs"),
+      tech("react"),
+      tech("typescript"),
+      tech("materialui"),
+    ],
+    preview: null,
+    github: null,
+    year: "2024-2025",
+    notPublic: true,
+  },
+  {
     image: travelFlow,
     title: "Travel Flow - TSP Solver",
     body: "Smart and fast management of routes & The Traveling Salesman Problem (TSP).",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: mui,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: python,
-      },
-      {
-        img: google,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("materialui"),
+      tech("typescript"),
+      tech("python"),
+      tech("google"),
     ],
     preview: "https://travel-flow-tsp.vercel.app/",
     github: "https://github.com/JellYouness/travel-flow-tsp",
@@ -146,24 +107,14 @@ const projects = [
   },
   {
     image: educonnect,
-    title: "EduConnect - SMS Landing Page",
+    title: "EduConnect - Landing Page",
     body: "A landing page for a School Management System web app which is Software As a Service(SaaS). showing the features and the pricing plans.",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: tailwind,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: framerMotion,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("framerMotion"),
     ],
     preview: "https://educonnect-blush.vercel.app/",
     //github: "https://github.com/JellYouness/educonnect",
@@ -175,21 +126,13 @@ const projects = [
     title: "Creon AI - NFT Platform Landing Page",
     body: "A landing page for a NFT Blockchain Platform. clone of the website[creon.ai].",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: tailwind,
-      },
-      {
-        img: typescript,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
     ],
     preview: "https://creon-nft-landing-page.vercel.app/",
-    //github: "https://github.com/JellYouness/creon-nft-landing-page",
+    github: "https://github.com/JellYouness/creon-nft-landing-page",
     year: 2024,
     inProgress: false,
   },
@@ -198,24 +141,12 @@ const projects = [
     title: "Tabibi - Medical Emergency Management",
     body: "Modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
     chips: [
-      {
-        img: react,
-      },
-      {
-        img: mui,
-      },
-      {
-        img: redux,
-      },
-      {
-        img: js,
-      },
-      {
-        img: laravel,
-      },
-      {
-        img: mysql,
-      },
+      tech("react"),
+      tech("materialui"),
+      tech("redux"),
+      tech("javascript"),
+      tech("laravel"),
+      tech("mysql"),
     ],
     images: tabibiGallery,
     github: "https://github.com/JellYouness/Tabibi",
@@ -228,21 +159,11 @@ const projects = [
     title: "Personal Portfolio v2",
     body: "In this version, I spotlight my adeptness in new technologies, enhancing performance, ensuring dynamic and efficient web interactions.",
     chips: [
-      {
-        img: nextjs,
-      },
-      {
-        img: react,
-      },
-      {
-        img: tailwind,
-      },
-      {
-        img: typescript,
-      },
-      {
-        img: framerMotion,
-      },
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("framerMotion"),
     ],
     preview: "https://jellyouness.com",
     //github: "https://github.com/JellYouness/portfolio-v2",
@@ -254,18 +175,10 @@ const projects = [
     title: "Personal Portfolio v1 (Old)",
     body: "In my portfolio, I've demonstrated expertise in ReactJs, Material UI, and solving complex challenges. I've optimized performance, ensuring efficient web experiences.",
     chips: [
-      {
-        img: react,
-      },
-      {
-        img: mui,
-      },
-      {
-        img: js,
-      },
-      {
-        img: framerMotion,
-      },
+      tech("react"),
+      tech("materialui"),
+      tech("javascript"),
+      tech("framerMotion"),
     ],
     preview: "https://jellyouness.vercel.app",
     github: "https://github.com/JellYouness/portfolio",
@@ -277,24 +190,12 @@ const projects = [
     title: "OPTIM'STOCK - Stock Manager",
     body: "Company stock management web application.",
     chips: [
-      {
-        img: html,
-      },
-      {
-        img: css,
-      },
-      {
-        img: bootstrap,
-      },
-      {
-        img: js,
-      },
-      {
-        img: php,
-      },
-      {
-        img: mysql,
-      },
+      tech("html"),
+      tech("css"),
+      tech("bootstrap"),
+      tech("javascript"),
+      tech("php"),
+      tech("mysql"),
     ],
     images: stockGallery,
     github: "https://github.com/JellYouness/Stock-Management",
@@ -306,20 +207,7 @@ const projects = [
     image: digitalmind,
     title: "Digital Mind Agency - Static Website",
     body: 'A Static Website for an agency named "Digital Mind", showing their services and projects also the team members.',
-    chips: [
-      {
-        img: html,
-      },
-      {
-        img: css,
-      },
-      {
-        img: bootstrap,
-      },
-      {
-        img: js,
-      },
-    ],
+    chips: [tech("html"), tech("css"), tech("bootstrap"), tech("javascript")],
     preview: "https://jellyouness.github.io/Digital-Mind-Agency/",
     //github: "https://github.com/JellYouness/Digital-Mind-Agency",
     year: 2022,
@@ -330,18 +218,10 @@ const projects = [
     title: "SMS - School Management System",
     body: "A School Management System for managing students, teachers, and classes. It's a work in progress.",
     chips: [
-      {
-        img: react,
-      },
-      {
-        img: mui,
-      },
-      {
-        img: redux,
-      },
-      {
-        img: js,
-      },
+      tech("react"),
+      tech("materialui"),
+      tech("redux"),
+      tech("javascript"),
     ],
     preview: "https://ihei.vercel.app",
     // github: "https://github.com/JellYouness/Club-Manager",
@@ -353,28 +233,16 @@ const projects = [
     title: "PCC Membership management",
     body: "Gestion des membres et les abonnements de l'entreprise Palmeraie Country Club.",
     chips: [
-      {
-        img: html,
-      },
-      {
-        img: css,
-      },
-      {
-        img: bootstrap,
-      },
-      {
-        img: js,
-      },
-      {
-        img: php,
-      },
-      {
-        img: mysql,
-      },
+      tech("html"),
+      tech("css"),
+      tech("bootstrap"),
+      tech("javascript"),
+      tech("php"),
+      tech("mysql"),
     ],
     github: "https://github.com/JellYouness/Gestion-des-membres",
     preview: null,
-    year: 2021, 
+    year: 2021,
     inProgress: false,
   },
 ];
