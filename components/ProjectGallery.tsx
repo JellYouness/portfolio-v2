@@ -9,24 +9,24 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import Slider from "./Slider";
-import { Slideshow } from "@mui/icons-material";
+import { Collections, Slideshow } from "@mui/icons-material";
 
 interface DialogProps {
     // Autres propriétés du composant de dialogue
     className?: string;
 }
 
-const ProjectGallery = ({ title, images }: any) => {
+const ProjectGallery = ({ title, images, isMobile = false }: any) => {
   return (
     <Dialog>
-      <DialogTrigger>
-        <Slideshow className="text-3xl p-2 h-full w-auto bg-black rounded-full hover:scale-110 transition-all" />
+      <DialogTrigger className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all">
+        <Collections className="text-2xl" />
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className="min-w-[92vw] sm:min-w-[80vw] h-[90dvh] sm:h-auto">
         <DialogHeader>
-          <DialogTitle>{title}</DialogTitle>
+          <DialogTitle className="pt-2 sm:pt-0">{title}</DialogTitle>
         </DialogHeader>
-        <Slider images={images} />
+        <Slider images={images} isMobile={isMobile} />
       </DialogContent>
     </Dialog>
   );

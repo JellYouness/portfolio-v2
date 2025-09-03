@@ -16,6 +16,8 @@ import appartAli from "@/public/images/projects/appart-ali.png";
 import invoicr from "@/public/images/projects/invoicr.png";
 import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
+import petTracker from "@/public/images/projects/pet-tracker.png";
+import petTrackerGallery from "./projectsGallery/petTrackerGallery";
 ////
 import { services } from "./servicesList";
 
@@ -87,6 +89,22 @@ const projects = [
     github: null,
     year: "2024-2025",
     notPublic: true,
+  },
+  {
+    image: petTracker,
+    title: "PetTracker Pro - Pet Management & GPS Tracking App",
+    body: "A mobile app that helps pet owners track and manage their animals. real-time GPS tracking with interactive maps, NFC tag management, and supports lost pet alerts and ownership transfers.",
+    chips: [
+      tech("reactNative"),
+      tech("typescript"),
+      tech("supabase"),
+    ],
+    images: petTrackerGallery,
+    preview: null,
+    github: null,
+    year: 2025,
+    inProgress: false,
+    isMobile: true,
   },
   {
     image: travelFlow,

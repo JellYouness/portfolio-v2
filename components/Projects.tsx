@@ -55,7 +55,7 @@ const Projects = () => {
 
   return (
     <TooltipProvider>
-      <section id="Projects" className="w-9/12 mx-auto pt-12 pb-10">
+      <section id="Projects" className="w-10/12 mx-auto pt-12 pb-10">
         <SlideUp>
           <h3 className="text-5xl py-10 font-semibold text-center">
             <span className="border-b-4 border-primary-main">My Work</span>
@@ -134,11 +134,11 @@ const Projects = () => {
                   <h4 className="text-xl text-black dark:text-white font-semibold mb-2">
                     {project.title}
                   </h4>
-                  <p className="text-gray-500 min-h-[200px] md:min-h-[170px] mb-4">
+                  <p className="text-gray-400 min-h-[200px] md:min-h-[170px] mb-4">
                     {project.body}
                   </p>
                   {project.year && (
-                    <p className="text-gray-400 text-sm absolute bottom-14 left-4 flex items-center gap-2">
+                    <p className="text-gray-300 text-sm absolute bottom-14 left-4 flex items-center gap-2">
                       Created in: {project.year}
                       {project.inProgress && (
                         <span className="bg-primary-main text-white px-1.5 py-0.5 rounded-full text-xs flex items-center gap-1 ">
@@ -175,7 +175,7 @@ const Projects = () => {
                   <div
                     className={
                       project.images
-                        ? "flex gap-1 absolute top-6 right-12 text-white"
+                        ? "flex gap-1 absolute top-6 right-6 text-white"
                         : "flex gap-1 absolute top-6 right-6 text-white"
                     }
                   >
@@ -201,6 +201,7 @@ const Projects = () => {
                       <ProjectGallery
                         title={project.title}
                         images={project.images}
+                        isMobile={project.isMobile}
                       />
                     )}
                   </div>

@@ -21,6 +21,7 @@ import vercel from "@/public/images/vercel.svg";
 import framerMotion from "@/public/images/framer-motion.svg";
 import python from "@/public/images/python.svg";
 import google from "@/public/images/google.svg";
+import reactNative from "@/public/images/react-native.png";
 
 export const services = [
   {
@@ -62,6 +63,11 @@ export const services = [
     id: "redux",
     icon: redux,
     title: "Redux",
+  },
+  {
+    id: "reactNative",
+    icon: reactNative,
+    title: "React Native",
   },
   {
     id: "laravel",
