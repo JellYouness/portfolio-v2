@@ -69,7 +69,9 @@ const About = () => {
                 <div className="flex items-center justify-between mt-4">
                     <div className="flex flex-col items-center gap-6 md:gap-4 mx-auto">
                         <Image
-                            src={Photo}
+                            src="/jellyouness.png"
+                            width={208}
+                            height={208}
                             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
                             alt="Youness Jellouli"
                         />
