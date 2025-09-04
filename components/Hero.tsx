@@ -55,7 +55,7 @@ const Hero = () => {
               </button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1_G6RJ6QMSOvKzVDOy3oEirqWDu6lBmw4/view?usp=sharing"
+              href="/Youness-Jellouli.pdf"
               target="_blank"
             >
               <button className="btn-bordered">
