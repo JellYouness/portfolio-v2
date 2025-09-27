@@ -13,6 +13,7 @@ import ibc from "@/public/images/projects/ibc.png";
 import wifina from "@/public/images/projects/wifina.png";
 import travelFlow from "@/public/images/projects/travel-flow.png";
 import appartAli from "@/public/images/projects/appart-ali.png";
+import zenHotel from "@/public/images/projects/zen-hotel.png";
 import invoicr from "@/public/images/projects/invoicr.png";
 import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
@@ -73,7 +74,23 @@ const projects = [
     preview: "https://appart-ali.vercel.app/",
     github: null,
     year: 2025,
-    inProgress: true,
+    inProgress: false,
+  },
+  {
+    image: zenHotel,
+    title: "Zen Hotel - Hotel Booking & Presentation",
+    body: "A hotel booking and presentation website for Zen Hotel, featuring rooms, services, and a reservation system.",
+    chips: [
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("prisma"),
+    ],
+    preview: "https://zen-hotel.vercel.app/",
+    github: null,
+    year: 2025,
+    inProgress: false,
   },
   {
     image: ibc,
