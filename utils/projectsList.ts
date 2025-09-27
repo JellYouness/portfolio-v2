@@ -71,7 +71,7 @@ const projects = [
       tech("typescript"),
       tech("prisma"),
     ],
-    preview: "https://appart-ali.vercel.app/",
+    preview: "https://appartali.com/",
     github: null,
     year: 2025,
     inProgress: false,
