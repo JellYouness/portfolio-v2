@@ -38,11 +38,10 @@ const projects = [
       tech("typescript"),
       tech("supabase"),
     ],
-    // preview: "https://invoicr.vercel.app",
+    preview: "https://invoicrapp.com",
     github: null,
     year: 2025,
     inProgress: true,
-    notPublic: true,
   },
   {
     image: wifina,
