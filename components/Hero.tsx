@@ -35,7 +35,7 @@ const Hero = () => {
             sequence={[
               "FullStack Developer",
               1000,
-              "React/Next Developer",
+              "ReactJs/NextJs Developer",
               1000,
               "UI/UX Designer",
               1000,
