@@ -30,7 +30,7 @@ const tech = (id: string) => {
 const projects = [
   {
     image: avsm,
-    title: "AVSM Volleyball Club",
+    title: "AVSM Volleyball Club 🏐",
     body: "Full-stack website for a volleyball club with an admin CMS. Built with Next.js, TypeScript, and Tailwind CSS. Includes match management, news/blog, team rosters, photo galleries, and responsive design.",
     chips: [
       tech("nextjs"),
