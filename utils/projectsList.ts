@@ -19,6 +19,7 @@ import tabibiGallery from "./projectsGallery/tabibiGallery";
 import stockGallery from "./projectsGallery/stockGallery";
 import petTracker from "@/public/images/projects/pet-tracker.png";
 import petTrackerGallery from "./projectsGallery/petTrackerGallery";
+import avsm from "@/public/images/projects/avsm.png";
 ////
 import { services } from "./servicesList";
 
@@ -27,6 +28,22 @@ const tech = (id: string) => {
 };
 
 const projects = [
+  {
+    image: avsm,
+    title: "AVSM Volleyball Club",
+    body: "Full-stack website for a volleyball club with an admin CMS. Built with Next.js, TypeScript, and Tailwind CSS. Includes match management, news/blog, team rosters, photo galleries, and responsive design.",
+    chips: [
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("framerMotion"),
+    ],
+    preview: "https://avsm-flame.vercel.app/",
+    github: null,
+    year: 2025,
+    inProgress: true,
+  },
   {
     image: invoicr,
     title: "Invoicr SaaS - Invoice Generator & Management System",
@@ -42,7 +59,6 @@ const projects = [
     github: null,
     year: 2025,
     inProgress: true,
-    notPublic: true,
   },
   {
     image: wifina,
@@ -111,11 +127,7 @@ const projects = [
     image: petTracker,
     title: "PetTracker Pro - Pet Management & GPS Tracking App",
     body: "A mobile app that helps pet owners track and manage their animals. real-time GPS tracking with interactive maps, NFC tag management, and supports lost pet alerts and ownership transfers.",
-    chips: [
-      tech("reactNative"),
-      tech("typescript"),
-      tech("supabase"),
-    ],
+    chips: [tech("reactNative"), tech("typescript"), tech("supabase")],
     images: petTrackerGallery,
     preview: null,
     github: null,
