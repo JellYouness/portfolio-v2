@@ -39,7 +39,7 @@ const projects = [
       tech("typescript"),
       tech("framerMotion"),
     ],
-    preview: "https://avsm-flame.vercel.app/",
+    preview: "https://avsm.jellyouness.com/",
     github: null,
     year: 2025,
     inProgress: true,
