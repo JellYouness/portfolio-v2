@@ -118,7 +118,7 @@ const projects = [
       tech("typescript"),
       tech("materialui"),
     ],
-    preview: null,
+    preview: "https://app.ibc.preprod.cysc.fr/",
     github: null,
     year: "2024-2025",
     notPublic: true,
