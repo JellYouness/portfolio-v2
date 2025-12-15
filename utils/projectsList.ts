@@ -62,7 +62,7 @@ const projects = [
     inProgress: true,
   },
   {
-    image: null,
+    image: odoc,
     title: "oDoc - Medical Practice Management Platform 🏥"
     body: "A full-stack healthcare management system featuring appointment scheduling, patient records, WhatsApp chatbot integration, prescription management, and accounting modules. With role-based access control and real-time data synchronization."
     chips: [
