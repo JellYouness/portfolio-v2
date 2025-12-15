@@ -20,6 +20,7 @@ import stockGallery from "./projectsGallery/stockGallery";
 import petTracker from "@/public/images/projects/pet-tracker.png";
 import petTrackerGallery from "./projectsGallery/petTrackerGallery";
 import avsm from "@/public/images/projects/avsm.png";
+import odoc from "@/public/images/projects/odoc.png";
 ////
 import { services } from "./servicesList";
 
@@ -56,6 +57,21 @@ const projects = [
       tech("supabase"),
     ],
     preview: "https://invoicrapp.com",
+    github: null,
+    year: 2025,
+    inProgress: true,
+  },
+  {
+    image: null,
+    title: "oDoc - Medical Practice Management Platform 🏥"
+    body: "A full-stack healthcare management system featuring appointment scheduling, patient records, WhatsApp chatbot integration, prescription management, and accounting modules. With role-based access control and real-time data synchronization."
+    chips: [
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+      tech("supabase"),
+    ],
+    preview: "https://odoc.ma",
     github: null,
     year: 2025,
     inProgress: true,
@@ -111,7 +127,7 @@ const projects = [
   {
     image: ibc,
     title: "IBC - Skills Anticipation Tool",
-    body: "An innovative tool for employment and training stakeholders to understand, anticipate and support skills needs in the Centre-Val de Loire region of France.",
+    body: "An innovative tool for employment and training stakeholders to understand, anticipate and support skills needs in the Centre-Val de Loire region of France 🇫🇷.",
     chips: [
       tech("nextjs"),
       tech("react"),
@@ -185,7 +201,7 @@ const projects = [
   },
   {
     image: tabibi,
-    title: "Tabibi - Medical Emergency Management",
+    title: "Tabibi - Medical Emergency Management 🏥",
     body: "Modern medical Web application for Emergency Management (TABIBI), presented as a final university studies project.",
     chips: [
       tech("react"),
