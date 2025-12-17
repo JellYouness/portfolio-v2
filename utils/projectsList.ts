@@ -43,7 +43,6 @@ const projects = [
     preview: "https://avsm.ma",
     github: null,
     year: 2025,
-    inProgress: true,
   },
   {
     image: invoicr,
