@@ -124,13 +124,18 @@ const Projects = () => {
                   key={index}
                   className="bg-gray-200 dark:bg-gray-800 border border-black dark:border-none rounded-lg shadow-lg p-4 relative hover:scale-[1.02] transition-all"
                 >
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    placeholder="blur"
-                    loading="lazy"
-                    className="md:h-[170px] lg:h-[190px] 3xl:h-[245px] object-fill mb-4 rounded-lg border-2 border-gray-600 border-b-4"
-                  />
+                  <Link 
+                    href={project.preview || ""}
+                    target="_blank"
+                  >
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      placeholder="blur"
+                      loading="lazy"
+                      className="md:h-[170px] lg:h-[190px] 3xl:h-[245px] object-fill mb-4 rounded-lg border-2 border-gray-600 border-b-4 hover:scale-105 transition-all"
+                    />
+                  </Link>
                   <h4 className="text-xl text-black dark:text-white font-semibold mb-2">
                     {project.title}
                   </h4>
