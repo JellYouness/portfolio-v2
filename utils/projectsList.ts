@@ -21,6 +21,7 @@ import petTracker from "@/public/images/projects/pet-tracker.png";
 import petTrackerGallery from "./projectsGallery/petTrackerGallery";
 import avsm from "@/public/images/projects/avsm.png";
 import odoc from "@/public/images/projects/odoc.png";
+import idr from "@/public/images/projects/idr.png";
 ////
 import { services } from "./servicesList";
 
@@ -29,6 +30,20 @@ const tech = (id: string) => {
 };
 
 const projects = [
+  {
+    image: idr,
+    title: "Video Editor & Motion Designer Portfolio",
+    body: "Spotlighting Oussama Idrissi's Experience and Creativity with a simple outstanding portfolio.",
+    chips: [
+      tech("nextjs"),
+      tech("react"),
+      tech("tailwind"),
+      tech("typescript"),
+    ],
+    preview: "https://www.idrissioussama.com",
+    github: null,
+    year: 2026,
+  },
   {
     image: avsm,
     title: "AVSM Volleyball Club 🏐",
