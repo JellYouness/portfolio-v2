@@ -12,8 +12,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const gabarito = Gabarito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Youness JELLOULI - Portfolio",
-  description: "Youness JELLOULI's portfolio",
+  title: "Youness JELLOULI — Web Developer for Businesses & Startups",
+  description: "Freelance full-stack developer building websites, web apps, and SaaS platforms for clients in Morocco and worldwide. View client projects and start your project today.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <link rel="icon" href="./favicon.ico" /> */}
         <meta property="og:image" content="/og-image.webp" />
       </head>
       <body className={gabarito.className}>
@@ -35,7 +34,6 @@ export default function RootLayout({
             <div className="fixed top-0 w-full z-[-1] opacity-50 dark:opacity-30">
               <ParticlesComponent />
             </div>
-            {/* Analytics and SpeedInsights components*/}
             <Analytics />
             <SpeedInsights />
           </Suspense>

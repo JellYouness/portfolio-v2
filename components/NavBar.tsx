@@ -8,12 +8,11 @@ import { useState } from "react";
 import Link from "next/link";
 
 const navElements = [
-  "Home",
-  "About",
-  "Projects",
-  // "Experiences",
-  "Skills",
-  "Contact",
+  { label: "Home", href: "#Home" },
+  { label: "Services", href: "#Services" },
+  { label: "Work", href: "#Projects" },
+  { label: "Process", href: "#Process" },
+  { label: "Contact", href: "#Contact" },
 ];
 
 const NavBar = () => {
@@ -23,27 +22,33 @@ const NavBar = () => {
       <div className="flex items-center gap-3">
         <Image
           src={Logo}
-          alt="Jellouli Youness"
+          alt="Youness Jellouli"
           quality={100}
           placeholder="blur"
           width={50}
           height={50}
         />
-        <p className="font-semibold text-xl">Youness JELLOULI</p>
+        <div className="flex flex-col">
+          <p className="font-semibold text-xl leading-tight">Youness JELLOULI</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400 hidden sm:block">Web Development Studio</p>
+        </div>
       </div>
-      <div className="md:flex hidden justify-between items-center gap-8">
+      <div className="md:flex hidden justify-between items-center gap-6">
         {navElements.map((element, index) => (
           <motion.a
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3 * index }}
-            href={`#${element}`}
+            href={element.href}
             key={index}
-            className="font-semibold text-lg mr-4 hover:text-primary-main transition"
+            className="font-semibold text-lg hover:text-primary-main transition"
           >
-            {element}
+            {element.label}
           </motion.a>
         ))}
+        <Link href="#Contact">
+          <button className="btn text-sm py-2 px-4">Get a Quote</button>
+        </Link>
         <ThemeButton index={navElements.length} />
       </div>
       <div className="md:hidden flex items-center gap-2 transition-all">
@@ -70,9 +75,14 @@ const NavBar = () => {
                 key={index}
                 className={`text-xl cursor-pointer ${index === navElements.length - 1 ? "mb-4" : "mb-8"}`}
               >
-                <Link href={`#${element}`}>{element}</Link>
+                <Link href={element.href} onClick={() => setToggle(false)}>{element.label}</Link>
               </li>
             ))}
+            <li>
+              <Link href="#Contact" onClick={() => setToggle(false)}>
+                <button className="btn text-sm py-2 px-4">Get a Quote</button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

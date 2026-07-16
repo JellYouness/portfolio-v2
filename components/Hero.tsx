@@ -1,5 +1,5 @@
 'use client';
-import { ArrowDownward, GitHub, Instagram, LinkedIn, OpenInNew } from '@mui/icons-material';
+import { ArrowDownward, GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -28,38 +28,33 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col justify-center items-center gap-4 relative h-screen w-full"
         >
-          {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" /> */}
-          <h1 className="text-xl font-bold">Hi, I am</h1>
+          <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Web Development Studio</p>
           <p className="text-5xl font-bold text-gradient text-center">Youness JELLOULI</p>
           <TypeAnimation
             sequence={[
-              "FullStack Developer",
+              "Web Apps That Convert",
               1000,
-              "ReactJs/NextJs Developer",
+              "SaaS & Business Platforms",
               1000,
-              "UI/UX Designer",
+              "Fast, Modern Websites",
               1000,
             ]}
             speed={50}
             repeat={Infinity}
-            className="text-3xl md:text-4xl text-center "
+            className="text-3xl md:text-4xl text-center"
           />
           <p className="text-xl sm:text-2xl sm:w-6/12 mx-3 text-center">
-            a skilled web developer on a mission to turn innovative
-            ideas into engaging online realities.
+            I design and build high-performance web products for businesses — from landing pages to full SaaS platforms.
           </p>
           <div className="flex items-center gap-3 z-40">
-            <Link href="#Projects">
+            <Link href="#Contact">
               <button className="btn">
-                View Projects <ArrowDownward />
+                Start a Project <ArrowDownward />
               </button>
             </Link>
-            <Link
-              href="/Youness-Jellouli.pdf"
-              target="_blank"
-            >
+            <Link href="#Projects">
               <button className="btn-bordered">
-                Open PDF Resume <OpenInNew />
+                View Client Work <ArrowDownward />
               </button>
             </Link>
           </div>
@@ -75,7 +70,6 @@ const Hero = () => {
               </Link>
             ))}
           </div>
-          {/* <BackgroundBeams /> */}
         </motion.div>
       </section>
     );
