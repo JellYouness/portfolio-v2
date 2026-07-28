@@ -29,7 +29,10 @@ const Projects = () => {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
   };
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [showAll, setShowAll] = useState(false);
+  const [filteredProjects, setFilteredProjects] = useState(
+    projects.filter((p) => p.category === "client")
+  );
   const [selectedServices, setSelectedServices] = useState<Service[]>([]);
 
   const handleServicesSelect = (service: Service) => {
@@ -41,25 +44,32 @@ const Projects = () => {
   };
 
   useEffect(() => {
+    const baseProjects = showAll
+      ? projects
+      : projects.filter((p) => p.category === "client");
+
     if (selectedServices.length === 0) {
-      setFilteredProjects(projects);
+      setFilteredProjects(baseProjects);
     } else {
-      const filtered = projects.filter((project) =>
+      const filtered = baseProjects.filter((project) =>
         project.chips.some((chip) =>
           selectedServices.some((service) => chip?.id === service.id)
         )
       );
       setFilteredProjects(filtered);
     }
-  }, [selectedServices]);
+  }, [selectedServices, showAll]);
 
   return (
     <TooltipProvider>
       <section id="Projects" className="w-10/12 mx-auto pt-12 pb-10">
         <SlideUp>
           <h3 className="text-5xl py-10 font-semibold text-center">
-            <span className="border-b-4 border-primary-main">My Work</span>
+            <span className="border-b-4 border-primary-main">Client Projects</span>
           </h3>
+          <p className="text-center text-lg text-gray-500 mb-6">
+            Real products built for real businesses.
+          </p>
           <div>
             <p className="text-center text-lg mb-4">Filters:</p>
             <div className="flex justify-center items-center gap-6 mb-4 flex-wrap">
@@ -108,6 +118,12 @@ const Projects = () => {
                   Clear Filters
                 </button>
               )}
+              <button
+                className="btn-bordered text-sm py-2 px-4"
+                onClick={() => setShowAll(!showAll)}
+              >
+                {showAll ? "Show Client Projects Only" : "View All Projects"}
+              </button>
             </div>
           </div>
           {filteredProjects.length > 0 ? (
@@ -177,13 +193,7 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <div
-                    className={
-                      project.images
-                        ? "flex gap-1 absolute top-6 right-6 text-white"
-                        : "flex gap-1 absolute top-6 right-6 text-white"
-                    }
-                  >
+                  <div className="flex gap-1 absolute top-6 right-6 text-white">
                     {project.github && (
                       <Link
                         href={project.github}
