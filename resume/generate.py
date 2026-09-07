@@ -213,7 +213,7 @@ def contact_items(contact: dict) -> list[tuple[str, str, str | None]]:
 
 def add_section_heading(doc: Document, text: str):
     p = doc.add_paragraph()
-    set_run_font(p.add_run(text.upper()), size=12, bold=True)
+    set_run_font(p.add_run(text.upper()), size=11, bold=True)
     set_paragraph_spacing(p, before=10, after=4, line=1.0)
     add_bottom_border(p)
     return p
@@ -233,13 +233,13 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
 
     normal = doc.styles["Normal"]
     normal.font.name = "Times New Roman"
-    normal.font.size = Pt(10)
+    normal.font.size = Pt(9)
     normal.font.color.rgb = INK_RGB
     normal._element.rPr.rFonts.set(qn("w:eastAsia"), "Times New Roman")
 
     heading = doc.styles["Heading 2"]
     heading.font.name = "Times New Roman"
-    heading.font.size = Pt(12)
+    heading.font.size = Pt(11)
     heading.font.bold = True
     heading.font.color.rgb = INK_RGB
     heading.paragraph_format.space_before = Pt(10)
@@ -275,27 +275,27 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
         add_section_heading(doc, labels["summary"])
         s = doc.add_paragraph()
         set_paragraph_spacing(s, before=2, after=2, line=1.15)
-        add_rich_runs(s, spec["summary"], size=10)
+        add_rich_runs(s, spec["summary"], size=9)
 
     if spec.get("experience"):
         add_section_heading(doc, labels["experience"])
         for job in spec["experience"]:
             title = doc.add_paragraph()
             set_paragraph_spacing(title, before=10, after=0, line=1.05)
-            set_run_font(title.add_run(job.get("title", "")), size=11, bold=True)
+            set_run_font(title.add_run(job.get("title", "")), size=10, bold=True)
 
             meta = doc.add_paragraph()
             set_paragraph_spacing(meta, before=0, after=1, line=1.0)
             meta.paragraph_format.tab_stops.add_tab_stop(usable, WD_TAB_ALIGNMENT.RIGHT)
-            set_run_font(meta.add_run(job.get("company", "")), size=10.5, italic=True)
+            set_run_font(meta.add_run(job.get("company", "")), size=9, italic=True)
             right = ", ".join(part for part in [job.get("dates"), job.get("location")] if part)
             if right:
-                set_run_font(meta.add_run("\t" + right), size=10, italic=True)
+                set_run_font(meta.add_run("\t" + right), size=9, italic=True)
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
                 set_paragraph_spacing(bp, before=0, after=1, line=1.12)
-                add_rich_runs(bp, str(bullet).strip(), size=10)
+                add_rich_runs(bp, str(bullet).strip(), size=9)
 
     if spec.get("projects"):
         add_section_heading(doc, labels["projects"])
@@ -304,36 +304,36 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
             set_paragraph_spacing(header, before=4, after=0, line=1.05)
             set_run_font(header.add_run(project.get("name", "")), size=11, bold=True)
             if project.get("extra"):
-                set_run_font(header.add_run(f"  |  {project['extra']}"), size=10)
+                set_run_font(header.add_run(f"  |  {project['extra']}"), size=9)
             for bullet in project.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
                 set_paragraph_spacing(bp, before=0, after=1, line=1.12)
-                add_rich_runs(bp, str(bullet).strip(), size=10)
+                add_rich_runs(bp, str(bullet).strip(), size=9)
 
     if spec.get("skills"):
         add_section_heading(doc, labels["skills"])
         for group in spec["skills"]:
             p = doc.add_paragraph()
             set_paragraph_spacing(p, before=3, after=3, line=1.12)
-            set_run_font(p.add_run(f"{group['category']}: "), size=10, bold=True)
-            set_run_font(p.add_run(", ".join(group.get("items") or [])), size=10)
+            set_run_font(p.add_run(f"{group['category']}: "), size=9, bold=True)
+            set_run_font(p.add_run(", ".join(group.get("items") or [])), size=9)
 
     if spec.get("education"):
         add_section_heading(doc, labels["education"])
         for edu in spec["education"]:
             p = doc.add_paragraph()
             set_paragraph_spacing(p, before=3, after=0, line=1.05)
-            set_run_font(p.add_run(edu.get("degree", "")), size=10.5, bold=True)
+            set_run_font(p.add_run(edu.get("degree", "")), size=9, bold=True)
             if edu.get("extra"):
                 e = doc.add_paragraph()
                 set_paragraph_spacing(e, before=0, after=2, line=1.0)
-                set_run_font(e.add_run(edu["extra"]), size=10)
+                set_run_font(e.add_run(edu["extra"]), size=9)
 
     if spec.get("languages"):
         add_section_heading(doc, labels["languages"])
         p = doc.add_paragraph()
         set_paragraph_spacing(p, before=1, after=0)
-        set_run_font(p.add_run(" · ".join(spec["languages"])), size=10)
+        set_run_font(p.add_run(" · ".join(spec["languages"])), size=9)
 
     dest.parent.mkdir(parents=True, exist_ok=True)
     doc.save(dest)
@@ -496,12 +496,12 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       background: #fff;
       color: #{INK};
       font-family: "Merriweather", "Liberation Serif", "Times New Roman", Times, serif;
-      font-size: 9.25pt;
-      line-height: 1.2;
+      font-size: 9px;
+      line-height: 1.28;
     }}
     h1 {{
       text-align: center;
-      font-size: 24pt;
+      font-size: 22px;
       font-weight: 700;
       letter-spacing: 0.15px;
       margin: 0 0 5px;
@@ -509,7 +509,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     .headline {{
       text-align: center;
       margin: 0 0 4px;
-      font-size: 11pt;
+      font-size: 10px;
     }}
     .contact {{
       display: flex;
@@ -517,7 +517,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       align-items: center;
       gap: 11px;
       flex-wrap: nowrap;
-      font-size: 8.4pt;
+      font-size: 8px;
       margin: 0 0 6px;
       white-space: nowrap;
     }}
@@ -538,7 +538,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       flex: 0 0 auto;
     }}
     h2 {{
-      font-size: 11.2pt;
+      font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.3px;
@@ -573,7 +573,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     .job {{ margin: 0 0 7px; }}
     .job-title {{
       font-weight: 700;
-      font-size: 10.6pt;
+      font-size: 10px;
       margin: 0;
     }}
     .job-meta {{
@@ -582,7 +582,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       align-items: baseline;
       gap: 10px;
       margin: 0 0 2px;
-      font-size: 10pt;
+      font-size: 9px;
     }}
     .company {{ font-weight: 400; font-style: italic; }}
     .when {{ font-weight: 400; font-style: italic; white-space: nowrap; }}
