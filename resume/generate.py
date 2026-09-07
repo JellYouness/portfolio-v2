@@ -294,7 +294,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.02)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.12)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("projects"):
@@ -307,7 +307,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
                 set_run_font(header.add_run(f"  |  {project['extra']}"), size=10)
             for bullet in project.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.02)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.12)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("skills"):
@@ -574,7 +574,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     }}
     li {{
       --bullet: 1.6px;
-      --lh: 1.05;
+      --lh: 1.14;
       position: relative;
       margin: 0;
       padding-left: 11px;
