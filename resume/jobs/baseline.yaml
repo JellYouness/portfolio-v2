@@ -1,0 +1,107 @@
+meta:
+  slug: Youness-Jellouli
+  job_title: Full Stack Developer
+  company: baseline
+  language: en
+  source: Generic ATS baseline from profile.yaml
+
+headline: Full Stack Developer | Next.js · React · Node.js · Laravel
+
+summary: >-
+  Full Stack Developer with 3+ years of experience building production web
+  applications in Next.js, React, TypeScript, Node.js, and Laravel. Delivered
+  client products across healthcare, fintech, and public-sector skills planning,
+  including oDoc, Wifina, and IBC (2,000+ daily users at CyberScale). Owns
+  features end to end: UI, REST APIs, databases, and deployment.
+
+skills:
+  - category: Languages
+    items: [JavaScript, TypeScript, PHP, Python, SQL, HTML5, CSS3]
+  - category: Frontend
+    items: [React.js, Next.js, Redux, Tailwind CSS, Material UI, shadcn/ui, React Native]
+  - category: Backend / Data
+    items: [Node.js, Express.js, Laravel, REST APIs, Web Scraping, MySQL, PostgreSQL, Supabase, Prisma]
+  - category: Cloud / Methods
+    items: [Git, GitHub Actions, Vercel, Google Cloud, Cloudflare, Agile, Scrum]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Morocco
+    dates: Oct 2025 – Present
+    bullets:
+      - >-
+        Building oDoc.ma, a medical practice platform for appointment scheduling,
+        patient profiles, prescriptions, and accounting, using React, TypeScript,
+        Tailwind CSS, shadcn/ui, and Supabase.
+      - >-
+        Delivered reusable booking and profile components and integrated WhatsApp
+        chatbot support for patient communication.
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Morocco
+    dates: Jun 2025 – Sep 2025
+    bullets:
+      - >-
+        Shipped full-stack web features with Next.js, Node.js, and Laravel,
+        including REST APIs and data workflows for client products.
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Jun 2024 – Jun 2025
+    bullets:
+      - >-
+        Built and maintained public web apps including Wifina, IBC, and Allo
+        Reflexo, serving 2,000+ average daily active users.
+      - >-
+        Improved application performance by 25% with front-end, back-end, and QA
+        collaboration. Delivered Wifina (Next.js, TypeScript, Laravel) and IBC,
+        a skills-anticipation tool for Centre-Val de Loire, France.
+
+  - title: Junior Cloud Consultant Intern
+    company: CBI
+    location: Casablanca, Morocco
+    dates: Sep 2023 – Jan 2024
+    bullets:
+      - >-
+        Supported pre-sales and Microsoft CSP subscription management (MWP) for
+        100+ clients, mapping business needs to cloud offers.
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Morocco
+    dates: Apr 2023 – Aug 2023
+    bullets:
+      - >-
+        Developed interactive React.js and Laravel applications, managed complex
+        state with Redux, and integrated REST APIs into reusable UI modules.
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Morocco
+    dates: Jul 2022 – Sep 2022
+    bullets:
+      - >-
+        Implemented a membership and subscription management app with HTML, CSS,
+        JavaScript, PHP, and MySQL.
+
+projects:
+  - name: Appart Ali
+    extra: "Next.js, Prisma | appartali.com — listings, Guesty API, AI assistant"
+  - name: Invoicr
+    extra: "Next.js, Supabase | invoicrapp.com — invoice generation and management SaaS"
+
+education:
+  - degree: Master's in Intelligent Systems Engineering
+    extra: Faculty of Sciences Ain Chock, Hassan II University · Casablanca · 2024 – Present
+  - degree: Bachelor's in Mathematical and Computer Sciences (SMI)
+    extra: Faculty of Sciences Ain Chock, Hassan II University · Casablanca · 2023 – 2024
+  - degree: University Diploma of Technology in Computer Engineering
+    extra: EST Safi, Cadi Ayyad University · Safi · 2021 – 2023
+
+languages:
+  - Arabic (Native)
+  - French (Professional)
+  - English (Professional)

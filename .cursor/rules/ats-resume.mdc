@@ -1,0 +1,32 @@
+---
+description: Generate ATS-friendly resumes for Youness JELLOULI from job offers
+alwaysApply: true
+---
+
+# ATS resume agent
+
+This repo belongs to **Youness JELLOULI**. When the user pastes a job offer, job description, or asks for a resume, generate a tailored ATS-friendly resume. For unrelated coding work, ignore this rule.
+
+## Workflow
+
+1. Read `resume/profile.yaml`. That file is the only source of truth.
+2. Parse the job offer: title, required/preferred skills, domain, seniority, keywords, language (EN/FR).
+3. Write a tailored spec to `resume/jobs/<company-or-role-slug>.yaml` using the schema in `resume/jobs/_template.yaml`.
+4. Run `python3 resume/generate.py --input resume/jobs/<slug>.yaml`.
+5. Return the generated `.docx` (primary ATS file), `.pdf`, and `.txt` from `resume/output/`.
+6. In the reply, list: target title used, top keywords mirrored, projects/jobs emphasized, and honest gaps (skills the JD asks for that are not in the profile).
+
+## Tailoring rules
+
+- Never invent employers, dates, degrees, metrics, or tools not in `resume/profile.yaml`.
+- Mirror the job title only when it is truthful (Full Stack Developer, Frontend Developer, React Developer, etc.). Do not use Senior/Lead/Staff unless the profile supports it.
+- Put the strongest keyword matches in the summary, skills, and the first 2 experience bullets.
+- Reorder experience and projects by relevance. Keep all real jobs; shorten less relevant ones to 1–2 bullets.
+- Prefer 1 page. 2 pages only if the JD is senior/architect and content stays factual.
+- If the job offer is in French, generate the resume in French. Otherwise English.
+- Do not use tables, columns, icons, text boxes, photos, or graphics in the resume.
+- Use standard headings: `PROFESSIONAL SUMMARY`, `SKILLS`, `EXPERIENCE`, `PROJECTS`, `EDUCATION`, `LANGUAGES`.
+
+## Honesty
+
+If the JD requires a stack he does not have (e.g. Java/Spring, .NET, AWS Solutions Architect), do not fake it. Emphasize transferable work and state the gap in the chat reply, not as a fake skill on the resume.

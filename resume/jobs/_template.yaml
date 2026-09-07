@@ -1,0 +1,49 @@
+# Copy this file to resume/jobs/<company-slug>.yaml and fill it from profile.yaml.
+# Do not add facts that are not in resume/profile.yaml.
+
+meta:
+  slug: company-role
+  job_title: Full Stack Developer
+  company: Example Corp
+  language: en # en | fr
+  source: paste or URL of the job offer
+
+headline: Full Stack Developer | Next.js · Node.js · Laravel
+
+summary: >
+  Two to four sentences tailored to the job. Use real experience only.
+
+skills:
+  - category: Programming Languages
+    items: [JavaScript, TypeScript, PHP, Python]
+  - category: Frontend
+    items: [React.js, Next.js, TypeScript, Tailwind CSS]
+  - category: Backend
+    items: [Node.js, Express.js, Laravel, REST APIs]
+  - category: Databases
+    items: [MySQL, PostgreSQL, Supabase]
+  - category: Tools
+    items: [Git, GitHub, Vercel, GitHub Actions]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Morocco
+    dates: Oct 2025 – Present
+    bullets:
+      - Fact-based bullet tailored with JD keywords.
+
+projects:
+  - name: Wifina
+    extra: Next.js, Laravel, TypeScript | wifina.be
+    bullets:
+      - One line on impact and stack.
+
+education:
+  - degree: Master's in Intelligent Systems Engineering
+    extra: Faculty of Sciences Ain Chock, Hassan II University · Casablanca · 2024 – Present
+
+languages:
+  - Arabic (Native)
+  - French (Professional)
+  - English (Professional)

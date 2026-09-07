@@ -1,0 +1,46 @@
+Youness JELLOULI
+Full Stack Developer | Next.js · React · Node.js · Laravel
+Casablanca, Morocco | younessjellouli12@gmail.com | +212 627 594 239 | linkedin.com/in/youness-jellouli | github.com/JellYouness | jellyouness.com
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 3+ years of experience building production web applications in Next.js, React, TypeScript, Node.js, and Laravel. Delivered client products across healthcare, fintech, and public-sector skills planning, including oDoc, Wifina, and IBC (2,000+ daily users at CyberScale). Owns features end to end: UI, REST APIs, databases, and deployment.
+
+SKILLS
+Languages: JavaScript, TypeScript, PHP, Python, SQL, HTML5, CSS3
+Frontend: React.js, Next.js, Redux, Tailwind CSS, Material UI, shadcn/ui, React Native
+Backend / Data: Node.js, Express.js, Laravel, REST APIs, Web Scraping, MySQL, PostgreSQL, Supabase, Prisma
+Cloud / Methods: Git, GitHub Actions, Vercel, Google Cloud, Cloudflare, Agile, Scrum
+
+EXPERIENCE
+Full Stack Developer | SBS Data Factory · Casablanca, Morocco · Oct 2025 – Present
+- Building oDoc.ma, a medical practice platform for appointment scheduling, patient profiles, prescriptions, and accounting, using React, TypeScript, Tailwind CSS, shadcn/ui, and Supabase.
+- Delivered reusable booking and profile components and integrated WhatsApp chatbot support for patient communication.
+
+Full Stack Developer | SMIAfrica · Casablanca, Morocco · Jun 2025 – Sep 2025
+- Shipped full-stack web features with Next.js, Node.js, and Laravel, including REST APIs and data workflows for client products.
+
+Full Stack Developer | CyberScale · France · Jun 2024 – Jun 2025
+- Built and maintained public web apps including Wifina, IBC, and Allo Reflexo, serving 2,000+ average daily active users.
+- Improved application performance by 25% with front-end, back-end, and QA collaboration. Delivered Wifina (Next.js, TypeScript, Laravel) and IBC, a skills-anticipation tool for Centre-Val de Loire, France.
+
+Junior Cloud Consultant Intern | CBI · Casablanca, Morocco · Sep 2023 – Jan 2024
+- Supported pre-sales and Microsoft CSP subscription management (MWP) for 100+ clients, mapping business needs to cloud offers.
+
+Junior Full Stack Developer | IS-TECH · Casablanca, Morocco · Apr 2023 – Aug 2023
+- Developed interactive React.js and Laravel applications, managed complex state with Redux, and integrated REST APIs into reusable UI modules.
+
+Full Stack Developer Intern | Palmeraie Country Club · Casablanca, Morocco · Jul 2022 – Sep 2022
+- Implemented a membership and subscription management app with HTML, CSS, JavaScript, PHP, and MySQL.
+
+PROJECTS
+Appart Ali | Next.js, Prisma | appartali.com — listings, Guesty API, AI assistant
+
+Invoicr | Next.js, Supabase | invoicrapp.com — invoice generation and management SaaS
+
+EDUCATION
+Master's in Intelligent Systems Engineering | Faculty of Sciences Ain Chock, Hassan II University · Casablanca · 2024 – Present
+Bachelor's in Mathematical and Computer Sciences (SMI) | Faculty of Sciences Ain Chock, Hassan II University · Casablanca · 2023 – 2024
+University Diploma of Technology in Computer Engineering | EST Safi, Cadi Ayyad University · Safi · 2021 – 2023
+
+LANGUAGES
+Arabic (Native) · French (Professional) · English (Professional)
