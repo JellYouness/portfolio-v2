@@ -591,8 +591,8 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       border-radius: 50%;
       background: #{INK};
     }}
-    .job {{ margin: 0 0 6px; }}
-    .project {{ margin: 0 0 3px; }}
+    .job {{ margin: 0 0 5px; }}
+    .project {{ margin: 0 0 1px; }}
     .project-stack {{
       font-weight: 300;
       font-style: italic;

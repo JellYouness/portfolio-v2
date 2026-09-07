@@ -39,11 +39,14 @@ AppartAli | Next.js, TypeScript, Tailwind CSS, Prisma
 AVSM Club | Next.js, TypeScript, Tailwind CSS
 • Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
 
-Invoicr SaaS | Next.js, TypeScript, Tailwind CSS, Supabase
+Invoicr | Next.js, TypeScript, Tailwind CSS, Supabase
 • Génération et gestion de factures : recherche, filtres et suivi.
 
-Travel Flow | Next.js, TypeScript, Material UI, Python
-• Optimisation d'itinéraires (problème du voyageur de commerce).
+IBC | Next.js, TypeScript, Material UI
+• Anticipation des compétences pour l'emploi et la formation (Centre-Val de Loire).
+
+Wifina | Next.js, TypeScript, Material UI, Laravel
+• Calculateur de crédit et pré-accord bancaire, échéances et intérêts.
 
 COMPÉTENCES
 Langages de programmation: JavaScript, TypeScript, PHP, Python, Java, C/C++

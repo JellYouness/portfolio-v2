@@ -124,15 +124,20 @@ projects:
     bullets:
       - Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
 
-  - name: "[Invoicr SaaS](https://www.invoicrapp.com/)"
+  - name: "[Invoicr](https://www.invoicrapp.com/)"
     extra: Next.js, TypeScript, Tailwind CSS, Supabase
     bullets:
       - "Génération et gestion de factures : recherche, filtres et suivi."
 
-  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
-    extra: Next.js, TypeScript, Material UI, Python
+  - name: "[IBC](https://app.ibc.preprod.cysc.fr/)"
+    extra: Next.js, TypeScript, Material UI
     bullets:
-      - Optimisation d'itinéraires (problème du voyageur de commerce).
+      - Anticipation des compétences pour l'emploi et la formation (Centre-Val de Loire).
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: Next.js, TypeScript, Material UI, Laravel
+    bullets:
+      - Calculateur de crédit et pré-accord bancaire, échéances et intérêts.
 
 education:
   - degree: "Master: Ingénierie des systèmes intelligents"
