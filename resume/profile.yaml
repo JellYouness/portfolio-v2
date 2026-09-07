@@ -112,8 +112,8 @@ experience:
     title: Junior Full Stack Developer
     company: IS-TECH
     location: Casablanca, Morocco
-    start: Apr 2023
-    end: Aug 2023
+    start: Jul 2023
+    end: Nov 2023
     bullets:
       - >-
         Designed and developed interactive web applications with React.js and Laravel.
@@ -235,7 +235,7 @@ education:
     school: Faculty of Sciences Ain Chock, Hassan II University
     location: Casablanca, Morocco
     start: "2024"
-    end: Present
+    end: "2026"
     status: in_progress
 
   - id: licence
