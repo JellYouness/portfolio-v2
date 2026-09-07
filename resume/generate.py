@@ -281,16 +281,16 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
         add_section_heading(doc, labels["experience"])
         for job in spec["experience"]:
             title = doc.add_paragraph()
-            set_paragraph_spacing(title, before=7, after=0, line=1.05)
+            set_paragraph_spacing(title, before=10, after=0, line=1.05)
             set_run_font(title.add_run(job.get("title", "")), size=11, bold=True)
 
             meta = doc.add_paragraph()
             set_paragraph_spacing(meta, before=0, after=1, line=1.0)
             meta.paragraph_format.tab_stops.add_tab_stop(usable, WD_TAB_ALIGNMENT.RIGHT)
-            set_run_font(meta.add_run(job.get("company", "")), size=10.5, bold=True)
+            set_run_font(meta.add_run(job.get("company", "")), size=10.5, italic=True)
             right = ", ".join(part for part in [job.get("dates"), job.get("location")] if part)
             if right:
-                set_run_font(meta.add_run("\t" + right), size=10)
+                set_run_font(meta.add_run("\t" + right), size=10, italic=True)
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
@@ -314,7 +314,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
         add_section_heading(doc, labels["skills"])
         for group in spec["skills"]:
             p = doc.add_paragraph()
-            set_paragraph_spacing(p, before=1, after=1, line=1.12)
+            set_paragraph_spacing(p, before=3, after=3, line=1.12)
             set_run_font(p.add_run(f"{group['category']}: "), size=10, bold=True)
             set_run_font(p.add_run(", ".join(group.get("items") or [])), size=10)
 
@@ -388,8 +388,10 @@ def build_txt(spec: dict, contact: dict, dest: Path) -> None:
 def build_html(spec: dict, contact: dict, dest: Path) -> None:
     labels = labels_for(spec)
     name = html.escape(contact.get("full_name", "Youness JELLOULI"))
-    regular_font = (FONTS / "Lora-Regular.ttf").as_uri()
-    italic_font = (FONTS / "Lora-Italic.ttf").as_uri()
+    regular_font = (FONTS / "Merriweather-latin-400-normal.woff2").as_uri()
+    bold_font = (FONTS / "Merriweather-latin-700-normal.woff2").as_uri()
+    italic_font = (FONTS / "Merriweather-latin-400-italic.woff2").as_uri()
+    bold_italic_font = (FONTS / "Merriweather-latin-700-italic.woff2").as_uri()
 
     contact_html = []
     for icon, label, url in contact_items(contact):
@@ -459,36 +461,43 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
   <title>{name}</title>
   <style>
     @font-face {{
-      font-family: "Lora";
-      src: url("{regular_font}") format("truetype");
+      font-family: "Merriweather";
+      src: url("{regular_font}") format("woff2");
       font-weight: 400;
       font-style: normal;
       font-display: block;
     }}
     @font-face {{
-      font-family: "Lora";
-      src: url("{regular_font}") format("truetype");
+      font-family: "Merriweather";
+      src: url("{bold_font}") format("woff2");
       font-weight: 700;
       font-style: normal;
       font-display: block;
     }}
     @font-face {{
-      font-family: "Lora";
-      src: url("{italic_font}") format("truetype");
+      font-family: "Merriweather";
+      src: url("{italic_font}") format("woff2");
       font-weight: 400;
       font-style: italic;
       font-display: block;
     }}
-    @page {{ size: A4; margin: 11mm 13mm 9mm; }}
+    @font-face {{
+      font-family: "Merriweather";
+      src: url("{bold_italic_font}") format("woff2");
+      font-weight: 700;
+      font-style: italic;
+      font-display: block;
+    }}
+    @page {{ size: A4; margin: 10.5mm 12.5mm 8mm; }}
     * {{ box-sizing: border-box; }}
     html, body {{
       margin: 0;
       padding: 0;
       background: #fff;
       color: #{INK};
-      font-family: "Lora", "Liberation Serif", "Times New Roman", Times, serif;
-      font-size: 9.5pt;
-      line-height: 1.22;
+      font-family: "Merriweather", "Liberation Serif", "Times New Roman", Times, serif;
+      font-size: 9.25pt;
+      line-height: 1.2;
     }}
     h1 {{
       text-align: center;
@@ -534,7 +543,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       text-transform: uppercase;
       letter-spacing: 0.3px;
       border-bottom: 1px solid #{INK};
-      margin: 7px 0 4px;
+      margin: 6px 0 3px;
       padding: 0 0 1px;
     }}
     p {{ margin: 0 0 3px; }}
@@ -548,17 +557,20 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     li {{
       position: relative;
       margin: 0 0 2px;
-      padding-left: 7px;
+      padding-left: 10px;
       text-align: justify;
     }}
     li::before {{
       content: "•";
       position: absolute;
-      left: -7px;
-      color: #{LINK};
-      font-weight: 700;
+      left: -2px;
+      top: 0.05em;
+      color: #{INK};
+      font-size: 0.62em;
+      font-weight: 400;
+      line-height: 1.6;
     }}
-    .job {{ margin: 0 0 3px; }}
+    .job {{ margin: 0 0 7px; }}
     .job-title {{
       font-weight: 700;
       font-size: 10.6pt;
@@ -572,10 +584,10 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       margin: 0 0 2px;
       font-size: 10pt;
     }}
-    .company {{ font-weight: 700; }}
-    .when {{ font-weight: 400; white-space: nowrap; }}
-    .skill {{ margin: 0 0 1px; }}
-    .edu-title {{ font-weight: 700; margin: 2px 0 0; }}
+    .company {{ font-weight: 400; font-style: italic; }}
+    .when {{ font-weight: 400; font-style: italic; white-space: nowrap; }}
+    .skill {{ margin: 0 0 4px; }}
+    .edu-title {{ font-weight: 700; margin: 3px 0 0; }}
     .edu-meta {{ margin: 0; }}
     strong {{ font-weight: 700; }}
   </style>
