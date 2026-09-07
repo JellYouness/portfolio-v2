@@ -1,0 +1,66 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack proactif avec +2 ans d'expérience dans le développement d'applications web innovantes pour divers projets publics tels que Wifina, IBC, oDoc, AppartAli, AVSM Club, Invoicr SaaS and Allo Clients. Pionnier des processus de développement de bout en bout, améliorant les performances des applications et l'engagement des utilisateurs grâce à une collaboration interfonctionnelle efficace. Recherche des opportunités pour tirer parti de son expertise en développement full stack afin de fournir des solutions de pointe et de favoriser l'avancement technologique.
+
+EXPÉRIENCE
+FullStack Developer
+SBS Data Factory    Octobre 2025 - Présent, Casablanca, Maroc
+• oDoc.ma - Travaillé sur une application web moderne de planification médicale et de gestion de profils, fournissant des composants réutilisables pour la disponibilité des médecins, la prise de rendez-vous et les profils des patients, avec une interface utilisateur claire et réactive.
+• Tech: Nextjs, React, TypeScript, Tailwind CSS, Shadcn-ui, Supabase, Nestjs, PostgreSQL.
+
+FullStack Developer
+CyberScale    Juin 2024 - Juin 2025, France
+• Conception et maintenance d'applications web pour des projets publics, notamment Wifina, IBC, Allo Reflexo, and CyberScale, Desservant en moyenne +3 000 utilisateurs actifs par jour, ce qui témoigne d'une grande fiabilité.
+• A orchestré la collaboration entre les équipes front-end, back-end et QA pour améliorer les performances des applications de 25% grâce à l'optimisation du code et à la rationalisation des processus de déploiement, tout en assurant l'évolutivité et les meilleures pratiques de codage.
+• Tech: Nextjs, React, Typescript, MaterialUI, Laravel, Nodejs, Expressjs, MySQL.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 - Janvier 2024, Casablanca, Morocco
+• A assisté aux activités de pré-vente et a fourni un support dans la création d'offres Microsoft pour +100 clients.
+• A géré les abonnements Microsoft via MWP (Microsoft Subscription Management - CSP), aidant les clients à optimiser leurs solutions cloud.
+• A collaboré avec les clients pour comprendre les besoins et a fourni des solutions cloud Microsoft et améliorer leurs opérations commerciales.
+
+Junior FullStack Developer
+IS-TECH    Juillet 2023 - Novembre 2023, Casablanca, Morocco
+• A conçu et développé des applications web interactives.
+• A intégré des API RESTful pour étendre les fonctionnalités de l'application principale, améliorant l'expérience utilisateur et rationalisant le flux de données à travers plusieurs modules.
+• Tech: React, Javascript, MaterialUI, Redux, Laravel, MySQL.
+
+FullStack Developer Intern
+Palmeraie Country Club    Juillet 2022 - Septembre 2022, Casablanca, Morocco
+• A conçu et développé une application web pour la gestion des adhésions et des abonnements utilisant HTML, CSS, JavaScript, PHP et MySQL.
+
+PROJETS PUBLICS
+AppartAli | Next.js, TypeScript, Tailwind CSS, Prisma
+• Plateforme immobilière avec recherche, filtres (API Guesty) et assistant IA.
+
+AVSM Club | Next.js, TypeScript, Tailwind CSS
+• Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
+
+Invoicr | Next.js, TypeScript, Tailwind CSS, Supabase
+• Génération et gestion de factures : recherche, filtres et suivi.
+
+IBC | Next.js, TypeScript, Material UI
+• Anticipation des compétences pour l'emploi et la formation (Centre-Val de Loire).
+
+Wifina | Next.js, TypeScript, Material UI, Laravel
+• Calculateur de crédit et pré-accord bancaire, échéances et intérêts.
+
+COMPÉTENCES
+Langages de programmation: JavaScript, TypeScript, PHP, Python, Java, C/C++
+Frontend/ Backend: React.js, Next.js, Express, Node.js, Laravel
+Services Cloud: Google Cloud, Vercel, Cloudflare
+Database: MySQL, PostgreSQL, Supabase, MongoDB
+Intelligence Artificiel/ AI: OpenAI API, Claude, Cursor, Copilot, DeepSeek, Ollama, n8n
+Méthodologies: Agile, Scrum, Kanban, Design Pattern, Web Architecture
+Soft Skills: Communication, collaboration en équipe, résolution de problèmes, gestion du temps, adaptabilité
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents
+Université Hassan 2 · Casablanca · 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 - 2023

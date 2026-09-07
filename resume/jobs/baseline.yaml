@@ -1,0 +1,148 @@
+meta:
+  slug: Youness-Jellouli
+  job_title: FullStack Developer
+  company: baseline
+  language: fr
+  source: Official resume layout (serif template)
+  hide_headline: true
+
+summary: >-
+  **Développeur Full Stack** proactif avec **+2 ans d'expérience** dans le
+  développement d'applications web innovantes pour divers projets publics tels
+  que [Wifina](https://wifina.be/), [IBC](https://app.ibc.preprod.cysc.fr/),
+  [oDoc](https://odoc.ma/), [AppartAli](https://appartali.com/),
+  [AVSM Club](https://avsm.ma/), [Invoicr SaaS](https://www.invoicrapp.com/)
+  and [Allo Clients](https://www.allo-clients.com/). Pionnier des processus de
+  développement de bout en bout, améliorant les performances des applications et
+  l'engagement des utilisateurs grâce à une collaboration interfonctionnelle
+  efficace. Recherche des opportunités pour tirer parti de son expertise en
+  développement full stack afin de fournir des solutions de pointe et de
+  favoriser l'avancement technologique.
+
+skills:
+  - category: Langages de programmation
+    items: [JavaScript, TypeScript, PHP, Python, Java, C/C++]
+  - category: Frontend/ Backend
+    items: [React.js, Next.js, Express, Node.js, Laravel]
+  - category: Services Cloud
+    items: [Google Cloud, Vercel, Cloudflare]
+  - category: Database
+    items: [MySQL, PostgreSQL, Supabase, MongoDB]
+  - category: Intelligence Artificiel/ AI
+    items: [OpenAI API, Claude, Cursor, Copilot, DeepSeek, Ollama, n8n]
+  - category: Méthodologies
+    items: [Agile, Scrum, Kanban, Design Pattern, Web Architecture]
+  - category: Soft Skills
+    items:
+      [
+        Communication,
+        collaboration en équipe,
+        résolution de problèmes,
+        gestion du temps,
+        adaptabilité,
+      ]
+
+experience:
+  - title: FullStack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 - Présent
+    bullets:
+      - >-
+        [oDoc.ma](https://odoc.ma/) - Travaillé sur une application web moderne
+        de planification médicale et de gestion de profils, fournissant des
+        composants réutilisables pour la disponibilité des médecins, la prise
+        de rendez-vous et les profils des patients, avec une interface
+        utilisateur claire et réactive.
+      - "**Tech:** Nextjs, React, TypeScript, Tailwind CSS, Shadcn-ui, Supabase, Nestjs, PostgreSQL."
+
+  - title: FullStack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 - Juin 2025
+    bullets:
+      - >-
+        Conception et maintenance d'applications web pour des projets publics,
+        notamment [Wifina](https://wifina.be/),
+        [IBC](https://app.ibc.preprod.cysc.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/), and
+        [CyberScale](https://www.cyber-scale.me/), Desservant en moyenne
+        **+3 000** utilisateurs actifs par jour, ce qui témoigne d'une grande
+        fiabilité.
+      - >-
+        A orchestré la collaboration entre les équipes front-end, back-end et QA
+        pour améliorer les performances des applications de **25%** grâce à
+        l'optimisation du code et à la rationalisation des processus de
+        déploiement, tout en assurant l'évolutivité et les meilleures pratiques
+        de codage.
+      - "**Tech:** Nextjs, React, Typescript, MaterialUI, Laravel, Nodejs, Expressjs, MySQL."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Morocco
+    dates: Septembre 2023 - Janvier 2024
+    bullets:
+      - >-
+        A assisté aux activités de pré-vente et a fourni un support dans la
+        création d'offres Microsoft pour **+100** clients.
+      - >-
+        A géré les abonnements Microsoft via MWP (Microsoft Subscription
+        Management - CSP), aidant les clients à optimiser leurs solutions cloud.
+      - >-
+        A collaboré avec les clients pour comprendre les besoins et a fourni
+        des solutions cloud Microsoft et améliorer leurs opérations commerciales.
+
+  - title: Junior FullStack Developer
+    company: IS-TECH
+    location: Casablanca, Morocco
+    dates: Juillet 2023 - Novembre 2023
+    bullets:
+      - A conçu et développé des applications web interactives.
+      - >-
+        A intégré des API RESTful pour étendre les fonctionnalités de
+        l'application principale, améliorant l'expérience utilisateur et
+        rationalisant le flux de données à travers plusieurs modules.
+      - "**Tech:** React, Javascript, MaterialUI, Redux, Laravel, MySQL."
+
+  - title: FullStack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Morocco
+    dates: Juillet 2022 - Septembre 2022
+    bullets:
+      - >-
+        A conçu et développé une application web pour la gestion des adhésions
+        et des abonnements utilisant HTML, CSS, JavaScript, PHP et MySQL.
+
+projects:
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: Next.js, TypeScript, Tailwind CSS, Prisma
+    bullets:
+      - Plateforme immobilière avec recherche, filtres (API Guesty) et assistant IA.
+
+  - name: "[AVSM Club](https://avsm.ma/)"
+    extra: Next.js, TypeScript, Tailwind CSS
+    bullets:
+      - Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
+
+  - name: "[Invoicr](https://www.invoicrapp.com/)"
+    extra: Next.js, TypeScript, Tailwind CSS, Supabase
+    bullets:
+      - "Génération et gestion de factures : recherche, filtres et suivi."
+
+  - name: "[IBC](https://app.ibc.preprod.cysc.fr/)"
+    extra: Next.js, TypeScript, Material UI
+    bullets:
+      - Anticipation des compétences pour l'emploi et la formation (Centre-Val de Loire).
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: Next.js, TypeScript, Material UI, Laravel
+    bullets:
+      - Calculateur de crédit et pré-accord bancaire, échéances et intérêts.
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 - 2023

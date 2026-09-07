@@ -1,0 +1,285 @@
+# Master career profile for Youness JELLOULI
+# Source of truth for ATS resume generation. Do not invent employers, dates,
+# degrees, or metrics that are not listed here.
+
+contact:
+  full_name: Youness JELLOULI
+  headline: Full Stack Developer | Next.js · Node.js · Laravel
+  location: Casablanca, Morocco
+  email: younessjellouli12@gmail.com
+  phone: "+212 627 594 239"
+  linkedin: linkedin.com/in/youness-jellouli
+  github: github.com/JellYouness
+  website: jellyouness.com
+
+summary_bank:
+  fullstack: >-
+    Full Stack Developer with 3+ years of experience building production web
+    applications in Next.js, React, TypeScript, Node.js, and Laravel. Delivered
+    client products across healthcare, fintech, real estate, and public-sector
+    skills planning, including Wifina, IBC, oDoc, and Appart Ali. Comfortable
+    owning features end to end: UI, APIs, databases, and deployment.
+  frontend: >-
+    Front-End Developer specialized in React, Next.js, TypeScript, and Tailwind CSS.
+    Builds fast, responsive, accessible interfaces with reusable component systems
+    (shadcn/ui, Material UI) and strong UX. Experience shipping public products
+    used by thousands of daily users and collaborating with backend and QA teams.
+  backend: >-
+    Full Stack Developer with strong backend delivery in Laravel, PHP, Node.js,
+    REST APIs, MySQL, PostgreSQL, and Supabase. Experience integrating third-party
+    APIs, WhatsApp chatbots, billing/invoicing flows, and data-heavy dashboards
+    for healthcare, finance, and operations tools.
+
+experience:
+  - id: sbs
+    title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Morocco
+    start: Oct 2025
+    end: Present
+    bullets:
+      - >-
+        Building oDoc.ma, a medical practice platform for appointment scheduling,
+        doctor availability, patient profiles, prescriptions, and accounting modules.
+      - >-
+        Developed a modern React (Vite + TypeScript) starter with Tailwind CSS and
+        shadcn/ui, including reusable booking and patient-profile components.
+      - >-
+        Integrated Supabase-backed data flows for scheduling and profile management,
+        with a clean responsive UI ready for production healthcare workflows.
+      - >-
+        Collaborated on WhatsApp chatbot integration to support patient communication
+        and appointment operations.
+
+  - id: smiafrica
+    title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Morocco
+    start: Jun 2025
+    end: Sep 2025
+    bullets:
+      - >-
+        Delivered full-stack web features with Next.js, Node.js, and Laravel in a
+        small engineering team serving client products.
+      - >-
+        Implemented REST APIs and data workflows to support product delivery and
+        content/data operations.
+      - >-
+        Contributed to web scraping and data-processing work used to power
+        application features and internal tools.
+
+  - id: cyberscale
+    title: Full Stack Developer
+    company: CyberScale
+    location: France
+    start: Jun 2024
+    end: Jun 2025
+    bullets:
+      - >-
+        Built and maintained public web applications including Wifina, IBC,
+        Allo Reflexo, and CyberScale, serving 2,000+ average daily active users.
+      - >-
+        Worked across front-end, back-end, and QA to improve application performance
+        by 25% through code optimization and streamlined deployment.
+      - >-
+        Developed Wifina, a digital loan calculator and pre-approval platform with
+        Next.js, TypeScript, Material UI, and Laravel, enabling instant installment
+        calculations through banking partnerships.
+      - >-
+        Delivered IBC (besoins-competences.fr), a skills-anticipation tool for
+        employment and training stakeholders in Centre-Val de Loire, France.
+      - >-
+        Applied coding standards, Git version control, and application optimization
+        across multiple concurrent client projects.
+
+  - id: cbi
+    title: Junior Cloud Consultant Intern
+    company: CBI
+    location: Casablanca, Morocco
+    start: Sep 2023
+    end: Jan 2024
+    bullets:
+      - >-
+        Supported pre-sales and helped build Microsoft cloud offers for 100+ clients.
+      - >-
+        Managed Microsoft subscriptions through MWP (CSP), helping customers
+        optimize their cloud solutions.
+      - >-
+        Collaborated with clients to map business needs to tailored Microsoft
+        cloud offers.
+
+  - id: istech
+    title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Morocco
+    start: Jul 2023
+    end: Nov 2023
+    bullets:
+      - >-
+        Designed and developed interactive web applications with React.js and Laravel.
+      - >-
+        Managed application state across complex modules with Redux and Context API.
+      - >-
+        Integrated RESTful APIs to extend core functionality and streamline data flow.
+      - >-
+        Built reusable UI components to speed up feature delivery and keep UX consistent.
+
+  - id: pcc
+    title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Morocco
+    start: Jul 2022
+    end: Sep 2022
+    bullets:
+      - >-
+        Designed and implemented a membership and subscription management web app
+        with HTML, CSS, JavaScript, PHP, and MySQL.
+      - >-
+        Contributed to user-centered design so staff could manage members and
+        subscriptions in a single workflow.
+
+projects:
+  - id: odoc
+    name: oDoc - Medical Practice Management
+    url: https://odoc.ma
+    year: "2025"
+    stack: [React, TypeScript, Tailwind CSS, Supabase]
+    bullets:
+      - Appointment scheduling, patient records, WhatsApp chatbot, prescriptions, and accounting.
+    highlight_for: [healthcare, fullstack, react, supabase]
+
+  - id: wifina
+    name: Wifina - Loan Calculator & Pre-Approval
+    url: https://wifina.be
+    year: "2024-2025"
+    stack: [Next.js, React, Laravel, TypeScript, Material UI]
+    bullets:
+      - Instant loan installment and interest calculations with banking pre-approval flows.
+    highlight_for: [fintech, fullstack, nextjs, laravel]
+
+  - id: ibc
+    name: IBC - Skills Anticipation Tool
+    url: https://www.besoins-competences.fr
+    year: "2024-2025"
+    stack: [Next.js, React, TypeScript, Material UI]
+    bullets:
+      - Helps employment and training stakeholders anticipate skills needs in Centre-Val de Loire, France.
+    highlight_for: [public-sector, data, nextjs, frontend]
+
+  - id: appartali
+    name: Appart Ali - Real Estate Platform
+    url: https://appartali.com
+    year: "2025"
+    stack: [Next.js, React, TypeScript, Tailwind CSS, Prisma]
+    bullets:
+      - Property search/filter with Guesty API and an AI assistant for listing queries.
+    highlight_for: [real-estate, ai, nextjs, fullstack]
+
+  - id: avsm
+    name: AVSM Volleyball Club
+    url: https://avsm.ma
+    year: "2025"
+    stack: [Next.js, TypeScript, Tailwind CSS]
+    bullets:
+      - Club site with admin CMS, match management, news, rosters, and photo galleries.
+    highlight_for: [cms, nextjs, frontend]
+
+  - id: invoicr
+    name: Invoicr - Invoice Generator SaaS
+    url: https://invoicrapp.com
+    year: "2025"
+    stack: [Next.js, React, TypeScript, Tailwind CSS, Supabase]
+    bullets:
+      - Invoice generation, search, filter, and management for small businesses.
+    highlight_for: [saas, fullstack, nextjs, supabase]
+
+  - id: zenhospital
+    name: Zen Hotel - Booking & Presentation
+    url: https://zen-hotel.vercel.app
+    year: "2025"
+    stack: [Next.js, React, TypeScript, Tailwind CSS, Prisma]
+    bullets:
+      - Hotel presentation site with rooms, services, and a reservation system.
+    highlight_for: [hospitality, nextjs, fullstack]
+
+  - id: pettracker
+    name: PetTracker Pro
+    url: null
+    year: "2025"
+    stack: [React Native, TypeScript, Supabase]
+    bullets:
+      - Mobile pet management with GPS tracking, NFC tags, lost-pet alerts, and ownership transfers.
+    highlight_for: [mobile, react-native]
+
+  - id: travelflow
+    name: Travel Flow - TSP Solver
+    url: https://travel-flow-tsp.vercel.app
+    year: "2024"
+    stack: [Next.js, TypeScript, Material UI, Python, Google API]
+    bullets:
+      - Route optimization tool solving the Traveling Salesman Problem.
+    highlight_for: [algorithms, python, nextjs]
+
+  - id: tabibi
+    name: Tabibi - Medical Emergency Management
+    url: https://github.com/JellYouness/Tabibi
+    year: "2023"
+    stack: [React, Redux, Material UI, Laravel, MySQL]
+    bullets:
+      - University capstone: emergency management web app for medical workflows.
+    highlight_for: [healthcare, laravel, react]
+
+education:
+  - id: master
+    degree: Master's in Intelligent Systems Engineering
+    school: Faculty of Sciences Ain Chock, Hassan II University
+    location: Casablanca, Morocco
+    start: "2024"
+    end: "2026"
+    status: in_progress
+
+  - id: licence
+    degree: Bachelor's in Mathematical and Computer Sciences (SMI)
+    school: Faculty of Sciences Ain Chock, Hassan II University
+    location: Casablanca, Morocco
+    start: "2023"
+    end: "2024"
+
+  - id: dut
+    degree: University Diploma of Technology in Computer Engineering
+    school: École Supérieure de Technologie de Safi, Cadi Ayyad University
+    location: Safi, Morocco
+    start: "2021"
+    end: "2023"
+
+skills:
+  languages: [JavaScript, TypeScript, PHP, Python, Java, C/C++, SQL, HTML5, CSS3]
+  frontend: [React.js, Next.js, React Native, Redux, Tailwind CSS, Material UI, shadcn/ui, Framer Motion, Bootstrap]
+  backend: [Node.js, Express.js, Laravel, REST APIs, Web Scraping]
+  databases: [MySQL, PostgreSQL, Supabase, MongoDB, Prisma]
+  cloud_devops: [Git, GitHub, GitHub Actions, Vercel, Google Cloud, Cloudflare]
+  ai: [OpenAI API, Claude, Cursor, GitHub Copilot, n8n]
+  methods: [Agile, Scrum, Kanban, Design Patterns, Web Architecture]
+  soft: [Communication, Team Collaboration, Problem Solving, Time Management, Adaptability]
+
+languages_spoken:
+  - { name: Arabic, level: Native }
+  - { name: French, level: Professional }
+  - { name: English, level: Professional }
+
+keyword_aliases:
+  "React": [React.js, ReactJS, React]
+  "Next.js": [Next.js, NextJS, Next]
+  "Node.js": [Node.js, NodeJS, Node]
+  "TypeScript": [TypeScript, TS]
+  "JavaScript": [JavaScript, JS, ES6]
+  "Tailwind": [Tailwind CSS, TailwindCSS, Tailwind]
+  "REST": [REST API, RESTful, REST APIs]
+  "SQL": [SQL, MySQL, PostgreSQL]
+  "CI/CD": [CI/CD, GitHub Actions, continuous integration]
+  "UI/UX": [UI, UX, user experience, user interface]
+  "Full Stack": [Full Stack, Fullstack, Full-stack]
+  "Front End": [Frontend, Front-end, Front End]
+  "Laravel": [Laravel, PHP Laravel]
+  "Supabase": [Supabase, Postgres]
+  "shadcn": [shadcn/ui, shadcn]
