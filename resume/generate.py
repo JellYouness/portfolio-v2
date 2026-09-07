@@ -388,6 +388,8 @@ def build_txt(spec: dict, contact: dict, dest: Path) -> None:
 def build_html(spec: dict, contact: dict, dest: Path) -> None:
     labels = labels_for(spec)
     name = html.escape(contact.get("full_name", "Youness JELLOULI"))
+    light_font = (FONTS / "Merriweather-latin-300-normal.woff2").as_uri()
+    light_italic_font = (FONTS / "Merriweather-latin-300-italic.woff2").as_uri()
     regular_font = (FONTS / "Merriweather-latin-400-normal.woff2").as_uri()
     bold_font = (FONTS / "Merriweather-latin-700-normal.woff2").as_uri()
     italic_font = (FONTS / "Merriweather-latin-400-italic.woff2").as_uri()
@@ -462,6 +464,20 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
   <style>
     @font-face {{
       font-family: "Merriweather";
+      src: url("{light_font}") format("woff2");
+      font-weight: 300;
+      font-style: normal;
+      font-display: block;
+    }}
+    @font-face {{
+      font-family: "Merriweather";
+      src: url("{light_italic_font}") format("woff2");
+      font-weight: 300;
+      font-style: italic;
+      font-display: block;
+    }}
+    @font-face {{
+      font-family: "Merriweather";
       src: url("{regular_font}") format("woff2");
       font-weight: 400;
       font-style: normal;
@@ -497,6 +513,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       color: #{INK};
       font-family: "Merriweather", "Liberation Serif", "Times New Roman", Times, serif;
       font-size: 10px;
+      font-weight: 300;
       line-height: 1.38;
       word-spacing: 0.12em;
     }}
@@ -568,8 +585,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       top: 0.05em;
       color: #{INK};
       font-size: 0.62em;
-      font-weight: 400;
-      line-height: 1.6;
+      font-weight: 300;
     }}
     .job {{ margin: 0 0 12px; }}
     .job-title {{
@@ -585,11 +601,11 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       margin: 0 0 4px;
       font-size: 10px;
     }}
-    .company {{ font-weight: 400; font-style: italic; }}
-    .when {{ font-weight: 400; font-style: italic; white-space: nowrap; }}
+    .company {{ font-weight: 300; font-style: italic; }}
+    .when {{ font-weight: 300; font-style: italic; white-space: nowrap; }}
     .skill {{ margin: 0 0 7px; }}
     .edu-title {{ font-weight: 700; margin: 8px 0 0; }}
-    .edu-meta {{ margin: 0; }}
+    .edu-meta {{ margin: 0; font-weight: 300; }}
     strong {{ font-weight: 700; }}
   </style>
 </head>
