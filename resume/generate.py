@@ -294,7 +294,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.08)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.02)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("projects"):
@@ -307,7 +307,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
                 set_run_font(header.add_run(f"  |  {project['extra']}"), size=10)
             for bullet in project.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.08)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.02)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("skills"):
@@ -573,19 +573,21 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       list-style: none;
     }}
     li {{
+      --bullet: 1.6px;
+      --lh: 1.05;
       position: relative;
-      margin: 0 0 1px;
+      margin: 0;
       padding-left: 11px;
       text-align: justify;
-      line-height: 1.2;
+      line-height: var(--lh);
     }}
     li::before {{
       content: "";
       position: absolute;
       left: 1px;
-      top: calc((1.2em - 2.25px) / 2);
-      width: 2.25px;
-      height: 2.25px;
+      top: calc((var(--lh) * 1em - var(--bullet)) / 2);
+      width: var(--bullet);
+      height: var(--bullet);
       border-radius: 50%;
       background: #{INK};
     }}
