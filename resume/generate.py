@@ -161,17 +161,17 @@ def iter_rich(text: str):
             yield ("text", part)
 
 
-def add_rich_runs(paragraph, text: str, size: float = 10):
+def add_rich_runs(paragraph, text: str, size: float = 10, bold: bool = False):
     for token in iter_rich(text):
         kind = token[0]
         if kind == "link":
-            add_hyperlink(paragraph, token[1], token[2], size=size)
+            add_hyperlink(paragraph, token[1], token[2], size=size, bold=bold)
         elif kind == "bold":
             run = paragraph.add_run(token[1])
             set_run_font(run, size=size, bold=True)
         else:
             run = paragraph.add_run(token[1])
-            set_run_font(run, size=size)
+            set_run_font(run, size=size, bold=bold)
 
 
 def rich_html(text: str) -> str:
@@ -301,10 +301,10 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
         add_section_heading(doc, labels["projects"])
         for project in spec["projects"]:
             header = doc.add_paragraph()
-            set_paragraph_spacing(header, before=4, after=0, line=1.05)
-            set_run_font(header.add_run(project.get("name", "")), size=11, bold=True)
+            set_paragraph_spacing(header, before=3, after=0, line=1.05)
+            add_rich_runs(header, project.get("name", ""), size=11, bold=True)
             if project.get("extra"):
-                set_run_font(header.add_run(f"  |  {project['extra']}"), size=10)
+                set_run_font(header.add_run(f"  ·  {project['extra']}"), size=9, italic=True)
             for bullet in project.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
                 set_paragraph_spacing(bp, before=0, after=0, line=1.12)
@@ -364,7 +364,7 @@ def build_txt(spec: dict, contact: dict, dest: Path) -> None:
         lines.append(labels["projects"].upper())
         for project in spec["projects"]:
             extra = f" | {project['extra']}" if project.get("extra") else ""
-            lines.append(f"{project.get('name', '')}{extra}")
+            lines.append(f"{plain(project.get('name', ''))}{extra}")
             for bullet in project.get("bullets") or []:
                 lines.append(f"• {plain(bullet).strip()}")
             lines.append("")
@@ -428,12 +428,12 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     if spec.get("projects"):
         blocks = ["<h2>" + labels["projects"] + "</h2>"]
         for project in spec["projects"]:
-            extra = html.escape(project.get("extra") or "")
-            extra_html = f'<span class="when">{extra}</span>' if extra else ""
+            extra = project.get("extra") or ""
+            extra_html = f'<span class="project-stack"> · {html.escape(extra)}</span>' if extra else ""
             bullets = "".join(f"<li>{rich_html(str(b).strip())}</li>" for b in (project.get("bullets") or []))
             list_html = f"<ul>{bullets}</ul>" if bullets else ""
             blocks.append(
-                f'<div class="job"><p class="job-title">{html.escape(project.get("name", ""))} {extra_html}</p>{list_html}</div>'
+                f'<div class="project"><p class="job-title">{rich_html(project.get("name", ""))}{extra_html}</p>{list_html}</div>'
             )
         sections.append("\n".join(blocks))
 
@@ -504,7 +504,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       font-style: italic;
       font-display: block;
     }}
-    @page {{ size: A4; margin: 10.5mm 12.5mm 8mm; }}
+    @page {{ size: A4; margin: 9.5mm 12.5mm 7.5mm; }}
     * {{ box-sizing: border-box; }}
     html, body {{
       margin: 0;
@@ -536,7 +536,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       gap: 14px;
       flex-wrap: nowrap;
       font-size: 9px;
-      margin: 0 0 10px;
+      margin: 0 0 8px;
       white-space: nowrap;
     }}
     .contact .item {{
@@ -561,7 +561,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       text-transform: uppercase;
       letter-spacing: 0.3px;
       border-bottom: 1px solid #{INK};
-      margin: 10px 0 6px;
+      margin: 10px 0 5px;
       padding: 0 0 1px;
     }}
     p {{ margin: 0 0 5px; }}
@@ -591,7 +591,13 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       border-radius: 50%;
       background: #{INK};
     }}
-    .job {{ margin: 0 0 12px; }}
+    .job {{ margin: 0 0 8px; }}
+    .project {{ margin: 0 0 3px; }}
+    .project-stack {{
+      font-weight: 300;
+      font-style: italic;
+      font-size: 9px;
+    }}
     .job-title {{
       font-weight: 700;
       font-size: 11px;
@@ -607,8 +613,8 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     }}
     .company {{ font-weight: 700; font-style: italic; }}
     .when {{ font-weight: 700; font-style: italic; white-space: nowrap; }}
-    .skill {{ margin: 0 0 7px; }}
-    .edu-title {{ font-weight: 700; margin: 8px 0 0; }}
+    .skill {{ margin: 0 0 4px; }}
+    .edu-title {{ font-weight: 700; margin: 4px 0 0; }}
     .edu-meta {{ margin: 0; font-weight: 300; }}
     strong {{ font-weight: 700; }}
   </style>

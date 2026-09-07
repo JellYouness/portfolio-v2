@@ -113,6 +113,27 @@ experience:
         A conçu et développé une application web pour la gestion des adhésions
         et des abonnements utilisant HTML, CSS, JavaScript, PHP et MySQL.
 
+projects:
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: Next.js, TypeScript, Tailwind CSS, Prisma
+    bullets:
+      - Plateforme immobilière avec recherche, filtres (API Guesty) et assistant IA.
+
+  - name: "[AVSM Club](https://avsm.ma/)"
+    extra: Next.js, TypeScript, Tailwind CSS
+    bullets:
+      - Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
+
+  - name: "[Invoicr SaaS](https://www.invoicrapp.com/)"
+    extra: Next.js, TypeScript, Tailwind CSS, Supabase
+    bullets:
+      - "Génération et gestion de factures : recherche, filtres et suivi."
+
+  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
+    extra: Next.js, TypeScript, Material UI, Python
+    bullets:
+      - Optimisation d'itinéraires (problème du voyageur de commerce).
+
 education:
   - degree: "Master: Ingénierie des systèmes intelligents"
     extra: Université Hassan 2 · Casablanca · 2026

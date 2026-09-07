@@ -32,6 +32,19 @@ FullStack Developer Intern
 Palmeraie Country Club    Juillet 2022 - Septembre 2022, Casablanca, Morocco
 • A conçu et développé une application web pour la gestion des adhésions et des abonnements utilisant HTML, CSS, JavaScript, PHP et MySQL.
 
+PROJETS
+AppartAli | Next.js, TypeScript, Tailwind CSS, Prisma
+• Plateforme immobilière avec recherche, filtres (API Guesty) et assistant IA.
+
+AVSM Club | Next.js, TypeScript, Tailwind CSS
+• Site du club avec CMS admin, matchs, actualités, effectifs et galeries.
+
+Invoicr SaaS | Next.js, TypeScript, Tailwind CSS, Supabase
+• Génération et gestion de factures : recherche, filtres et suivi.
+
+Travel Flow | Next.js, TypeScript, Material UI, Python
+• Optimisation d'itinéraires (problème du voyageur de commerce).
+
 COMPÉTENCES
 Langages de programmation: JavaScript, TypeScript, PHP, Python, Java, C/C++
 Frontend/ Backend: React.js, Next.js, Express, Node.js, Laravel

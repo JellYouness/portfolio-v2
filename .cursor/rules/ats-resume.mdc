@@ -24,7 +24,7 @@ This repo belongs to **Youness JELLOULI**. When the user pastes a job offer, job
 - Reorder experience and projects by relevance. Keep all real jobs; shorten less relevant ones to 1–2 bullets.
 - Prefer 1 page. 2 pages only if the JD is senior/architect and content stays factual.
 - If the job offer is in French, generate the resume in French. Otherwise English.
-- Match the official visual template: serif type, centered name, icon contact row, underlined section titles (RÉSUMÉ / EXPÉRIENCE / COMPÉTENCES / ÉDUCATION), job title on its own line, company left and dates/location right, blue project links, **Tech:** line.
+- Match the official visual template: serif type, centered name, icon contact row, underlined section titles (RÉSUMÉ / EXPÉRIENCE / PROJETS / COMPÉTENCES / ÉDUCATION), job title on its own line, company left and dates/location right, blue project links, **Tech:** line.
 - Do not use multi-column layouts, photos, or skill bars.
 
 ## Honesty

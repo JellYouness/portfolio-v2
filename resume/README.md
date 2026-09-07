@@ -28,5 +28,5 @@ python3 resume/generate.py --input resume/jobs/<slug>.yaml
 
 - One column, serif type, official section titles
 - Job title on its own line; company left, dates/location right
-- Blue links for live projects; **Tech:** line under roles
+- Blue links for live projects; compact **PROJETS** section; **Tech:** line under roles
 - Facts only: no invented jobs, dates, degrees, or metrics
