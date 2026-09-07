@@ -302,7 +302,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
         for project in spec["projects"]:
             header = doc.add_paragraph()
             set_paragraph_spacing(header, before=3, after=0, line=1.05)
-            add_rich_runs(header, project.get("name", ""), size=11, bold=True)
+            add_rich_runs(header, project.get("name", ""), size=11)
             if project.get("extra"):
                 set_run_font(header.add_run(f"  ·  {project['extra']}"), size=9, italic=True)
             for bullet in project.get("bullets") or []:
@@ -433,7 +433,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
             bullets = "".join(f"<li>{rich_html(str(b).strip())}</li>" for b in (project.get("bullets") or []))
             list_html = f"<ul>{bullets}</ul>" if bullets else ""
             blocks.append(
-                f'<div class="project"><p class="job-title">{rich_html(project.get("name", ""))}{extra_html}</p>{list_html}</div>'
+                f'<div class="project"><p class="project-title">{rich_html(project.get("name", ""))}{extra_html}</p>{list_html}</div>'
             )
         sections.append("\n".join(blocks))
 
@@ -593,6 +593,12 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     }}
     .job {{ margin: 0 0 5px; }}
     .project {{ margin: 0 0 1px; }}
+    .project-title {{
+      font-weight: 300;
+      font-size: 11px;
+      margin: 0;
+    }}
+    .project-title a {{ font-weight: 300; }}
     .project-stack {{
       font-weight: 300;
       font-style: italic;
