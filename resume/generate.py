@@ -294,7 +294,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.12)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.18)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("projects"):
@@ -307,7 +307,7 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
                 set_run_font(header.add_run(f"  ·  {project['extra']}"), size=9, italic=True)
             for bullet in project.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
-                set_paragraph_spacing(bp, before=0, after=0, line=1.12)
+                set_paragraph_spacing(bp, before=0, after=0, line=1.18)
                 add_rich_runs(bp, str(bullet).strip(), size=10)
 
     if spec.get("skills"):
@@ -504,7 +504,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       font-style: italic;
       font-display: block;
     }}
-    @page {{ size: A4; margin: 9.5mm 12.5mm 7.5mm; }}
+    @page {{ size: A4; margin: 9mm 12mm 7mm; }}
     * {{ box-sizing: border-box; }}
     html, body {{
       margin: 0;
@@ -561,7 +561,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       text-transform: uppercase;
       letter-spacing: 0.3px;
       border-bottom: 1px solid #{INK};
-      margin: 10px 0 5px;
+      margin: 8px 0 4px;
       padding: 0 0 1px;
     }}
     p {{ margin: 0 0 5px; }}
@@ -574,7 +574,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     }}
     li {{
       --bullet: 1.6px;
-      --lh: 1.14;
+      --lh: 1.22;
       position: relative;
       margin: 0;
       padding-left: 11px;
@@ -591,7 +591,7 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       border-radius: 50%;
       background: #{INK};
     }}
-    .job {{ margin: 0 0 8px; }}
+    .job {{ margin: 0 0 6px; }}
     .project {{ margin: 0 0 3px; }}
     .project-stack {{
       font-weight: 300;
@@ -613,8 +613,8 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     }}
     .company {{ font-weight: 700; font-style: italic; }}
     .when {{ font-weight: 700; font-style: italic; white-space: nowrap; }}
-    .skill {{ margin: 0 0 4px; }}
-    .edu-title {{ font-weight: 700; margin: 4px 0 0; }}
+    .skill {{ margin: 0 0 3px; }}
+    .edu-title {{ font-weight: 700; margin: 3px 0 0; }}
     .edu-meta {{ margin: 0; font-weight: 300; }}
     strong {{ font-weight: 700; }}
   </style>
