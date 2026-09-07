@@ -32,7 +32,7 @@ FullStack Developer Intern
 Palmeraie Country Club    Juillet 2022 - Septembre 2022, Casablanca, Morocco
 • A conçu et développé une application web pour la gestion des adhésions et des abonnements utilisant HTML, CSS, JavaScript, PHP et MySQL.
 
-PROJETS
+PROJETS PUBLICS
 AppartAli | Next.js, TypeScript, Tailwind CSS, Prisma
 • Plateforme immobilière avec recherche, filtres (API Guesty) et assistant IA.
 
