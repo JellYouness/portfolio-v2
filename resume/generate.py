@@ -287,10 +287,10 @@ def build_docx(spec: dict, contact: dict, dest: Path) -> None:
             meta = doc.add_paragraph()
             set_paragraph_spacing(meta, before=0, after=1, line=1.0)
             meta.paragraph_format.tab_stops.add_tab_stop(usable, WD_TAB_ALIGNMENT.RIGHT)
-            set_run_font(meta.add_run(job.get("company", "")), size=10, italic=True)
+            set_run_font(meta.add_run(job.get("company", "")), size=10, bold=True, italic=True)
             right = ", ".join(part for part in [job.get("dates"), job.get("location")] if part)
             if right:
-                set_run_font(meta.add_run("\t" + right), size=10, italic=True)
+                set_run_font(meta.add_run("\t" + right), size=10, bold=True, italic=True)
 
             for bullet in job.get("bullets") or []:
                 bp = doc.add_paragraph(style="List Bullet")
@@ -575,17 +575,18 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
     li {{
       position: relative;
       margin: 0 0 4px;
-      padding-left: 10px;
+      padding-left: 12px;
       text-align: justify;
     }}
     li::before {{
-      content: "•";
+      content: "";
       position: absolute;
-      left: -2px;
-      top: 0.05em;
-      color: #{INK};
-      font-size: 0.62em;
-      font-weight: 300;
+      left: 1px;
+      top: calc((1.38em - 3.5px) / 2);
+      width: 3.5px;
+      height: 3.5px;
+      border-radius: 50%;
+      background: #{INK};
     }}
     .job {{ margin: 0 0 12px; }}
     .job-title {{
@@ -601,8 +602,8 @@ def build_html(spec: dict, contact: dict, dest: Path) -> None:
       margin: 0 0 4px;
       font-size: 10px;
     }}
-    .company {{ font-weight: 300; font-style: italic; }}
-    .when {{ font-weight: 300; font-style: italic; white-space: nowrap; }}
+    .company {{ font-weight: 700; font-style: italic; }}
+    .when {{ font-weight: 700; font-style: italic; white-space: nowrap; }}
     .skill {{ margin: 0 0 7px; }}
     .edu-title {{ font-weight: 700; margin: 8px 0 0; }}
     .edu-meta {{ margin: 0; font-weight: 300; }}
