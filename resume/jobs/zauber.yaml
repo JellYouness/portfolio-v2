@@ -1,0 +1,134 @@
+meta:
+  slug: Youness-Jellouli-Zauber
+  job_title: Full Stack Engineer
+  company: Zauber
+  language: en
+  source: Forward Deployed Engineer job offer (AI agents for global logistics)
+  hide_headline: true
+
+headline: Full Stack Engineer | TypeScript · Node.js · React
+
+summary: >-
+  **Full Stack Engineer** with **3+ years** shipping production products in
+  **TypeScript**, **React**, and **Node.js**. Turns operational workflows into
+  working software: REST APIs, third-party integrations, and messy data
+  pipelines. Works with technical and non-technical stakeholders, from cloud
+  pre-sales with **100+** clients to public apps serving **2,000+** daily users.
+  Uses **OpenAI APIs** and **n8n** in product work.
+
+skills:
+  - category: Languages
+    items: [TypeScript, JavaScript, SQL, Python, PHP]
+  - category: Frontend
+    items: [React.js, Next.js, TypeScript, Tailwind CSS, Material UI]
+  - category: Backend
+    items: [Node.js, Express.js, REST APIs, Laravel, Web Scraping]
+  - category: Data and integrations
+    items: [PostgreSQL, MySQL, Supabase, Prisma, MongoDB]
+  - category: Cloud
+    items: [Google Cloud, GitHub Actions, Vercel, Cloudflare, Git]
+  - category: AI
+    items: [OpenAI API, Claude, n8n, Cursor, GitHub Copilot]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Morocco
+    dates: Oct 2025 – Present
+    bullets:
+      - >-
+        Building [oDoc.ma](https://odoc.ma): scheduling, patient profiles, and
+        accounting, owned from UI to data.
+      - >-
+        Integrated **Supabase** flows and a **WhatsApp** chatbot for appointment
+        operations.
+      - "**Tech:** TypeScript, React, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Morocco
+    dates: Jun 2025 – Sep 2025
+    bullets:
+      - >-
+        Small-team delivery with **Next.js** and **Node.js**: REST APIs, data
+        workflows, and web scraping of messy source data.
+      - "**Tech:** Next.js, Node.js, Laravel, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Jun 2024 – Jun 2025
+    bullets:
+      - >-
+        Shipped client products
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/), and
+        [CyberScale](https://www.cyber-scale.me/) (**2,000+** daily users).
+      - >-
+        Partnered with frontend, backend, and QA to improve performance **25%**
+        and simplify production deploys. Built Wifina with **TypeScript** and
+        **Next.js**, integrating banking partners for pre-approval.
+      - "**Tech:** TypeScript, React, Next.js, Node.js, Express.js, Material UI, Laravel, MySQL."
+
+  - title: Junior Cloud Consultant Intern
+    company: CBI
+    location: Casablanca, Morocco
+    dates: Sep 2023 – Jan 2024
+    bullets:
+      - >-
+        Sat with clients in pre-sales, mapped operational needs, and helped
+        shape Microsoft cloud offers for **100+** customers.
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Morocco
+    dates: Jul 2023 – Nov 2023
+    bullets:
+      - >-
+        Built interactive React apps and integrated REST APIs so data flowed
+        across modules without extra manual steps.
+      - "**Tech:** React, JavaScript, Redux, Laravel, MySQL."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Morocco
+    dates: Jul 2022 – Sep 2022
+    bullets:
+      - >-
+        Built a membership and subscription operations web app with JavaScript,
+        PHP, and MySQL.
+
+projects:
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: Next.js, TypeScript, Prisma
+    bullets:
+      - Property search via the Guesty API, plus an AI assistant for listing queries.
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: Next.js, TypeScript, Laravel
+    bullets:
+      - Loan calculator and banking pre-approval flows with partner integrations.
+
+  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
+    extra: Next.js, TypeScript, Python
+    bullets:
+      - Route-optimization tool that solves the traveling salesman problem.
+
+  - name: "[IBC](https://www.besoins-competences.fr/)"
+    extra: Next.js, TypeScript, Material UI
+    bullets:
+      - Skills-anticipation tool for employment and training stakeholders.
+
+education:
+  - degree: Master's in Intelligent Systems Engineering
+    extra: Hassan II University · Casablanca · 2024 – 2026
+  - degree: Bachelor's in Mathematical and Computer Sciences (SMI)
+    extra: Hassan II University · Casablanca · 2023 – 2024
+  - degree: University Diploma of Technology in Computer Engineering
+    extra: Cadi Ayyad University · Safi · 2021 – 2023
+
+languages:
+  - English (Professional)
+  - French (Professional)
+  - Arabic (Native)
