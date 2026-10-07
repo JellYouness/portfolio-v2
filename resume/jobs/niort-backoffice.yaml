@@ -1,0 +1,128 @@
+meta:
+  slug: Youness-Jellouli-Niort
+  job_title: Développeur Full Stack
+  company: Niort Back Office
+  language: fr
+  source: Freelance Full Stack Developer (Back Office), Niort, Java/React, 350€ TJM
+  hide_headline: true
+
+headline: Développeur Full Stack | React · TypeScript · Back office
+
+summary: >-
+  **Développeur Full Stack** avec **+2 ans** de livraison de back-offices et
+  d'outils métier en **React** et **TypeScript**. A conçu et fait évoluer des
+  fonctionnalités de gestion (crédit, facturation, planification, comptabilité)
+  en conditions opérationnelles, en **Agile** avec les équipes front, back et QA.
+  Intervient sur tout le cycle: conception, développement, APIs et bases SQL.
+
+skills:
+  - category: Langages
+    items: [JavaScript, TypeScript, Java, SQL, PHP, Python]
+  - category: Frontend
+    items: [React.js, Next.js, TypeScript, Redux, Material UI, Tailwind CSS]
+  - category: Backend
+    items: [Node.js, Express.js, Laravel, REST APIs]
+  - category: Bases de données
+    items: [PostgreSQL, MySQL, Supabase, Prisma]
+  - category: Méthodologies
+    items: [Agile, Scrum, Kanban, Design Patterns, Web Architecture]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        [oDoc.ma](https://odoc.ma/) — back-office médical: planning, profils,
+        rendez-vous et module comptable, conçu et développé en **React** /
+        **TypeScript**.
+      - >-
+        Composants réutilisables, flux de données **SQL** et chatbot WhatsApp
+        pour maintenir les opérations du quotidien.
+      - "**Tech:** React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - >-
+        Évolutions full-stack **React** / **Node.js** / Laravel: APIs REST et
+        traitements de données pour les outils internes.
+      - "**Tech:** React, Next.js, Node.js, Laravel, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        Conception, développement et maintenance d'outils métier publics:
+        [Wifina](https://wifina.be/) (crédit),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** utilisateurs
+        / jour).
+      - >-
+        Collaboration front, back et QA, standards de code et Git, et **+25%**
+        de performance applicative.
+      - >-
+        Wifina: calculateurs d'échéances et pré-accord bancaire, évolutions
+        fonctionnelles en conditions opérationnelles.
+      - "**Tech:** React, TypeScript, Next.js, Node.js, Laravel, Material UI, MySQL."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - >-
+        Recueil des besoins et conception d'offres cloud Microsoft pour
+        **+100** clients.
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - >-
+        Développement de fonctionnalités **React** et intégration d'APIs REST
+        pour le back-office applicatif.
+      - "**Tech:** React, JavaScript, Redux, Laravel, MySQL."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - >-
+        Back-office d'adhésions et d'abonnements (JavaScript, PHP, MySQL).
+
+projects:
+  - name: "[Wifina](https://wifina.be/)"
+    extra: React, TypeScript, Laravel
+    bullets:
+      - "Back-office crédit: calculs d'échéances, intérêts et pré-accord bancaire."
+
+  - name: "[Invoicr](https://www.invoicrapp.com/)"
+    extra: React, TypeScript, Supabase
+    bullets:
+      - "Back-office de facturation: génération, recherche, filtres et suivi."
+
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: React, TypeScript, Supabase
+    bullets:
+      - Planning, dossiers patients et module comptable pour un cabinet médical.
+
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: React, TypeScript, Prisma
+    bullets:
+      - Outil de gestion d'annonces (API Guesty) et assistant IA.
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023
