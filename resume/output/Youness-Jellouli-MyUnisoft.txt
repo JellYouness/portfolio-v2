@@ -1,0 +1,64 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack avec 3+ ans sur des SaaS web en React.js, TypeScript et Node.js. Front (Redux, Context API, HTML/CSS, Vite) et back (APIs REST, PostgreSQL / MongoDB). Git, GitHub Actions (CI/CD), collab Produit/QA, et +25% de performance en production (2 000+ utilisateurs / jour). Expérience facturation et modules comptables (Invoicr, oDoc).
+
+EXPÉRIENCE
+Full Stack Developer
+SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• SaaS oDoc.ma: planning, dossiers et comptabilité, stack React / TypeScript (starter Vite) et Node-side data.
+• APIs REST, PostgreSQL / Supabase, intégration WhatsApp. UI responsive, composants réutilisables (Hooks, shadcn/ui).
+• Tech: TypeScript, React, Vite, Next.js, Node.js, Tailwind CSS, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Juin 2025 – Septembre 2025, Casablanca, Maroc
+• Features React / Node.js en petite équipe: APIs REST et cohérence des données pour outils internes.
+• Tech: React, Next.js, TypeScript, Node.js, REST APIs.
+
+Full Stack Developer
+CyberScale    Juin 2024 – Juin 2025, France
+• SaaS en production: Wifina, IBC, Allo Reflexo (2 000+ users / jour).
+• Front React/TypeScript et APIs Node.js. Avec QA: Git, standards de code, +25% de performance.
+• Tech: TypeScript, React, Next.js, Node.js, Express.js, MySQL.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 – Janvier 2024, Casablanca, Maroc
+• Recueil des besoins et offres cloud Microsoft pour +100 clients.
+
+Junior Full Stack Developer
+IS-TECH    Juillet 2023 – Novembre 2023, Casablanca, Maroc
+• React (Redux, Context API) et APIs REST: state management et flux de données entre modules.
+• Tech: React, JavaScript, Redux, REST APIs, MySQL.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Juillet 2022 – Septembre 2022, Casablanca, Maroc
+• App web d'adhésions (JavaScript, HTML/CSS, MySQL).
+
+PROJETS PUBLICS
+Invoicr | React, TypeScript, Supabase
+• SaaS de facturation: génération, recherche, filtres et suivi.
+
+oDoc | React, TypeScript, Vite, PostgreSQL
+• Espace de travail cabinet: planning, dossiers et comptabilité.
+
+Wifina | React, TypeScript, Laravel
+• Outil financier TPE: APIs, calculs d'échéances et pré-accord.
+
+AppartAli | React, TypeScript, PostgreSQL
+• SaaS collaboratif: API tierce (Guesty) et parcours client.
+
+COMPÉTENCES
+Langages: TypeScript, JavaScript, SQL, HTML5, CSS3
+Frontend: React.js, Next.js, Redux, TypeScript, Tailwind CSS, Vite
+Backend: Node.js, Express.js, REST APIs
+Bases de données: PostgreSQL, MongoDB, MySQL, Supabase
+Qualité: Git, GitHub Actions, CI/CD, Agile, Scrum
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents
+Université Hassan 2 · Casablanca · 2024 – 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2023 – 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 – 2023
