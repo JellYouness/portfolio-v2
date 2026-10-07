@@ -1,0 +1,64 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack avec 3+ ans de conception et de développement de produits web et SaaS de bout en bout en Next.js, React, TypeScript et Node.js. APIs REST, intégrations tierces et bases SQL (PostgreSQL, MySQL, Supabase). Code maintenable, Git, et +25% de performance sur des apps en production (2 000+ utilisateurs / jour).
+
+EXPÉRIENCE
+Full Stack Developer
+SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• Conception et développement de bout en bout de oDoc.ma, SaaS médical (planning, profils, comptabilité) en Next.js, React et TypeScript.
+• APIs et intégrations: Supabase / PostgreSQL et chatbot WhatsApp pour les opérations.
+• Tech: TypeScript, React, Next.js, Node.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Juin 2025 – Septembre 2025, Casablanca, Maroc
+• Features full-stack Next.js / Node.js: APIs REST, données et outils internes en petite équipe.
+• Tech: Next.js, React, TypeScript, Node.js, Laravel, REST APIs.
+
+Full Stack Developer
+CyberScale    Juin 2024 – Juin 2025, France
+• Produits web/SaaS en production: Wifina, IBC, Allo Reflexo (2 000+ users / jour).
+• Front et back, APIs, intégrations bancaires. Avec QA: code plus maintenable et +25% de performance.
+• Tech: TypeScript, React, Next.js, Node.js, Express.js, Laravel, MySQL.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 – Janvier 2024, Casablanca, Maroc
+• Recueil des besoins et conception d'offres cloud Microsoft pour +100 clients.
+
+Junior Full Stack Developer
+IS-TECH    Juillet 2023 – Novembre 2023, Casablanca, Maroc
+• Front React et APIs REST, flux de données entre modules.
+• Tech: React, JavaScript, Redux, Laravel, MySQL.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Juillet 2022 – Septembre 2022, Casablanca, Maroc
+• Application web de gestion d'adhésions (JavaScript, PHP, MySQL).
+
+PROJETS PUBLICS
+Invoicr | Next.js, React, TypeScript, Supabase
+• SaaS de facturation: génération, recherche, filtres et suivi.
+
+oDoc | Next.js, React, TypeScript, Supabase
+• SaaS cabinet médical: planning, dossiers et comptabilité.
+
+Wifina | Next.js, React, TypeScript, Laravel
+• Plateforme crédit: APIs, calculs d'échéances et pré-accord bancaire.
+
+AppartAli | Next.js, React, TypeScript, Prisma
+• SaaS immobilier: API Guesty et assistant IA.
+
+COMPÉTENCES
+Langages: TypeScript, JavaScript, SQL, PHP, Python
+Frontend: React.js, Next.js, TypeScript, Tailwind CSS, Material UI, shadcn/ui
+Backend: Node.js, Express.js, REST APIs, Laravel
+Bases de données: PostgreSQL, MySQL, Supabase, Prisma, MongoDB
+Qualité et déploiement: Git, GitHub Actions, Vercel, Google Cloud, Agile, Scrum
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents
+Université Hassan 2 · Casablanca · 2024 – 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2023 – 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 – 2023

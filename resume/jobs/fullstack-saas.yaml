@@ -1,0 +1,122 @@
+meta:
+  slug: Youness-Jellouli-SaaS
+  job_title: Développeur Full Stack
+  company: Web SaaS Next.js
+  language: fr
+  source: Full Stack web/SaaS — Next.js, React, Node.js, TypeScript
+  hide_headline: true
+
+headline: Développeur Full Stack | Next.js · React · Node.js
+
+summary: >-
+  **Développeur Full Stack** avec **3+ ans** de conception et de développement
+  de produits web et SaaS de bout en bout en **Next.js**, **React**,
+  **TypeScript** et **Node.js**. APIs REST, intégrations tierces et bases SQL
+  (PostgreSQL, MySQL, Supabase). Code maintenable, Git, et **+25%** de
+  performance sur des apps en production (**2 000+** utilisateurs / jour).
+
+skills:
+  - category: Langages
+    items: [TypeScript, JavaScript, SQL, PHP, Python]
+  - category: Frontend
+    items: [React.js, Next.js, TypeScript, Tailwind CSS, Material UI, shadcn/ui]
+  - category: Backend
+    items: [Node.js, Express.js, REST APIs, Laravel]
+  - category: Bases de données
+    items: [PostgreSQL, MySQL, Supabase, Prisma, MongoDB]
+  - category: Qualité et déploiement
+    items: [Git, GitHub Actions, Vercel, Google Cloud, Agile, Scrum]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        Conception et développement de bout en bout de
+        [oDoc.ma](https://odoc.ma/), SaaS médical (planning, profils,
+        comptabilité) en **Next.js**, **React** et **TypeScript**.
+      - >-
+        APIs et intégrations: **Supabase** / **PostgreSQL** et chatbot
+        **WhatsApp** pour les opérations.
+      - "**Tech:** TypeScript, React, Next.js, Node.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - >-
+        Features full-stack **Next.js** / **Node.js**: APIs REST, données et
+        outils internes en petite équipe.
+      - "**Tech:** Next.js, React, TypeScript, Node.js, Laravel, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        Produits web/SaaS en production:
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** users / jour).
+      - >-
+        Front et back, APIs, intégrations bancaires. Avec QA: code plus
+        maintenable et **+25%** de performance.
+      - "**Tech:** TypeScript, React, Next.js, Node.js, Express.js, Laravel, MySQL."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - >-
+        Recueil des besoins et conception d'offres cloud Microsoft pour
+        **+100** clients.
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - >-
+        Front **React** et APIs REST, flux de données entre modules.
+      - "**Tech:** React, JavaScript, Redux, Laravel, MySQL."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - Application web de gestion d'adhésions (JavaScript, PHP, MySQL).
+
+projects:
+  - name: "[Invoicr](https://www.invoicrapp.com/)"
+    extra: Next.js, React, TypeScript, Supabase
+    bullets:
+      - "SaaS de facturation: génération, recherche, filtres et suivi."
+
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: Next.js, React, TypeScript, Supabase
+    bullets:
+      - "SaaS cabinet médical: planning, dossiers et comptabilité."
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: Next.js, React, TypeScript, Laravel
+    bullets:
+      - "Plateforme crédit: APIs, calculs d'échéances et pré-accord bancaire."
+
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: Next.js, React, TypeScript, Prisma
+    bullets:
+      - "SaaS immobilier: API Guesty et assistant IA."
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023
