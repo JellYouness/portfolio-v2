@@ -1,0 +1,119 @@
+meta:
+  slug: Youness-Jellouli-Astek
+  job_title: Développeur Full Stack
+  company: Astek
+  language: fr
+  source: Astek Brest — fullstack JS/TS/Node, outils métier transport, équipe de 8
+  hide_headline: true
+
+headline: Développeur Full Stack | JavaScript · TypeScript · Node.js
+
+summary: >-
+  **Développeur Full Stack** avec **+2 ans** en **JavaScript**, **TypeScript**,
+  **Node.js**, **HTML** et **CSS**. Fait évoluer des outils métier en petite
+  équipe: nouvelles fonctionnalités, APIs, et collab QA pour la qualité du code
+  (**+25%** de performance, **2 000+** utilisateurs / jour). Autonome, Git,
+  esprit d'équipe. Master Bac+5 en cours (Ingénierie des systèmes intelligents).
+
+skills:
+  - category: Langages
+    items: [JavaScript, TypeScript, HTML5, CSS3, SQL]
+  - category: Frontend
+    items: [React.js, Next.js, HTML5, CSS3, TypeScript]
+  - category: Backend
+    items: [Node.js, Express.js, REST APIs]
+  - category: Bases de données
+    items: [PostgreSQL, MySQL, MongoDB]
+  - category: Méthodes
+    items: [Git, Agile, Scrum, collaboration en équipe]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        Évolution de [oDoc.ma](https://odoc.ma/): **planification** des
+        rendez-vous, disponibilités et profils — **TypeScript**, **HTML/CSS**,
+        **Node.js** / données SQL.
+      - >-
+        Nouvelles fonctionnalités (composants réutilisables, APIs) livrées en
+        autonomie dans une équipe produit.
+      - "**Tech:** JavaScript, TypeScript, Node.js, HTML, CSS, React, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - >-
+        Petite équipe: évolutions **Node.js** / **TypeScript**, APIs REST et
+        outils internes.
+      - "**Tech:** JavaScript, TypeScript, Node.js, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        Outils métier en production (France):
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** users / jour).
+      - >-
+        Nouvelles fonctionnalités JS/TS/Node. Collab **équipes de test** / QA,
+        Git, **+25%** de performance.
+      - "**Tech:** JavaScript, TypeScript, Node.js, HTML, CSS, React, Express.js."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - "Travail en équipe client: besoins, organisation, offres cloud (**+100** comptes)."
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - "Applications web **JavaScript** et APIs: nouvelles fonctionnalités et flux de données."
+      - "**Tech:** JavaScript, HTML, CSS, REST APIs."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - Outil interne d'adhésions et d'abonnements (JavaScript, HTML, CSS, MySQL).
+
+projects:
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: TypeScript, Node.js, HTML/CSS
+    bullets:
+      - "Outil interne: planification des créneaux, disponibilités et dossiers."
+
+  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
+    extra: TypeScript, JavaScript, Python
+    bullets:
+      - Optimisation d'itinéraires (problème du voyageur de commerce).
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: TypeScript, JavaScript
+    bullets:
+      - Évolutions d'un outil métier TPE (calculs, APIs, nouvelles features).
+
+  - name: "[IBC](https://www.besoins-competences.fr/)"
+    extra: TypeScript, JavaScript
+    bullets:
+      - Application métier pour des équipes opérationnelles (France).
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents (Bac+5, en cours)"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023

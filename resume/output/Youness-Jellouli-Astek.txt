@@ -1,0 +1,64 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack avec +2 ans en JavaScript, TypeScript, Node.js, HTML et CSS. Fait évoluer des outils métier en petite équipe: nouvelles fonctionnalités, APIs, et collab QA pour la qualité du code (+25% de performance, 2 000+ utilisateurs / jour). Autonome, Git, esprit d'équipe. Master Bac+5 en cours (Ingénierie des systèmes intelligents).
+
+EXPÉRIENCE
+Full Stack Developer
+SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• Évolution de oDoc.ma: planification des rendez-vous, disponibilités et profils — TypeScript, HTML/CSS, Node.js / données SQL.
+• Nouvelles fonctionnalités (composants réutilisables, APIs) livrées en autonomie dans une équipe produit.
+• Tech: JavaScript, TypeScript, Node.js, HTML, CSS, React, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Juin 2025 – Septembre 2025, Casablanca, Maroc
+• Petite équipe: évolutions Node.js / TypeScript, APIs REST et outils internes.
+• Tech: JavaScript, TypeScript, Node.js, REST APIs.
+
+Full Stack Developer
+CyberScale    Juin 2024 – Juin 2025, France
+• Outils métier en production (France): Wifina, IBC, Allo Reflexo (2 000+ users / jour).
+• Nouvelles fonctionnalités JS/TS/Node. Collab équipes de test / QA, Git, +25% de performance.
+• Tech: JavaScript, TypeScript, Node.js, HTML, CSS, React, Express.js.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 – Janvier 2024, Casablanca, Maroc
+• Travail en équipe client: besoins, organisation, offres cloud (+100 comptes).
+
+Junior Full Stack Developer
+IS-TECH    Juillet 2023 – Novembre 2023, Casablanca, Maroc
+• Applications web JavaScript et APIs: nouvelles fonctionnalités et flux de données.
+• Tech: JavaScript, HTML, CSS, REST APIs.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Juillet 2022 – Septembre 2022, Casablanca, Maroc
+• Outil interne d'adhésions et d'abonnements (JavaScript, HTML, CSS, MySQL).
+
+PROJETS PUBLICS
+oDoc | TypeScript, Node.js, HTML/CSS
+• Outil interne: planification des créneaux, disponibilités et dossiers.
+
+Travel Flow | TypeScript, JavaScript, Python
+• Optimisation d'itinéraires (problème du voyageur de commerce).
+
+Wifina | TypeScript, JavaScript
+• Évolutions d'un outil métier TPE (calculs, APIs, nouvelles features).
+
+IBC | TypeScript, JavaScript
+• Application métier pour des équipes opérationnelles (France).
+
+COMPÉTENCES
+Langages: JavaScript, TypeScript, HTML5, CSS3, SQL
+Frontend: React.js, Next.js, HTML5, CSS3, TypeScript
+Backend: Node.js, Express.js, REST APIs
+Bases de données: PostgreSQL, MySQL, MongoDB
+Méthodes: Git, Agile, Scrum, collaboration en équipe
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents (Bac+5, en cours)
+Université Hassan 2 · Casablanca · 2024 – 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2023 – 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 – 2023
