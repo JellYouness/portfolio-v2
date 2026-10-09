@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated resume HTML (DOCX/PDF/TXT for baseline are committed)
+resume/output/*.html
+resume/__pycache__/

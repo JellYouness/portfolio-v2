@@ -1,0 +1,69 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+SUMMARY
+Full Stack Engineer with 3+ years shipping production products in TypeScript, React, and Node.js. Turns operational workflows into working software: REST APIs, third-party integrations, and messy data pipelines. Works with technical and non-technical stakeholders, from cloud pre-sales with 100+ clients to public apps serving 2,000+ daily users. Uses OpenAI APIs and n8n in product work.
+
+EXPERIENCE
+Full Stack Developer
+SBS Data Factory    Oct 2025 – Present, Casablanca, Morocco
+• Building ValetPass: digital valet for hotels (Wallet passes, QR check-in, live vehicle requests).
+• Building oDoc.ma: scheduling, patient profiles, and accounting, owned from UI to data.
+• Integrated Supabase flows and a WhatsApp chatbot for appointment operations.
+• Tech: TypeScript, React, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Jun 2025 – Sep 2025, Casablanca, Morocco
+• Small-team delivery with Next.js and Node.js: REST APIs, data workflows, and web scraping of messy source data.
+• Tech: Next.js, Node.js, Laravel, REST APIs.
+
+Full Stack Developer
+CyberScale    Jun 2024 – Jun 2025, France
+• Shipped client products Wifina, IBC, Allo Reflexo, and CyberScale (2,000+ daily users).
+• Partnered with frontend, backend, and QA to improve performance 25% and simplify production deploys. Built Wifina with TypeScript and Next.js, integrating banking partners for pre-approval.
+• Tech: TypeScript, React, Next.js, Node.js, Express.js, Material UI, Laravel, MySQL.
+
+Junior Cloud Consultant Intern
+CBI    Sep 2023 – Jan 2024, Casablanca, Morocco
+• Sat with clients in pre-sales, mapped operational needs, and helped shape Microsoft cloud offers for 100+ customers.
+
+Junior Full Stack Developer
+IS-TECH    Jul 2023 – Nov 2023, Casablanca, Morocco
+• Built interactive React apps and integrated REST APIs so data flowed across modules without extra manual steps.
+• Tech: React, JavaScript, Redux, Laravel, MySQL.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Jul 2022 – Sep 2022, Casablanca, Morocco
+• Built a membership and subscription operations web app with JavaScript, PHP, and MySQL.
+
+PUBLIC PROJECTS
+AppartAli | Next.js, TypeScript, Prisma
+• Property search via the Guesty API, plus an AI assistant for listing queries.
+
+Wifina | Next.js, TypeScript, Laravel
+• Loan calculator and banking pre-approval flows with partner integrations.
+
+ValetPass | TypeScript, JavaScript
+• {'Digital valet for hotels': 'Wallet passes, QR check-in, live vehicle requests.'}
+
+IBC | Next.js, TypeScript, Material UI
+• Skills-anticipation tool for employment and training stakeholders.
+
+SKILLS
+Languages: TypeScript, JavaScript, SQL, Python, PHP
+Frontend: React.js, Next.js, TypeScript, Tailwind CSS, Material UI
+Backend: Node.js, Express.js, REST APIs, Laravel, Web Scraping
+Data and integrations: PostgreSQL, MySQL, Supabase, Prisma, MongoDB
+Cloud: Google Cloud, GitHub Actions, Vercel, Cloudflare, Git
+AI: OpenAI API, Claude, n8n, Cursor, GitHub Copilot
+
+EDUCATION
+Master's in Intelligent Systems Engineering
+Hassan II University · Casablanca · 2024 – 2026
+Bachelor's in Mathematical and Computer Sciences (SMI)
+Hassan II University · Casablanca · 2023 – 2024
+University Diploma of Technology in Computer Engineering
+Cadi Ayyad University · Safi · 2021 – 2023
+
+LANGUAGES
+English (Professional) · French (Professional) · Arabic (Native)

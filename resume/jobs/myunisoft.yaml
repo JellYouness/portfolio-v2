@@ -1,0 +1,124 @@
+meta:
+  slug: Youness-Jellouli-MyUnisoft
+  job_title: Développeur Full Stack
+  company: MyUnisoft
+  language: fr
+  source: MyUnisoft Full Stack React/Node, SaaS expertise-comptable, Rabat hybride
+  hide_headline: true
+
+headline: Développeur Full Stack | React · Node.js · TypeScript
+
+summary: >-
+  **Développeur Full Stack** avec **3+ ans** sur des SaaS web en **React.js**,
+  **TypeScript** et **Node.js**. Front (Redux, Context API, HTML/CSS, **Vite**) et
+  back (APIs **REST**, **PostgreSQL** / **MongoDB**). Git, **GitHub Actions**
+  (CI/CD), collab Produit/QA, et **+25%** de performance en production
+  (**2 000+** utilisateurs / jour). Expérience facturation et modules
+  comptables (Invoicr, oDoc).
+
+skills:
+  - category: Langages
+    items: [TypeScript, JavaScript, SQL, HTML5, CSS3]
+  - category: Frontend
+    items: [React.js, Next.js, Redux, TypeScript, Tailwind CSS, Vite]
+  - category: Backend
+    items: [Node.js, Express.js, REST APIs]
+  - category: Bases de données
+    items: [PostgreSQL, MongoDB, MySQL, Supabase]
+  - category: Qualité
+    items: [Git, GitHub Actions, CI/CD, Agile, Scrum]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        [ValetPass](https://valetpass.ma/) — SaaS hôtelier: pass Wallet, QR,
+        demande de véhicule en temps réel.
+      - >-
+        SaaS [oDoc.ma](https://odoc.ma/): planning, dossiers et **comptabilité**,
+        stack **React** / **TypeScript** (starter **Vite**) et **Node**-side data.
+      - >-
+        APIs **REST**, **PostgreSQL** / Supabase, intégration WhatsApp. UI
+        responsive, composants réutilisables (Hooks, shadcn/ui).
+      - "**Tech:** TypeScript, React, Vite, Next.js, Node.js, Tailwind CSS, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - >-
+        Features **React** / **Node.js** en petite équipe: APIs REST et
+        cohérence des données pour outils internes.
+      - "**Tech:** React, Next.js, TypeScript, Node.js, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        SaaS en production:
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** users / jour).
+      - >-
+        Front **React**/TypeScript et APIs **Node.js**. Avec QA: Git, standards
+        de code, **+25%** de performance.
+      - "**Tech:** TypeScript, React, Next.js, Node.js, Express.js, MySQL."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - Recueil des besoins et offres cloud Microsoft pour **+100** clients.
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - >-
+        **React** (Redux, Context API) et APIs REST: state management et flux
+        de données entre modules.
+      - "**Tech:** React, JavaScript, Redux, REST APIs, MySQL."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - App web d'adhésions (JavaScript, HTML/CSS, MySQL).
+
+projects:
+  - name: "[Invoicr](https://www.invoicrapp.com/)"
+    extra: React, TypeScript, Supabase
+    bullets:
+      - "SaaS de facturation: génération, recherche, filtres et suivi."
+
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: React, TypeScript, Vite, PostgreSQL
+    bullets:
+      - "Espace de travail cabinet: planning, dossiers et comptabilité."
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: React, TypeScript, Laravel
+    bullets:
+      - "Outil financier TPE: APIs, calculs d'échéances et pré-accord."
+
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: React, TypeScript, PostgreSQL
+    bullets:
+      - "SaaS collaboratif: API tierce (Guesty) et parcours client."
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023

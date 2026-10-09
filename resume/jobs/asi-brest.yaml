@@ -1,0 +1,117 @@
+meta:
+  slug: Youness-Jellouli-ASI
+  job_title: Développeur Full Stack
+  company: ASI Brest
+  language: fr
+  source: ASI Brest Full-Stack — Java/Spring Boot + React/JS, agile, 3+ ans, Bac+5
+  hide_headline: true
+
+headline: Développeur Full Stack | React · JavaScript · TypeScript
+
+summary: >-
+  **Développeur Full Stack** avec **3+ ans** de conception et de développement
+  d'applications web sur-mesure en **React**, **JavaScript** / **TypeScript**.
+  Cycle agile: besoins, APIs, collab QA, Git / **GitHub Actions**. **Java**
+  fait partie des langages pratiqués; le back de production est **Node.js** et
+  Laravel, pas Spring Boot. Master Bac+5 (Ingénierie des systèmes intelligents).
+
+skills:
+  - category: Langages
+    items: [JavaScript, TypeScript, Java, SQL, HTML5, CSS3]
+  - category: Frontend
+    items: [React.js, Next.js, JavaScript, TypeScript]
+  - category: Backend
+    items: [Node.js, Express.js, REST APIs, Laravel]
+  - category: Bases de données
+    items: [PostgreSQL, MySQL, MongoDB]
+  - category: Méthodes
+    items: [Agile, Scrum, Git, GitHub Actions, CI/CD]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        [ValetPass](https://valetpass.ma/) — appli web sur-mesure (hôtels):
+        pass Wallet, QR, demande de véhicule en temps réel.
+      - >-
+        [oDoc.ma](https://odoc.ma/) — conception et développement **React** /
+        **TypeScript**: planning, profils, APIs.
+      - "**Tech:** JavaScript, TypeScript, React, Node.js, HTML, CSS, PostgreSQL."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - >-
+        Évolutions full-stack en équipe agile: **React**, APIs REST, données.
+      - "**Tech:** JavaScript, TypeScript, React, Node.js, REST APIs."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        Applications web client:
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** users / jour).
+      - >-
+        **React** / **JavaScript**, APIs, collab QA / qualité de code, **+25%**
+        de performance. Git au quotidien.
+      - "**Tech:** JavaScript, TypeScript, React, Node.js, Express.js."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - "Recueil des besoins clients et construction d'offres cloud (**+100** comptes)."
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - Développement **React** / JavaScript et APIs REST (nouvelles fonctionnalités).
+      - "**Tech:** JavaScript, React, REST APIs."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - Application web d'adhésions (JavaScript, HTML, CSS, MySQL).
+
+projects:
+  - name: "[ValetPass](https://valetpass.ma/)"
+    extra: JavaScript, TypeScript, React
+    bullets:
+      - "Application web hôtels: pass Wallet, QR, demande de véhicule en temps réel."
+
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: React, TypeScript
+    bullets:
+      - "Applis métier: planification, profils et APIs."
+
+  - name: "[Wifina](https://wifina.be/)"
+    extra: React, TypeScript, JavaScript
+    bullets:
+      - Outil web sur-mesure TPE (calculs, APIs, évolutions).
+
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: React, TypeScript
+    bullets:
+      - "Application web: API tierce et parcours utilisateur."
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023
