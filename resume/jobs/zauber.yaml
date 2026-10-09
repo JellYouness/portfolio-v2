@@ -113,10 +113,10 @@ projects:
     bullets:
       - Loan calculator and banking pre-approval flows with partner integrations.
 
-  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
-    extra: Next.js, TypeScript, Python
+  - name: "[ValetPass](https://valetpass.ma/)"
+    extra: TypeScript, JavaScript
     bullets:
-      - Route-optimization tool that solves the traveling salesman problem.
+      - Digital valet for hotels: Wallet passes, QR check-in, live vehicle requests.
 
   - name: "[IBC](https://www.besoins-competences.fr/)"
     extra: Next.js, TypeScript, Material UI

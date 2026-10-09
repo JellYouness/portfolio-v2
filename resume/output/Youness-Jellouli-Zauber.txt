@@ -43,8 +43,8 @@ AppartAli | Next.js, TypeScript, Prisma
 Wifina | Next.js, TypeScript, Laravel
 • Loan calculator and banking pre-approval flows with partner integrations.
 
-Travel Flow | Next.js, TypeScript, Python
-• Route-optimization tool that solves the traveling salesman problem.
+ValetPass | TypeScript, JavaScript
+• {'Digital valet for hotels': 'Wallet passes, QR check-in, live vehicle requests.'}
 
 IBC | Next.js, TypeScript, Material UI
 • Skills-anticipation tool for employment and training stakeholders.

@@ -40,8 +40,8 @@ PROJETS PUBLICS
 oDoc | TypeScript, Node.js, HTML/CSS
 • Outil interne: planification des créneaux, disponibilités et dossiers.
 
-Travel Flow | TypeScript, JavaScript, Python
-• Optimisation d'itinéraires (problème du voyageur de commerce).
+ValetPass | TypeScript, JavaScript
+• Valet digital pour hôtels: pass Wallet, QR à l'arrivée, demande de véhicule en temps réel.
 
 Wifina | TypeScript, JavaScript
 • Évolutions d'un outil métier TPE (calculs, APIs, nouvelles features).

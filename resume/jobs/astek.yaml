@@ -98,10 +98,10 @@ projects:
     bullets:
       - "Outil interne: planification des créneaux, disponibilités et dossiers."
 
-  - name: "[Travel Flow](https://travel-flow-tsp.vercel.app/)"
-    extra: TypeScript, JavaScript, Python
+  - name: "[ValetPass](https://valetpass.ma/)"
+    extra: TypeScript, JavaScript
     bullets:
-      - Optimisation d'itinéraires (problème du voyageur de commerce).
+      - "Valet digital pour hôtels: pass Wallet, QR à l'arrivée, demande de véhicule en temps réel."
 
   - name: "[Wifina](https://wifina.be/)"
     extra: TypeScript, JavaScript
