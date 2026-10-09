@@ -19,6 +19,7 @@ This repo belongs to **Youness JELLOULI**. When the user pastes a job offer, job
 ## Tailoring rules
 
 - Never invent employers, dates, degrees, metrics, or tools not in `resume/profile.yaml`.
+- At SBS Data Factory he worked on **valetpass.ma** (digital valet for hotels) and **oDoc.ma**.
 - Mirror the job title only when it is truthful (Full Stack Developer, Frontend Developer, React Developer, etc.). Do not use Senior/Lead/Staff unless the profile supports it.
 - Put the strongest keyword matches in the summary, skills, and the first 2 experience bullets.
 - Reorder experience and projects by relevance. Keep all real jobs; shorten less relevant ones to 1–2 bullets.

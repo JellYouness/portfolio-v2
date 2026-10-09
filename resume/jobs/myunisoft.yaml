@@ -35,6 +35,9 @@ experience:
     dates: Octobre 2025 – Présent
     bullets:
       - >-
+        [ValetPass](https://valetpass.ma/) — SaaS hôtelier: pass Wallet, QR,
+        demande de véhicule en temps réel.
+      - >-
         SaaS [oDoc.ma](https://odoc.ma/): planning, dossiers et **comptabilité**,
         stack **React** / **TypeScript** (starter **Vite**) et **Node**-side data.
       - >-

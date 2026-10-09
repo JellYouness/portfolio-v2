@@ -7,6 +7,7 @@ Développeur Full Stack avec +2 ans de livraison de back-offices et d'outils mé
 EXPÉRIENCE
 Full Stack Developer
 SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — back-office valet (hôtels): pass Wallet, QR, demande de véhicule en temps réel.
 • oDoc.ma — back-office médical: planning, profils, rendez-vous et module comptable, conçu et développé en React / TypeScript.
 • Composants réutilisables, flux de données SQL et chatbot WhatsApp pour maintenir les opérations du quotidien.
 • Tech: React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.

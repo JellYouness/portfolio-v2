@@ -7,6 +7,7 @@ Full Stack Engineer with 3+ years shipping production products in TypeScript, Re
 EXPERIENCE
 Full Stack Developer
 SBS Data Factory    Oct 2025 – Present, Casablanca, Morocco
+• Building ValetPass: digital valet for hotels (Wallet passes, QR check-in, live vehicle requests).
 • Building oDoc.ma: scheduling, patient profiles, and accounting, owned from UI to data.
 • Integrated Supabase flows and a WhatsApp chatbot for appointment operations.
 • Tech: TypeScript, React, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.

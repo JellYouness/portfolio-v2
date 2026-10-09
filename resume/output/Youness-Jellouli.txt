@@ -7,7 +7,8 @@ Développeur Full Stack proactif avec +2 ans d'expérience dans le développemen
 EXPÉRIENCE
 FullStack Developer
 SBS Data Factory    Octobre 2025 - Présent, Casablanca, Maroc
-• oDoc.ma - Travaillé sur une application web moderne de planification médicale et de gestion de profils, fournissant des composants réutilisables pour la disponibilité des médecins, la prise de rendez-vous et les profils des patients, avec une interface utilisateur claire et réactive.
+• ValetPass — valet digital pour hôtels: pass Wallet, QR à l'arrivée, demande de véhicule en temps réel.
+• oDoc.ma — planification médicale, profils et composants réutilisables (disponibilité, rendez-vous, patients).
 • Tech: Nextjs, React, TypeScript, Tailwind CSS, Shadcn-ui, Supabase, Nestjs, PostgreSQL.
 
 FullStack Developer

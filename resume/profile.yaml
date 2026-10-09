@@ -16,8 +16,9 @@ summary_bank:
   fullstack: >-
     Full Stack Developer with 3+ years of experience building production web
     applications in Next.js, React, TypeScript, Node.js, and Laravel. Delivered
-    client products across healthcare, fintech, real estate, and public-sector
-    skills planning, including Wifina, IBC, oDoc, and Appart Ali. Comfortable
+    client products across healthcare, hospitality, fintech, real estate, and
+    public-sector skills planning, including Wifina, IBC, oDoc, ValetPass, and
+    Appart Ali. Comfortable
     owning features end to end: UI, APIs, databases, and deployment.
   frontend: >-
     Front-End Developer specialized in React, Next.js, TypeScript, and Tailwind CSS.
@@ -38,6 +39,9 @@ experience:
     start: Oct 2025
     end: Present
     bullets:
+      - >-
+        Building valetpass.ma, a digital valet platform for hotels and venues:
+        Apple Wallet / Google Wallet passes, QR check-in, and live vehicle requests.
       - >-
         Building oDoc.ma, a medical practice platform for appointment scheduling,
         doctor availability, patient profiles, prescriptions, and accounting modules.
@@ -139,6 +143,14 @@ experience:
         subscriptions in a single workflow.
 
 projects:
+  - id: valetpass
+    name: ValetPass - Digital Valet
+    url: https://valetpass.ma
+    year: "2025"
+    bullets:
+      - Digital valet for hotels and venues: wallet passes, QR arrival, real-time vehicle requests.
+    highlight_for: [hospitality, fullstack]
+
   - id: odoc
     name: oDoc - Medical Practice Management
     url: https://odoc.ma

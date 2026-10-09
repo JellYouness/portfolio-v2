@@ -7,6 +7,7 @@ Développeur Full Stack avec +2 ans en JavaScript, TypeScript, Node.js, HTML et 
 EXPÉRIENCE
 Full Stack Developer
 SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — valet digital (hôtels): pass Wallet, QR, demande de véhicule en temps réel.
 • Évolution de oDoc.ma: planification des rendez-vous, disponibilités et profils — TypeScript, HTML/CSS, Node.js / données SQL.
 • Nouvelles fonctionnalités (composants réutilisables, APIs) livrées en autonomie dans une équipe produit.
 • Tech: JavaScript, TypeScript, Node.js, HTML, CSS, React, PostgreSQL.

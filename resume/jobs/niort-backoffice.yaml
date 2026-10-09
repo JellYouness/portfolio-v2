@@ -34,6 +34,9 @@ experience:
     dates: Octobre 2025 – Présent
     bullets:
       - >-
+        [ValetPass](https://valetpass.ma/) — back-office valet (hôtels): pass
+        Wallet, QR, demande de véhicule en temps réel.
+      - >-
         [oDoc.ma](https://odoc.ma/) — back-office médical: planning, profils,
         rendez-vous et module comptable, conçu et développé en **React** /
         **TypeScript**.

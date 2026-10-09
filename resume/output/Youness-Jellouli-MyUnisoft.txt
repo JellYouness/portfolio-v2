@@ -7,6 +7,7 @@ Développeur Full Stack avec 3+ ans sur des SaaS web en React.js, TypeScript et 
 EXPÉRIENCE
 Full Stack Developer
 SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — SaaS hôtelier: pass Wallet, QR, demande de véhicule en temps réel.
 • SaaS oDoc.ma: planning, dossiers et comptabilité, stack React / TypeScript (starter Vite) et Node-side data.
 • APIs REST, PostgreSQL / Supabase, intégration WhatsApp. UI responsive, composants réutilisables (Hooks, shadcn/ui).
 • Tech: TypeScript, React, Vite, Next.js, Node.js, Tailwind CSS, PostgreSQL.

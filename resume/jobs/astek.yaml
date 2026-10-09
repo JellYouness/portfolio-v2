@@ -34,6 +34,9 @@ experience:
     dates: Octobre 2025 – Présent
     bullets:
       - >-
+        [ValetPass](https://valetpass.ma/) — valet digital (hôtels): pass Wallet,
+        QR, demande de véhicule en temps réel.
+      - >-
         Évolution de [oDoc.ma](https://odoc.ma/): **planification** des
         rendez-vous, disponibilités et profils — **TypeScript**, **HTML/CSS**,
         **Node.js** / données SQL.

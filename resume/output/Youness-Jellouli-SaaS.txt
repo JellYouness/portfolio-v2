@@ -7,6 +7,7 @@ Développeur Full Stack avec 3+ ans de conception et de développement de produi
 EXPÉRIENCE
 Full Stack Developer
 SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — SaaS valet pour hôtels (Wallet, QR, demande véhicule temps réel).
 • Conception et développement de bout en bout de oDoc.ma, SaaS médical (planning, profils, comptabilité) en Next.js, React et TypeScript.
 • APIs et intégrations: Supabase / PostgreSQL et chatbot WhatsApp pour les opérations.
 • Tech: TypeScript, React, Next.js, Node.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.
