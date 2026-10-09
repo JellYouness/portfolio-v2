@@ -236,7 +236,7 @@ education:
     location: Casablanca, Morocco
     start: "2024"
     end: "2026"
-    status: in_progress
+    status: completed
 
   - id: licence
     degree: Bachelor's in Mathematical and Computer Sciences (SMI)

@@ -2,7 +2,7 @@ Youness JELLOULI
 Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
 
 RÉSUMÉ
-Développeur Full Stack avec +2 ans en JavaScript, TypeScript, Node.js, HTML et CSS. Fait évoluer des outils métier en petite équipe: nouvelles fonctionnalités, APIs, et collab QA pour la qualité du code (+25% de performance, 2 000+ utilisateurs / jour). Autonome, Git, esprit d'équipe. Master Bac+5 en cours (Ingénierie des systèmes intelligents).
+Développeur Full Stack avec +2 ans en JavaScript, TypeScript, Node.js, HTML et CSS. Fait évoluer des outils métier en petite équipe: nouvelles fonctionnalités, APIs, et collab QA pour la qualité du code (+25% de performance, 2 000+ utilisateurs / jour). Autonome, Git, esprit d'équipe. Master Bac+5 (Ingénierie des systèmes intelligents).
 
 EXPÉRIENCE
 Full Stack Developer
@@ -56,7 +56,7 @@ Bases de données: PostgreSQL, MySQL, MongoDB
 Méthodes: Git, Agile, Scrum, collaboration en équipe
 
 ÉDUCATION
-Master: Ingénierie des systèmes intelligents (Bac+5, en cours)
+Master: Ingénierie des systèmes intelligents
 Université Hassan 2 · Casablanca · 2024 – 2026
 Licence Fondamentale SMI
 Université Hassan 2 · Casablanca · 2023 – 2024
