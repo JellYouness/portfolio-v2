@@ -36,9 +36,11 @@ const projects = [
     title: "ValetPass - Digital Valet for Hotels & Venues",
     body: "Digital valet platform that replaces paper tickets with Apple Wallet and Google Wallet passes. Guests request their vehicle with a tap; valets stay in sync in real time — built for palaces, riads, and exceptional venues.",
     chips: [
+      tech("nextjs"),
       tech("react"),
       tech("typescript"),
       tech("tailwind"),
+      tech("supabase"),
     ],
     preview: "https://valetpass.ma",
     github: null,
