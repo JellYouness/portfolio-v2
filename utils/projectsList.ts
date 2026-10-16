@@ -22,6 +22,7 @@ import petTrackerGallery from "./projectsGallery/petTrackerGallery";
 import avsm from "@/public/images/projects/avsm.png";
 import odoc from "@/public/images/projects/odoc.png";
 import idr from "@/public/images/projects/idr.png";
+import valetpass from "@/public/images/projects/valetpass.png";
 ////
 import { services } from "./servicesList";
 
@@ -30,6 +31,19 @@ const tech = (id: string) => {
 };
 
 const projects = [
+  {
+    image: valetpass,
+    title: "ValetPass - Digital Valet for Hotels & Venues",
+    body: "Digital valet platform that replaces paper tickets with Apple Wallet and Google Wallet passes. Guests request their vehicle with a tap; valets stay in sync in real time — built for palaces, riads, and exceptional venues.",
+    chips: [
+      tech("react"),
+      tech("typescript"),
+      tech("tailwind"),
+    ],
+    preview: "https://valetpass.ma",
+    github: null,
+    year: 2026,
+  },
   {
     image: idr,
     title: "Video Editor & Motion Designer Portfolio",
