@@ -1,0 +1,119 @@
+meta:
+  slug: Youness-Jellouli-Flow
+  job_title: Développeur ReactJS
+  company: Flow Vélizy
+  language: fr
+  source: >-
+    Flow — Senior ReactJS Vélizy, freelance, TS, MobX, GraphQL,
+    GitLab CI, Scrum/Jira, espace client énergie fort trafic
+  hide_headline: true
+
+headline: Développeur ReactJS | React · TypeScript
+
+summary: >-
+  **Développeur ReactJS** avec **3+ ans** de conception d'applications web
+  en **React.js** et **TypeScript**. Produits publics (Wifina, IBC, oDoc,
+  ValetPass): UI, qualité de code, **+25%** de performance, **2 000+**
+  utilisateurs / jour. État applicatif: **Redux** et Context API. Git /
+  **GitHub Actions**, **Scrum**. Master Bac+5 (Ingénierie des systèmes
+  intelligents).
+
+skills:
+  - category: Langages
+    items: [JavaScript, TypeScript, HTML5, CSS3]
+  - category: Frontend
+    items: [React.js, Next.js, TypeScript, Redux]
+  - category: Outils
+    items: [Git, GitHub, GitHub Actions, CI/CD]
+  - category: Méthodes
+    items: [Agile, Scrum]
+
+experience:
+  - title: Full Stack Developer
+    company: SBS Data Factory
+    location: Casablanca, Maroc
+    dates: Octobre 2025 – Présent
+    bullets:
+      - >-
+        [ValetPass](https://valetpass.ma/) et [oDoc.ma](https://odoc.ma/) —
+        front **React** / **TypeScript**: parcours, composants, APIs.
+      - >-
+        Starter **React** (Vite + TypeScript): composants réutilisables
+        (réservation, profils).
+      - "**Tech:** JavaScript, TypeScript, React, HTML, CSS, Git."
+
+  - title: Full Stack Developer
+    company: SMIAfrica
+    location: Casablanca, Maroc
+    dates: Juin 2025 – Septembre 2025
+    bullets:
+      - "Évolutions front **React** / **TypeScript** en équipe agile."
+      - "**Tech:** JavaScript, TypeScript, React, Git."
+
+  - title: Full Stack Developer
+    company: CyberScale
+    location: France
+    dates: Juin 2024 – Juin 2025
+    bullets:
+      - >-
+        Applications web publiques:
+        [Wifina](https://wifina.be/),
+        [IBC](https://www.besoins-competences.fr/),
+        [Allo Reflexo](https://www.allo-clients.com/) (**2 000+** users / jour).
+      - >-
+        Front **ReactJS** / **TypeScript**: parcours, qualité de code, collab
+        QA, **+25%** de performance. Git au quotidien.
+      - "**Tech:** JavaScript, TypeScript, React, Next.js, Git."
+
+  - title: Consultant Cloud junior - Stagiaire
+    company: CBI
+    location: Casablanca, Maroc
+    dates: Septembre 2023 – Janvier 2024
+    bullets:
+      - "Travail en équipe client: besoins et offres cloud (**+100** comptes)."
+
+  - title: Junior Full Stack Developer
+    company: IS-TECH
+    location: Casablanca, Maroc
+    dates: Juillet 2023 – Novembre 2023
+    bullets:
+      - >-
+        Applications **React.js**: modules complexes, état avec **Redux** et
+        Context API, composants réutilisables, APIs REST.
+      - "**Tech:** JavaScript, React, Redux, REST APIs, Git."
+
+  - title: Full Stack Developer Intern
+    company: Palmeraie Country Club
+    location: Casablanca, Maroc
+    dates: Juillet 2022 – Septembre 2022
+    bullets:
+      - Application web d'adhésions (JavaScript, HTML, CSS, MySQL).
+
+projects:
+  - name: "[Wifina](https://wifina.be/)"
+    extra: React, TypeScript, Next.js
+    bullets:
+      - "Front production: parcours, calculs, APIs — fort usage quotidien."
+
+  - name: "[IBC](https://www.besoins-competences.fr/)"
+    extra: React, TypeScript, Next.js
+    bullets:
+      - "Application web publique (France): parcours et interfaces métier."
+
+  - name: "[oDoc](https://odoc.ma/)"
+    extra: React, TypeScript
+    bullets:
+      - "Front métier: planification, profils et composants réutilisables."
+
+  - name: "[AppartAli](https://appartali.com/)"
+    extra: React, TypeScript
+    bullets:
+      - "Application web: API tierce et parcours utilisateur."
+
+education:
+  - degree: "Master: Ingénierie des systèmes intelligents"
+    extra: Université Hassan 2 · Casablanca · 2024 – 2026
+  - degree: Licence Fondamentale SMI
+    extra: Université Hassan 2 · Casablanca · 2023 – 2024
+  - degree: DUT en Génie informatique
+    extra: Université Cadi Ayyad · Safi · 2021 – 2023
