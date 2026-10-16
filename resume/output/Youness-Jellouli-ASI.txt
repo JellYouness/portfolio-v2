@@ -1,0 +1,64 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack avec 3+ ans de conception et de développement d'applications web sur-mesure en React, JavaScript / TypeScript. Cycle agile: besoins, APIs, collab QA, Git / GitHub Actions. Java fait partie des langages pratiqués; le back de production est Node.js et Laravel, pas Spring Boot. Master Bac+5 (Ingénierie des systèmes intelligents).
+
+EXPÉRIENCE
+Full Stack Developer
+SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — appli web sur-mesure (hôtels): pass Wallet, QR, demande de véhicule en temps réel.
+• oDoc.ma — conception et développement React / TypeScript: planning, profils, APIs.
+• Tech: JavaScript, TypeScript, React, Node.js, HTML, CSS, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Juin 2025 – Septembre 2025, Casablanca, Maroc
+• Évolutions full-stack en équipe agile: React, APIs REST, données.
+• Tech: JavaScript, TypeScript, React, Node.js, REST APIs.
+
+Full Stack Developer
+CyberScale    Juin 2024 – Juin 2025, France
+• Applications web client: Wifina, IBC, Allo Reflexo (2 000+ users / jour).
+• React / JavaScript, APIs, collab QA / qualité de code, +25% de performance. Git au quotidien.
+• Tech: JavaScript, TypeScript, React, Node.js, Express.js.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 – Janvier 2024, Casablanca, Maroc
+• Recueil des besoins clients et construction d'offres cloud (+100 comptes).
+
+Junior Full Stack Developer
+IS-TECH    Juillet 2023 – Novembre 2023, Casablanca, Maroc
+• Développement React / JavaScript et APIs REST (nouvelles fonctionnalités).
+• Tech: JavaScript, React, REST APIs.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Juillet 2022 – Septembre 2022, Casablanca, Maroc
+• Application web d'adhésions (JavaScript, HTML, CSS, MySQL).
+
+PROJETS PUBLICS
+ValetPass | JavaScript, TypeScript, React
+• Application web hôtels: pass Wallet, QR, demande de véhicule en temps réel.
+
+oDoc | React, TypeScript
+• Applis métier: planification, profils et APIs.
+
+Wifina | React, TypeScript, JavaScript
+• Outil web sur-mesure TPE (calculs, APIs, évolutions).
+
+AppartAli | React, TypeScript
+• Application web: API tierce et parcours utilisateur.
+
+COMPÉTENCES
+Langages: JavaScript, TypeScript, Java, SQL, HTML5, CSS3
+Frontend: React.js, Next.js, JavaScript, TypeScript
+Backend: Node.js, Express.js, REST APIs, Laravel
+Bases de données: PostgreSQL, MySQL, MongoDB
+Méthodes: Agile, Scrum, Git, GitHub Actions, CI/CD
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents
+Université Hassan 2 · Casablanca · 2024 – 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2023 – 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 – 2023

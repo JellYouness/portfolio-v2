@@ -1,0 +1,66 @@
+Youness JELLOULI
+Casablanca, Morocco  younessjellouli12@gmail.com  (+212)627-594239  in/youness-jellouli  jellyouness.com
+
+RÉSUMÉ
+Développeur Full Stack avec +2 ans de livraison de back-offices et d'outils métier en React et TypeScript. A conçu et fait évoluer des fonctionnalités de gestion (crédit, facturation, planification, comptabilité) en conditions opérationnelles, en Agile avec les équipes front, back et QA. Intervient sur tout le cycle: conception, développement, APIs et bases SQL.
+
+EXPÉRIENCE
+Full Stack Developer
+SBS Data Factory    Octobre 2025 – Présent, Casablanca, Maroc
+• ValetPass — back-office valet (hôtels): pass Wallet, QR, demande de véhicule en temps réel.
+• oDoc.ma — back-office médical: planning, profils, rendez-vous et module comptable, conçu et développé en React / TypeScript.
+• Composants réutilisables, flux de données SQL et chatbot WhatsApp pour maintenir les opérations du quotidien.
+• Tech: React, TypeScript, Next.js, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL.
+
+Full Stack Developer
+SMIAfrica    Juin 2025 – Septembre 2025, Casablanca, Maroc
+• Évolutions full-stack React / Node.js / Laravel: APIs REST et traitements de données pour les outils internes.
+• Tech: React, Next.js, Node.js, Laravel, REST APIs.
+
+Full Stack Developer
+CyberScale    Juin 2024 – Juin 2025, France
+• Conception, développement et maintenance d'outils métier publics: Wifina (crédit), IBC, Allo Reflexo (2 000+ utilisateurs / jour).
+• Collaboration front, back et QA, standards de code et Git, et +25% de performance applicative.
+• Wifina: calculateurs d'échéances et pré-accord bancaire, évolutions fonctionnelles en conditions opérationnelles.
+• Tech: React, TypeScript, Next.js, Node.js, Laravel, Material UI, MySQL.
+
+Consultant Cloud junior - Stagiaire
+CBI    Septembre 2023 – Janvier 2024, Casablanca, Maroc
+• Recueil des besoins et conception d'offres cloud Microsoft pour +100 clients.
+
+Junior Full Stack Developer
+IS-TECH    Juillet 2023 – Novembre 2023, Casablanca, Maroc
+• Développement de fonctionnalités React et intégration d'APIs REST pour le back-office applicatif.
+• Tech: React, JavaScript, Redux, Laravel, MySQL.
+
+Full Stack Developer Intern
+Palmeraie Country Club    Juillet 2022 – Septembre 2022, Casablanca, Maroc
+• Back-office d'adhésions et d'abonnements (JavaScript, PHP, MySQL).
+
+PROJETS PUBLICS
+Wifina | React, TypeScript, Laravel
+• Back-office crédit: calculs d'échéances, intérêts et pré-accord bancaire.
+
+Invoicr | React, TypeScript, Supabase
+• Back-office de facturation: génération, recherche, filtres et suivi.
+
+oDoc | React, TypeScript, Supabase
+• Planning, dossiers patients et module comptable pour un cabinet médical.
+
+AppartAli | React, TypeScript, Prisma
+• Outil de gestion d'annonces (API Guesty) et assistant IA.
+
+COMPÉTENCES
+Langages: JavaScript, TypeScript, Java, SQL, PHP, Python
+Frontend: React.js, Next.js, TypeScript, Redux, Material UI, Tailwind CSS
+Backend: Node.js, Express.js, Laravel, REST APIs
+Bases de données: PostgreSQL, MySQL, Supabase, Prisma
+Méthodologies: Agile, Scrum, Kanban, Design Patterns, Web Architecture
+
+ÉDUCATION
+Master: Ingénierie des systèmes intelligents
+Université Hassan 2 · Casablanca · 2024 – 2026
+Licence Fondamentale SMI
+Université Hassan 2 · Casablanca · 2023 – 2024
+DUT en Génie informatique
+Université Cadi Ayyad · Safi · 2021 – 2023
